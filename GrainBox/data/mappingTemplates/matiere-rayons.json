@@ -1,0 +1,349 @@
+{
+	"position" : 	{
+		"mapping" : 		{
+			"source" : "random",
+			"function" : [ 1.0, 0.0, 100.0, 0.0, 0.0, 0, 0.0, 1.0, 100.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 1,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0
+	}
+,
+	"positionVar" : 	{
+		"mapping" : 		{
+			"source" : "x",
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 0, 528.0, 1.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 0,
+		"envMaster" : 0,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 4.0
+	}
+,
+	"pitch" : 	{
+		"mapping" : 		{
+			"source" : "x",
+			"function" : [ 1.0, 0.6, 1.5, 0.0, 0.6, 0, 0.0, 1.0, 1.5, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 1,
+		"unit" : 1,
+		"envMaster" : 0,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 1.0
+	}
+,
+	"pitchVar" : 	{
+		"mapping" : 		{
+			"source" : "random",
+			"function" : [ 1.0, 0.0, 2.0, 0.0, 0.0, 0, 0.0, 1.0, 2.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 1,
+		"unit" : 1,
+		"envMaster" : 0,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 0.0
+	}
+,
+	"length" : 	{
+		"mapping" : 		{
+			"source" : "distance",
+			"function" : [ 1.0, 58.0, 115.0, 0.0, 58.0, 0, 0.0, 1.0, 115.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 0,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 108.0
+	}
+,
+	"overlap" : 	{
+		"mapping" : 		{
+			"source" : "area",
+			"function" : [ 1.0, 1.0, 6.0, 0.033537, 6.0, 0, 0.0, 0.996951, 1.0, 0, 0.4, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 1,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 4.0
+	}
+,
+	"amp" : 	{
+		"mapping" : 		{
+			"source" : "area",
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 4.0
+	}
+,
+	"pan" : 	{
+		"mapping" : 		{
+			"source" : "random",
+			"function" : [ 1.0, 0.18, 0.48, 0.0, 0.18, 0, 0.0, 1.0, 0.48, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 1,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 0.3
+	}
+,
+	"envBuffer" : 	{
+		"mapping" : 		{
+			"source" : "x",
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 1.0
+	}
+,
+	"LFO1" : 	{
+		"mapping" : 		{
+			"source" : "x",
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 0.4967
+	}
+,
+	"LFO2" : 	{
+		"mapping" : 		{
+			"source" : "x",
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 1, 1.0, 0.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 0.502
+	}
+,
+	"clock" : 	{
+		"clock" : 		{
+			"clockSource" : 0,
+			"noteValuesPlayMode" : "*",
+			"noteValuesMappingSource" : "*",
+			"noteValuesList" : "*",
+			"noteValuesListPlayMode" : "*",
+			"noteValuesQuantize" : "*"
+		}
+,
+		"clockSource" : 0,
+		"noteValuesQuantize" : 0,
+		"noteValuesPlayMode" : 0,
+		"noteValuesListPlayMode" : 0,
+		"noteValuesMappingSource" : 0,
+		"noteValuesList" : [ "8n", "16n", "16n" ]
+	}
+,
+	"comment" : "scrub me",
+	"LFO1Unit" : 0,
+	"preserveGrainSize" : 0,
+	"envMaster" : "position",
+	"LFO2Unit" : 1,
+	"delay" : 	{
+		"mapping" : 		{
+			"source" : "x",
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 0, 528.0, 1.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 0,
+		"envMaster" : 0,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 0.0
+	}
+,
+	"distance" : 	{
+		"mapping" : 		{
+			"source" : "area",
+			"function" : [ 1.0, 0.0, 7.0, 0.0, 0.0, 0, 0.0, 1.0, 7.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ],
+			"duration" : [ 0, 1000.0, 2000.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 0.0, 0.5, 1.0 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 1,
+		"envMaster" : 1,
+		"mixOp" : 0,
+		"envType" : 1,
+		"value" : 1.0
+	}
+
+}
