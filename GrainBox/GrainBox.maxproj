@@ -2,7 +2,7 @@
 	"name" : "GrainBox",
 	"version" : 1,
 	"creationdate" : -857923383,
-	"modificationdate" : -844176461,
+	"modificationdate" : -844174862,
 	"viewrect" : [ 11.0, 458.0, 304.0, 486.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -12,7 +12,7 @@
 		"patchers" : 		{
 			"grainBox.granulParamMapper.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1	
+				"local" : 1
 			}
 ,
 			"grainBox.poly.maxpat" : 			{
@@ -50,10 +50,11 @@
 				"local" : 1
 			}
 ,
-			"_GrainBox_0.1.8.maxpat" : 			{
+			"GrainBox.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
-				"toplevel" : 1
+				"toplevel" : 1				
+
 			}
 
 		}
@@ -103,6 +104,10 @@
 				"kind" : "object",
 				"local" : 1
 			}
+
+		}
+,
+		"other" : 		{
 
 		}
 
