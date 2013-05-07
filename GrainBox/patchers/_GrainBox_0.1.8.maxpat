@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 270.875, 21.5, 30.0, 20.0 ],
-					"presentation_rect" : [ 270.875, 17.5, 0.0, 0.0 ],
 					"text" : "test"
 				}
 
@@ -52,21 +51,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 228.875, 23.5, 30.0, 20.0 ],
-					"presentation_rect" : [ 229.5, 20.0, 0.0, 0.0 ],
-					"text" : "test"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 247.5, 52.0, 30.0, 20.0 ],
 					"text" : "test"
 				}
 
@@ -21555,7 +21539,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 248.5, 5.875, 134.0, 16.0 ],
-													"prefix" : "SSD:/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/data/mappingTemplates/",
+													"prefix" : "SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/data/mappingTemplates/",
 													"presentation" : 1,
 													"presentation_rect" : [ 344.0, 350.0, 134.0, 16.0 ]
 												}
@@ -27116,7 +27100,6 @@
 																	"fontface" : 1,
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
-																	"hidden" : 1,
 																	"hint" : "",
 																	"id" : "obj-13",
 																	"maxclass" : "textbutton",
@@ -33345,13 +33328,13 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.grid[7]",
-											"parameter_speedlim" : 0.0,
 											"parameter_initial" : [ 3, 3, 1, 0, 0, 2, 2, 2 ],
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "live.grid"
+											"parameter_shortname" : "live.grid",
+											"parameter_longname" : "live.grid[7]",
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -34123,13 +34106,13 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.grid[2]",
-											"parameter_speedlim" : 0.0,
 											"parameter_initial" : [ 3, 1, 1, 0, 0, 2 ],
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "live.grid"
+											"parameter_shortname" : "live.grid",
+											"parameter_longname" : "live.grid[2]",
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -34161,13 +34144,13 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.grid[1]",
-											"parameter_speedlim" : 0.0,
 											"parameter_initial" : [ 3, 6, 1, 0, 0, 2, 2, 2, 2, 2, 2 ],
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "live.grid"
+											"parameter_shortname" : "live.grid",
+											"parameter_longname" : "live.grid[1]",
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -34199,13 +34182,13 @@
 									"rows" : 1,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.grid[6]",
-											"parameter_speedlim" : 0.0,
 											"parameter_initial" : [ 3, 3, 1, 0, 0, 2, 2, 2 ],
 											"parameter_type" : 3,
 											"parameter_initial_enable" : 1,
 											"parameter_invisible" : 1,
-											"parameter_shortname" : "live.grid"
+											"parameter_shortname" : "live.grid",
+											"parameter_longname" : "live.grid[6]",
+											"parameter_speedlim" : 0.0
 										}
 
 									}
@@ -87875,7 +87858,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 186.0, 269.0, 465.0, 18.0 ],
-									"text" : "SSD:/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/"
+									"text" : "SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/"
 								}
 
 							}
@@ -87986,7 +87969,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 129.0, 514.0, 18.0 ],
-									"text" : "SSD:/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/"
+									"text" : "SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers/"
 								}
 
 							}
@@ -89462,13 +89445,13 @@
 									"patching_rect" : [ 446.985107, 428.0, 185.0, 162.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "live.gain~[6]",
 											"parameter_unitstyle" : 4,
 											"parameter_mmax" : 6.0,
 											"parameter_mmin" : -70.0,
 											"parameter_initial" : [ 0.0 ],
 											"parameter_type" : 0,
-											"parameter_shortname" : "live.gain~"
+											"parameter_shortname" : "live.gain~",
+											"parameter_longname" : "live.gain~[6]"
 										}
 
 									}
@@ -103953,191 +103936,191 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15::obj-12" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-15::obj-5" : [ "live.grid[6]", "live.grid", 0 ],
+			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
+			"obj-9::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
+			"obj-15::obj-16" : [ "live.grid[2]", "live.grid", 0 ],
+			"obj-15::obj-6" : [ "live.grid[7]", "live.grid", 0 ],
 			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
 			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-15::obj-5" : [ "live.grid[6]", "live.grid", 0 ],
-			"obj-9::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
-			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
-			"obj-15::obj-16" : [ "live.grid[2]", "live.grid", 0 ],
-			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
-			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
-			"obj-15::obj-6" : [ "live.grid[7]", "live.grid", 0 ]
+			"obj-15::obj-12" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "grainBox.poly.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.granulParamMapper.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "transratio.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Mu.lemurClient.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Mu.LemurHost.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.api.SaveString.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "box2D-shape.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "box2D-body.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "box2D-world.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SliderDefaultBkgnd.pct",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/media",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/media",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SliderDefaultKnob.pct",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/media",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/media",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/media",
+				"patcherrelativepath" : "../media",
 				"type" : "PICT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "boxGranul.quneo.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "QuneoMapping.json",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/data",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/data",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "b2d.addBox.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "b2d.addCircle.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "b2d.addBody.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "thisparentpatcher.js",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/code",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/code",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.mapper.UI.OSC.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.mapper.UI.MIDI.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.mapper.UI.Jamoma.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mmf-fs.preferences.txt",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/data",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/data",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/data",
+				"patcherrelativepath" : "../data",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "globalvar.js",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/code",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/code",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/code",
+				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.OSCout.poly.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.MIDIout.poly.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainBox.JamomaCMapOut.poly.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
-				"patcherrelativepath" : "../../../grainBox(GIT)/grainBox/grainBox_maxproject/patchers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

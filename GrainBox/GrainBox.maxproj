@@ -2,7 +2,7 @@
 	"name" : "GrainBox",
 	"version" : 1,
 	"creationdate" : -857923383,
-	"modificationdate" : -851430828,
+	"modificationdate" : -844176461,
 	"viewrect" : [ 11.0, 458.0, 304.0, 486.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -12,22 +12,7 @@
 		"patchers" : 		{
 			"grainBox.granulParamMapper.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/grainBox.granulParamMapper.maxpat",
-					"projectrelativepath" : "../GrainBox/patchers/grainBox.granulParamMapper.maxpat"
-				}
-
-			}
-,
-			"_GrainBox_0.1.6.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/_GrainBox_0.1.6.maxpat",
-					"projectrelativepath" : "../GrainBox/patchers/_GrainBox_0.1.6.maxpat"
-				}
-
+				"local" : 1	
 			}
 ,
 			"grainBox.poly.maxpat" : 			{
@@ -65,45 +50,10 @@
 				"local" : 1
 			}
 ,
-			"_GrainBox_0.1.5.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/_GrainBox_0.1.5.maxpat",
-					"projectrelativepath" : "../GrainBox/patchers/_GrainBox_0.1.5.maxpat"
-				}
-
-			}
-,
-			"_GrainBox_0.1.4.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/_GrainBox_0.1.4.maxpat",
-					"projectrelativepath" : "../GrainBox/patchers/_GrainBox_0.1.4.maxpat"
-				}
-
-			}
-,
-			"_GrainBox_0.1.7.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/_GrainBox_0.1.7.maxpat",
-					"projectrelativepath" : "../GrainBox/patchers/_GrainBox_0.1.7.maxpat"
-				}
-
-			}
-,
 			"_GrainBox_0.1.8.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
-				"toplevel" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Users/mathieuchamagne/Dropbox/grainbox/GrainBox/patchers/_GrainBox_0.1.8.maxpat",
-					"projectrelativepath" : "../GrainBox/patchers/_GrainBox_0.1.8.maxpat"
-				}
-
+				"toplevel" : 1
 			}
 
 		}
@@ -128,7 +78,7 @@
 
 		}
 ,
-		"other" : 		{
+		"externals" : 		{
 			"OSC-route.mxe" : 			{
 				"kind" : "object",
 				"local" : 1
