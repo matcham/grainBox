@@ -1,7 +1,7 @@
 {
 	"position" : 	{
 		"mapping" : 		{
-			"source" : 1,
+			"source" : "x",
 			"function" : [ 1.0, 0.0, 100.0, 0.0, 0.0, 0, 0.0, 1.0, 100.0, 0, 0.0, "curve" ]
 		}
 ,
@@ -175,7 +175,7 @@
 ,
 	"pan" : 	{
 		"mapping" : 		{
-			"source" : 19,
+			"source" : "x",
 			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
 		}
 ,
@@ -319,6 +319,31 @@
 		"mixOp" : 0,
 		"envType" : 0,
 		"value" : 0.0
+	}
+,
+	"distance" : 	{
+		"mapping" : 		{
+			"source" : 1,
+			"function" : [ 1.0, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0, "curve" ]
+		}
+,
+		"envBPF" : 		{
+			"function" : [ 1.0, 0.0, 5.0, 0.0, 0.0, 0, 0.0, 1.0, 5.0, 0, 0.0, "curve" ],
+			"duration" : [ 0, 528.0, 1.0, 0 ],
+			"sustainMode" : 0
+		}
+,
+		"envSteps" : 		{
+			"list" : [ 1, 2, 3 ],
+			"playMode" : 0
+		}
+,
+		"source" : 0,
+		"unit" : 0,
+		"envMaster" : 0,
+		"mixOp" : 0,
+		"envType" : 0,
+		"value" : 1.0
 	}
 
 }
