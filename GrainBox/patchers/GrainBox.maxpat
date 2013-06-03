@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 47.0, 200.0, 293.0 ],
+		"rect" : [ 2.0, 47.0, 192.0, 283.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2241,7 +2241,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-19",
-									"items" : [ "AU DLS Synth 1", ",", "BCF2000", ",", "Fireface 400 (353) Port 1", ",", "Fireface 400 (353) Port 2", ",", "QUNEO", ",", "touchAble Clock Sync", ",", "to Max 1", ",", "to Max 2", ",", "Daemon Output 0", ",", "Daemon Output 1", ",", "Daemon Output 2", ",", "Daemon Output 3", ",", "Daemon Output 4", ",", "Daemon Output 5", ",", "Daemon Output 6", ",", "Daemon Output 7", ",", "from Max 1", ",", "from Max 2" ],
+									"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -18294,8 +18294,8 @@
 , 											{
 												"box" : 												{
 													"border" : 0,
-													"coldef" : [ [ 0, 23, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-													"cols" : 1,
+													"coldef" : [ [ 0, 23, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 2, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 2, 185, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 3, 50, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 4, 13, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 5, 45, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+													"cols" : 6,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"hscroll" : 0,
@@ -18308,7 +18308,7 @@
 													"patching_rect" : [ 440.200012, 36.0, 343.75, 241.25 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 3.75, 4.0, 343.75, 271.25 ],
-													"rows" : 1,
+													"rows" : 31,
 													"selmode" : 3
 												}
 
@@ -22113,7 +22113,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 248.5, 5.875, 134.0, 16.0 ],
-													"prefix" : "Macintosh HD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/data/mappingTemplates/",
+													"prefix" : "MBPi7-SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/data/mappingTemplates/",
 													"presentation" : 1,
 													"presentation_rect" : [ 344.0, 350.0, 134.0, 16.0 ]
 												}
@@ -45765,7 +45765,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-35",
-													"items" : [ "box1", ",", "box2", ",", "box3", ",", "box4", ",", "box5", ",", "box6", ",", "box8", ",", "box10", ",", "box18", ",", "box24", ",", "box25", ",", "box26", ",", "box27", ",", "box28", ",", "box29", ",", "box30", ",", "box31", ",", "box32", ",", "box33", ",", "box34", ",", "box35", ",", "box36", ",", "box37", ",", "box38", ",", "box39", ",", "box40" ],
+													"items" : [ "box1", ",", "box2", ",", "box3", ",", "box4", ",", "box5", ",", "box6", ",", "box7", ",", "box10", ",", "box11", ",", "box12", ",", "box14", ",", "box16", ",", "box21", ",", "box22", ",", "box23", ",", "box24", ",", "box25", ",", "box26", ",", "box27", ",", "box28", ",", "box29", ",", "box30", ",", "box31", ",", "box32", ",", "box33", ",", "box34", ",", "box35", ",", "box36", ",", "box37", ",", "box38", ",", "box39", ",", "box40", ",", "box41", ",", "box47", ",", "box48", ",", "box49", ",", "box50", ",", "box51", ",", "box52", ",", "box53", ",", "box54", ",", "box55", ",", "box56", ",", "box57", ",", "box58", ",", "box59", ",", "box60", ",", "box61", ",", "box62", ",", "box63", ",", "box64", ",", "box65", ",", "box66", ",", "box67", ",", "box68", ",", "box69", ",", "box70", ",", "box71", ",", "box72", ",", "box73", ",", "box74", ",", "box75", ",", "box76", ",", "box77", ",", "box78", ",", "box79", ",", "box80", ",", "box81", ",", "box82", ",", "box83", ",", "box84", ",", "box85", ",", "box86", ",", "box88", ",", "box89", ",", "box90", ",", "box91", ",", "box92", ",", "box93" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -45811,7 +45811,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 357.5, 304.0, 50.0, 18.0 ],
-													"text" : "box38"
+													"text" : "box52"
 												}
 
 											}
@@ -47885,8 +47885,8 @@
 							}
 , 							{
 								"box" : 								{
-									"coldef" : [ [ 0, 50, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-									"cols" : 1,
+									"coldef" : [ [ 0, 50, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ], [ 1, 2, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
+									"cols" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"hscroll" : 0,
@@ -47899,7 +47899,7 @@
 									"patching_rect" : [ 3.0, 191.0, 74.25, 526.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 3.0, 105.0, 74.25, 551.0 ],
-									"rows" : 1,
+									"rows" : 79,
 									"selmode" : 3
 								}
 
@@ -48285,13 +48285,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 18.0, 197.0, 99.5, 139.0 ],
-									"text" : "\"~/Dropbox/_Max_/Max 6 Projects/Tsvétaïeva 2013/GrainBox_Tsvetaieva/Tsvietaieva_grainBox_project/\""
+									"patching_rect" : [ 18.0, 197.0, 100.0, 85.0 ],
+									"text" : "MBPi7-SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_DEMO_project/"
 								}
 
 							}
@@ -53717,6 +53717,21 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+													"id" : "obj-31",
+													"linecount" : 2,
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 65.450012, 149.5, 66.75, 33.0 ],
+													"text" : "prepend readfolder"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
 													"id" : "obj-18",
 													"maxclass" : "newobj",
 													"numinlets" : 0,
@@ -53736,7 +53751,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 150.450012, 257.0, 98.0, 20.0 ],
+													"patching_rect" : [ 234.450012, 258.0, 98.0, 20.0 ],
 													"text" : "prepend append"
 												}
 
@@ -53750,7 +53765,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 150.450012, 141.0, 81.0, 20.0 ],
+													"patching_rect" : [ 234.450012, 142.0, 81.0, 20.0 ],
 													"text" : "route append"
 												}
 
@@ -53764,7 +53779,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 150.450012, 170.0, 32.5, 20.0 ],
+													"patching_rect" : [ 234.450012, 171.0, 32.5, 20.0 ],
 													"text" : "t b l"
 												}
 
@@ -53778,7 +53793,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 76.450012, 115.0, 93.0, 20.0 ],
+													"patching_rect" : [ 160.450012, 116.0, 93.0, 20.0 ],
 													"text" : "routepass clear"
 												}
 
@@ -53792,7 +53807,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 150.450012, 226.0, 122.0, 20.0 ],
+													"patching_rect" : [ 234.450012, 227.0, 122.0, 20.0 ],
 													"text" : "sprintf symout %s%s"
 												}
 
@@ -53806,7 +53821,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 150.450012, 199.0, 139.0, 20.0 ],
+													"patching_rect" : [ 234.450012, 200.0, 139.0, 20.0 ],
 													"text" : "v boxGranul.projectPath"
 												}
 
@@ -53820,7 +53835,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 5.75, 90.0, 56.0, 20.0 ],
+													"patching_rect" : [ 45.450012, 80.0, 56.0, 20.0 ],
 													"text" : "deferlow"
 												}
 
@@ -53832,10 +53847,10 @@
 													"id" : "obj-60",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
-													"patching_rect" : [ 45.450012, 48.0, 32.5, 20.0 ],
-													"text" : "t b l"
+													"numoutlets" : 3,
+													"outlettype" : [ "bang", "", "clear" ],
+													"patching_rect" : [ 45.450012, 48.0, 59.0, 20.0 ],
+													"text" : "t b l clear"
 												}
 
 											}
@@ -53848,7 +53863,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 91.849976, 42.0, 160.0, 20.0 ],
+													"patching_rect" : [ 160.450012, 57.0, 160.0, 20.0 ],
 													"text" : "loadmess types AIFF WAVE"
 												}
 
@@ -53862,7 +53877,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 76.450012, 89.0, 41.0, 20.0 ],
+													"patching_rect" : [ 160.450012, 90.0, 41.0, 20.0 ],
 													"text" : "folder"
 												}
 
@@ -53951,22 +53966,6 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 20.0, 470.0, 50.0, 18.0 ],
 													"text" : "clear"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"frgb" : 0.0,
-													"id" : "obj-80",
-													"linecount" : 3,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 652.0, 198.0, 201.0, 47.0 ],
-													"text" : "après ajout de buffe par drag'n'drop dans fenetre polybuffer, faire un refresh manuel !",
-													"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 												}
 
 											}
@@ -54608,7 +54607,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 13.0,
 													"id" : "obj-19",
-													"items" : [ "myBuffers.1", ",", "myBuffers.2", ",", "myBuffers.3", ",", "myBuffers.4", ",", "myBuffers.5", ",", "myBuffers.6", ",", "myBuffers.7", ",", "myBuffers.8", ",", "myBuffers.9", ",", "myBuffers.10", ",", "myBuffers.11", ",", "myBuffers.12", ",", "myBuffers.13", ",", "myBuffers.14", ",", "myBuffers.15", ",", "myBuffers.16", ",", "myBuffers.17", ",", "myBuffers.18", ",", "myBuffers.19", ",", "myBuffers.20", ",", "myBuffers.21", ",", "myBuffers.22", ",", "myBuffers.23", ",", "myBuffers.24", ",", "myBuffers.25", ",", "myBuffers.26", ",", "myBuffers.27", ",", "myBuffers.28", ",", "myBuffers.29", ",", "myBuffers.30", ",", "myBuffers.31", ",", "myBuffers.32", ",", "myBuffers.33" ],
+													"items" : [ "myBuffers.1", ",", "myBuffers.2", ",", "myBuffers.3", ",", "myBuffers.4", ",", "myBuffers.5", ",", "myBuffers.6", ",", "myBuffers.7", ",", "myBuffers.8", ",", "myBuffers.9", ",", "myBuffers.10", ",", "myBuffers.11", ",", "myBuffers.12", ",", "myBuffers.13", ",", "myBuffers.14", ",", "myBuffers.15", ",", "myBuffers.16", ",", "myBuffers.17", ",", "myBuffers.18", ",", "myBuffers.19", ",", "myBuffers.20", ",", "myBuffers.21", ",", "myBuffers.22", ",", "myBuffers.23", ",", "myBuffers.24", ",", "myBuffers.25", ",", "myBuffers.26", ",", "myBuffers.27", ",", "myBuffers.28", ",", "myBuffers.29", ",", "myBuffers.30", ",", "myBuffers.31" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -54722,20 +54721,6 @@
 													}
 ,
 													"text" : "polybuffer~ myBuffers"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-35",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 633.599976, 157.0, 76.0, 18.0 ],
-													"text" : "writetofolder"
 												}
 
 											}
@@ -55047,6 +55032,15 @@
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
+													"source" : [ "obj-31", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
 													"source" : [ "obj-34", 0 ]
 												}
 
@@ -55233,10 +55227,19 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-28", 0 ],
+													"destination" : [ "obj-31", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-60", 1 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-5", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-60", 2 ]
 												}
 
 											}
@@ -55925,7 +55928,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 443.0, 369.0, 50.0, 31.0 ],
-									"text" : "0 0"
+									"text" : "76 -9"
 								}
 
 							}
@@ -57543,7 +57546,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-19",
-									"items" : [ "BCF2000", ",", "Fireface 400 (353) Port 1", ",", "Fireface 400 (353) Port 2", ",", "QUNEO", ",", "touchAble Input 3", ",", "touchAble Input 4", ",", "touchAble Input 2", ",", "touchAble Input 1", ",", "touchAble Pads", ",", "touchAble Keys", ",", "from Max 1", ",", "from Max 2", ",", "Daemon Input 0", ",", "Daemon Input 1", ",", "Daemon Input 2", ",", "Daemon Input 3", ",", "Daemon Input 4", ",", "Daemon Input 5", ",", "Daemon Input 6", ",", "Daemon Input 7", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -85430,14 +85433,14 @@
 													"fontname" : "Verdana",
 													"fontsize" : 9.0,
 													"id" : "obj-22",
-													"items" : [ "3-boules.txt", ",", "3-boules2.txt", ",", "bidules.txt", ",", "bidules2.txt", ",", "bonzom.articul1.txt", ",", "bonzom.inspace.txt", ",", "bonzom.inspacex10.txt", ",", "bonzom.inspacex20.txt", ",", "bonzom.inspacex4.txt", ",", "bonzom.mou1.txt", ",", "bonzom.pendu1.txt", ",", "bonzom.seul1.txt", ",", "bonzom.skelette1.txt", ",", "boxes-test1.txt", ",", "boxes-test2.txt", ",", "cadre-space1.txt", ",", "cascade1.txt", ",", "circles-M-test.txt", ",", "circuit-a-billes1.txt", ",", "circuit-a-billes2.txt", ",", "planetoids1.txt", ",", "planetoids2.txt", ",", "rotator1.txt", ",", "shaker-test1.txt", ",", "test1.txt", ",", "test2.txt", ",", "test3.txt", ",", "test4.txt", ",", "tuture1.txt", ",", "tuture2.txt" ],
+													"items" : [ "3-boules.txt", ",", "3-boules2.txt", ",", "bidules.txt", ",", "bidules2.txt", ",", "bonzom.articul1.txt", ",", "bonzom.inspace.txt", ",", "bonzom.inspacex10.txt", ",", "bonzom.inspacex20.txt", ",", "bonzom.inspacex4.txt", ",", "bonzom.mou1.txt", ",", "bonzom.pendu1.txt", ",", "bonzom.seul1.txt", ",", "bonzom.skelette1.txt", ",", "boxes-test1.txt", ",", "boxes-test2.txt", ",", "cadre-space1.txt", ",", "cascade1.txt", ",", "circles-M-test.txt", ",", "circuit-a-billes1.txt", ",", "circuit-a-billes2.txt", ",", "rotator1.txt", ",", "shaker-test1.txt", ",", "test1.txt", ",", "test2.txt", ",", "test3.txt", ",", "test4.txt", ",", "tuture1.txt", ",", "tuture2.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 362.0, 172.0, 103.0, 17.0 ],
-													"prefix" : "//box2D.editor/Dumps",
+													"prefix" : "MBPi7-SSD:/Users/mathieuchamagne/Dropbox/Box2D/Max_patches/_max4_patches/box2D.editor/Dumps/",
 													"types" : "TEXT"
 												}
 
@@ -85547,14 +85550,14 @@
 													"fontname" : "Verdana",
 													"fontsize" : 9.0,
 													"id" : "obj-3",
-													"items" : [ "blaster.txt", ",", "circuit--mou2-unix.txt", ",", "circuit--mou2.txt", ",", "circuit-mou.txt", ",", "corde-filete.txt", ",", "elastoc-automove.txt", ",", "flip.txt", ",", "mecanisme1.txt", ",", "petrisseurdeboules", ",", "petrisseurdeboules2.txt", ",", "piles-piles.txt", ",", "pixel-dance.txt", ",", "poly+circles.txt" ],
+													"items" : [ "circuit-mou", ",", "corde-filete", ",", "elastoc-automove.txt", ",", "flip.txt", ",", "mecanisme1.txt", ",", "pixel-dance", ",", "poly+circles.txt" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 568.0, 171.0, 108.0, 17.0 ],
-													"prefix" : "//zoo",
+													"prefix" : "MBPi7-SSD:/Users/mathieuchamagne/Dropbox/Box2D/Max_patches/_max4_patches/zoo/",
 													"types" : "TEXT"
 												}
 
@@ -89310,7 +89313,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 186.0, 269.0, 465.0, 18.0 ],
-									"text" : "\"Macintosh HD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/\""
+									"text" : "MBPi7-SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/"
 								}
 
 							}
@@ -89421,7 +89424,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 129.0, 514.0, 18.0 ],
-									"text" : "\"Macintosh HD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers/\""
+									"text" : "MBPi7-SSD:/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers/"
 								}
 
 							}
@@ -98047,7 +98050,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 184.0, 113.0, 50.0, 18.0 ],
-																	"text" : "1190699"
+																	"text" : "1994277"
 																}
 
 															}
@@ -101244,7 +101247,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 564.631226, 130.0, 150.737503, 19.0 ],
-													"text" : "348. 0. 0."
+													"text" : "106. 0. 0."
 												}
 
 											}
@@ -106175,16 +106178,16 @@
  ],
 		"parameters" : 		{
 			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
-			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
+			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
 			"obj-15::obj-16" : [ "live.grid[2]", "live.grid", 0 ],
-			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
 			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-15::obj-12" : [ "live.grid[1]", "live.grid", 0 ],
-			"obj-9::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-15::obj-5" : [ "live.grid[6]", "live.grid", 0 ],
 			"obj-15::obj-6" : [ "live.grid[7]", "live.grid", 0 ],
+			"obj-9::obj-21" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
 			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
-			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ]
+			"obj-15::obj-12" : [ "live.grid[1]", "live.grid", 0 ],
+			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
+			"obj-15::obj-5" : [ "live.grid[6]", "live.grid", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -106376,6 +106379,10 @@
 			}
 , 			{
 				"name" : "box2d.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "jcom.namespace.mxo",
 				"type" : "iLaX"
 			}
 , 			{
