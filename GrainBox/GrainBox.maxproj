@@ -2,7 +2,7 @@
 	"name" : "GrainBox",
 	"version" : 1,
 	"creationdate" : -857923383,
-	"modificationdate" : -844174862,
+	"modificationdate" : -841749721,
 	"viewrect" : [ 11.0, 458.0, 304.0, 486.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 1,
@@ -13,6 +13,16 @@
 			"grainBox.granulParamMapper.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"grainBox.bufgranul~.poly.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/GrainBox/patchers",
+					"projectrelativepath" : "./patchers"
+				}
+
 			}
 ,
 			"grainBox.poly.maxpat" : 			{
@@ -53,8 +63,7 @@
 			"GrainBox.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
-				"toplevel" : 1				
-
+				"toplevel" : 1
 			}
 
 		}
@@ -104,10 +113,6 @@
 				"kind" : "object",
 				"local" : 1
 			}
-
-		}
-,
-		"other" : 		{
 
 		}
 
