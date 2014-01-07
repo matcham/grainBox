@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="init">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="toto">
+   <command address="samplerateRatio">1.000000</command>
+   <command address="bitdepth">24</command>
+   <script address="audio">
+    <command address="gain">100.000000</command>
+    <command address="mute">0</command>
+    <command address="bypass">0</command>
+    <command address="mix">100.000000</command>
+   </script>
+  </script>
+  <!---->
+  <script address="boxes">
+   <!---->
+   <script address="box.4">
+    <command address="angle">-6.808197</command>
+    <command address="shape">0</command>
+    <command address="pos">635.911133 202.036987</command>
+    <command address="size">227.000000 100.000000</command>
+    <command address="cursorType">mouse</command>
+    <command address="name">box.4</command>
+    <command address="color">1.000000 1.000000 1.000000 1.000000</command>
+    <command address="waveform">1</command>
+    <!---->
+    <script address="granubuf-basic1.1">
+     <command address="buffer">blabla_test1.aif</command>
+     <command address="bufferSelectionRange">739.795959 899.954651</command>
+     <command address="pan">0.000000</command>
+     <command address="freq">11.000000</command>
+     <command address="amp">0.561787</command>
+     <command address="transpose">0.000000</command>
+     <command address="duration">40.000000</command>
+     <command address="locationVar">0.000000</command>
+     <command address="location">0.671413</command>
+     <!---->
+     <script address="mapper.1">
+      <command address="cursorType">mouse</command>
+      <command address="destination">amp</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">x</command>
+      <script address="output">
+       <command address="min">0.000000</command>
+       <command address="max">1.000000</command>
+      </script>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 0.190579 0.255869 exponential base 1.000000 0.354769 0.316901 exponential base 1.000000 0.392299 0.507042 exponential base 1.000000 0.650313 0.584507 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <command address="listOp">pass_all</command>
+      <command address="test">1.000000</command>
+     </script>
+    </script>
+   </script>
+   <!---->
+   <script address="box.1">
+    <command address="angle">23.866577</command>
+    <command address="shape">0</command>
+    <command address="pos">283.065155 411.731079</command>
+    <command address="size">182.000000 250.000000</command>
+    <!---->
+    <script address="simpleSynth.1">
+     <command address="pan">0.200000</command>
+     <command address="amp">0.100000</command>
+     <command address="freq">200.000000</command>
+     <!---->
+     <script address="mapper.1">
+      <command address="cursorType">mouse</command>
+      <command address="destination">freq</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">centroid_maxDistance</command>
+      <script address="output">
+       <command address="min">200.000000</command>
+       <command address="max">5000.000000</command>
+      </script>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <command address="listOp">pass_all</command>
+      <command address="test">1.000000</command>
+     </script>
+    </script>
+    <command address="waveform">1</command>
+    <command address="name">azeazea</command>
+    <command address="cursorType">mouse</command>
+    <command address="color">0.621961 0.244706 0.244706 1.000000</command>
+   </script>
+   <!---->
+   <script address="box.2">
+    <command address="angle">87.049530</command>
+    <command address="shape">0</command>
+    <command address="pos">893.494751 195.096191</command>
+    <command address="size">203.000000 203.000000</command>
+    <command address="color">0.265752 0.823137 0.271163 1.000000</command>
+    <command address="waveform">1</command>
+    <command address="name">dfsdfsdf</command>
+    <command address="cursorType">mouse</command>
+    <!---->
+    <script address="simpleSynth.1">
+     <!---->
+     <script address="mapper.1">
+      <command address="cursorType">mouse</command>
+      <command address="destination">freq</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">x</command>
+      <script address="output">
+       <command address="min">0.001000</command>
+       <command address="max">5000.000000</command>
+      </script>
+      <command address="listOp">pass_all</command>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <command address="test">1.000000</command>
+     </script>
+     <command address="freq">2539.857820</command>
+     <command address="amp">0.100000</command>
+     <command address="pan">0.000000</command>
+    </script>
+   </script>
+   <!---->
+   <script address="box.3">
+    <command address="angle">7.719971</command>
+    <command address="shape">0</command>
+    <command address="pos">863.866638 431.639496</command>
+    <command address="size">200.000000 200.000000</command>
+    <!---->
+    <script address="granubuf-basic1.1">
+     <command address="buffer">smoris.wav</command>
+     <command address="bufferSelectionRange">248.344681 855.827698</command>
+     <command address="amp">1.000000</command>
+     <command address="transpose">1.977685</command>
+     <command address="pan">0.000000</command>
+     <!---->
+     <script address="mapper.1">
+      <command address="cursorType">mouse</command>
+      <command address="destination">location</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">x</command>
+      <command address="test">1.000000</command>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <command address="listOp">pass_all</command>
+      <script address="output">
+       <command address="min">0.000000</command>
+       <command address="max">1.000000</command>
+      </script>
+     </script>
+     <!---->
+     <script address="mapper.2">
+      <command address="cursorType">mouse</command>
+      <command address="destination">/boxes/box.3/granubuf-basic1.1/transpose</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">y</command>
+      <script address="output">
+       <command address="min">-24.000000</command>
+       <command address="max">24.000000</command>
+      </script>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <command address="listOp">pass_all</command>
+      <command address="test">1.000000</command>
+     </script>
+     <command address="freq">25.000000</command>
+     <command address="duration">50.000000</command>
+     <command address="location">0.187246</command>
+     <command address="locationVar">0.000000</command>
+    </script>
+    <command address="cursorType">mouse</command>
+    <command address="name">box.3</command>
+    <command address="color">0.230642 0.194510 0.938824 1.000000</command>
+    <command address="waveform">1</command>
+   </script>
+   <!---->
+   <script address="box.5">
+    <command address="angle">-6.590000</command>
+    <command address="shape">0</command>
+    <command address="pos">106.451721 639.124207</command>
+    <command address="size">160.000000 183.000000</command>
+    <command address="cursorType">mouse</command>
+    <command address="name">box.5</command>
+    <command address="color">0.687320 0.625057 0.046013 1.000000</command>
+    <command address="waveform">1</command>
+    <!---->
+    <script address="granubuf-basic1.1">
+     <command address="buffer">blabla_test1.aif</command>
+     <command address="bufferSelectionRange">1212.675781 1456.734741</command>
+     <!---->
+     <script address="mapper.3">
+      <command address="cursorType">mouse</command>
+      <command address="destination">duration</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">y</command>
+      <command address="listOp">pass_all</command>
+      <command address="function">0.000000 0.917840 exponential base 1.000000 0.809812 0.131455 exponential base 6.580887 1.000000 0.000000 exponential base 0.055419</command>
+      <script address="output">
+       <command address="min">0.001000</command>
+       <command address="max">200.000000</command>
+      </script>
+      <command address="test">1.000000</command>
+     </script>
+     <!---->
+     <script address="mapper.2">
+      <command address="cursorType">mouse</command>
+      <command address="destination">freq</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">y</command>
+      <command address="test">1.000000</command>
+      <command address="listOp">pass_all</command>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <script address="output">
+       <command address="min">10.000000</command>
+       <command address="max">100.000000</command>
+      </script>
+     </script>
+     <!---->
+     <script address="mapper.1">
+      <command address="cursorType">mouse</command>
+      <command address="destination">location</command>
+      <command address="sourceMenu1">position_box</command>
+      <command address="sourceMenu2">x</command>
+      <command address="test">1.000000</command>
+      <script address="output">
+       <command address="min">0.000000</command>
+       <command address="max">1.000000</command>
+      </script>
+      <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      <command address="listOp">pass_all</command>
+     </script>
+     <command address="pan">0.153769</command>
+     <command address="freq">53.016643</command>
+     <command address="amp">1.000000</command>
+     <command address="transpose">0.000000</command>
+     <command address="duration">126.060701</command>
+     <command address="locationVar">0.001000</command>
+     <command address="location">0.222564</command>
+    </script>
+   </script>
+  </script>
+ </cue>
+</jamoma>
