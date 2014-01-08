@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 63.0, 237.0, 1042.0, 754.0 ],
+		"rect" : [ 63.0, 237.0, 1341.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -241,8 +241,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 199.0, 384.0, 177.0, 20.0 ],
-					"text" : "grainbox-bufferComponent"
+					"patching_rect" : [ 146.0, 398.0, 228.0, 20.0 ],
+					"text" : "grainbox-bufferComponent granulBuffers"
 				}
 
 			}
@@ -298,10 +298,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 79.5, 680.0, 44.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out~ 2"
 				}
 
@@ -315,6 +311,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 23.5, 680.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -385,7 +385,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 199.0, 411.0, 100.0, 20.0 ],
+					"patching_rect" : [ 146.0, 424.0, 100.0, 20.0 ],
 					"text" : "prepend buffer"
 				}
 
@@ -1295,13 +1295,13 @@
 		"dependency_cache" : [ 			{
 				"name" : "transratio.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-bufferComponent.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/Max 6 Projects/grainBox DEV/grainBox_v2_scriptingModels/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

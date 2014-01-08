@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 940.0, 399.0 ],
+		"rect" : [ 25.0, 69.0, 490.0, 485.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -132,14 +132,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "grainbox-controllers.abs.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/Max 6 Projects/grainBox DEV/grainBox_v2_scriptingModels/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-granubuf-basic1.poly~.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/Max 6 Projects/grainBox DEV/grainBox_v2_scriptingModels/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -147,13 +147,13 @@
 , 			{
 				"name" : "transratio.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-bufferComponent.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/Max 6 Projects/grainBox DEV/grainBox_v2_scriptingModels/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

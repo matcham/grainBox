@@ -42,12 +42,14 @@
 			}
 , 			{
 				"box" : 				{
+					"args" : [ "granulBuffers" ],
 					"border" : 1,
 					"id" : "obj-1",
 					"maxclass" : "bpatcher",
 					"name" : "grainbox-bufferComponent.view.maxpat",
 					"numinlets" : 2,
-					"numoutlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 340.0, 128.0, 128.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 114.5, 400.0, 158.0 ]
@@ -715,7 +717,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "grainbox-bufferComponent.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/Max 6 Projects/grainBox DEV/grainBox_v2_scriptingModels/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
