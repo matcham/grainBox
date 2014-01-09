@@ -31,6 +31,21 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-20",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 355.0, 81.0, 151.0, 33.0 ],
+					"text" : "j.parameter anotherParamNotVisible"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -65,6 +80,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 435.0, 158.0, 41.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -118,6 +137,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 72.0, 294.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -131,6 +154,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 16.0, 294.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -258,7 +285,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 55.0, 145.0, 199.0, 33.0 ],
-					"text" : "j.parameter pan @value/default 0. @range/bounds -1. 1."
+					"text" : "j.parameter pan @value/default 0. @range/bounds -1. 1. @tag visible"
 				}
 
 			}
@@ -273,7 +300,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 94.0, 46.0, 199.0, 33.0 ],
-					"text" : "j.parameter amp @value/default 0. @range/bounds 0. 1."
+					"text" : "j.parameter amp @value/default 0. @range/bounds 0. 1. @tag visible"
 				}
 
 			}
@@ -286,8 +313,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 17.0, 369.0, 20.0 ],
-					"text" : "j.parameter freq @value/default 440. @range/bounds 0.001 5000."
+					"patching_rect" : [ 16.0, 17.0, 430.0, 20.0 ],
+					"text" : "j.parameter freq @value/default 440. @range/bounds 0.001 5000. @tag visible"
 				}
 
 			}
