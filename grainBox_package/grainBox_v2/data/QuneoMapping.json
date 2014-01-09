@@ -1,0 +1,78 @@
+{
+	"pattrstorage" : 	{
+		"name" : "QuneoMapping",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"boxGranul.quneo[0]::destinationBox" : [ 28 ],
+					"boxGranul.quneo[1]::destinationBox" : [ 2 ],
+					"boxGranul.quneo[2]::destinationBox" : [ 30 ],
+					"boxGranul.quneo[3]::destinationBox" : [ 29 ],
+					"boxGranul.quneo[4]::destinationBox" : [ 28 ],
+					"boxGranul.quneo[5]::destinationBox" : [ 27 ],
+					"boxGranul.quneo[6]::destinationBox" : [ 3 ],
+					"boxGranul.quneo[7]::destinationBox" : [ 6 ],
+					"boxGranul.quneo[8]::destinationBox" : [ 6 ],
+					"boxGranul.quneo[9]::destinationBox" : [ 6 ],
+					"boxGranul.quneo[10]::destinationBox" : [ 6 ],
+					"boxGranul.quneo[11]::destinationBox" : [ 6 ],
+					"boxGranul.quneo[12]::destinationBox" : [ 3 ],
+					"boxGranul.quneo[13]::destinationBox" : [ 27 ],
+					"boxGranul.quneo[14]::destinationBox" : [ 10 ],
+					"boxGranul.quneo[15]::destinationBox" : [ 6 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"boxGranul.quneo[0]::destinationBox" : [ 53 ],
+					"boxGranul.quneo[1]::destinationBox" : [ 54 ],
+					"boxGranul.quneo[2]::destinationBox" : [ 2 ],
+					"boxGranul.quneo[3]::destinationBox" : [ 21 ],
+					"boxGranul.quneo[4]::destinationBox" : [ 87 ],
+					"boxGranul.quneo[5]::destinationBox" : [ 68 ],
+					"boxGranul.quneo[6]::destinationBox" : [ 69 ],
+					"boxGranul.quneo[7]::destinationBox" : [ 83 ],
+					"boxGranul.quneo[8]::destinationBox" : [ 65 ],
+					"boxGranul.quneo[9]::destinationBox" : [ 66 ],
+					"boxGranul.quneo[10]::destinationBox" : [ 67 ],
+					"boxGranul.quneo[11]::destinationBox" : [ 11 ],
+					"boxGranul.quneo[12]::destinationBox" : [ 7 ],
+					"boxGranul.quneo[13]::destinationBox" : [ 88 ],
+					"boxGranul.quneo[14]::destinationBox" : [ 89 ],
+					"boxGranul.quneo[15]::destinationBox" : [ 12 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"boxGranul.quneo[0]::destinationBox" : [ 24 ],
+					"boxGranul.quneo[1]::destinationBox" : [ 25 ],
+					"boxGranul.quneo[2]::destinationBox" : [ 26 ],
+					"boxGranul.quneo[3]::destinationBox" : [ 6 ],
+					"boxGranul.quneo[4]::destinationBox" : [ 15 ],
+					"boxGranul.quneo[5]::destinationBox" : [ 16 ],
+					"boxGranul.quneo[6]::destinationBox" : [ 17 ],
+					"boxGranul.quneo[7]::destinationBox" : [ 18 ],
+					"boxGranul.quneo[8]::destinationBox" : [ 5 ],
+					"boxGranul.quneo[9]::destinationBox" : [ 8 ],
+					"boxGranul.quneo[10]::destinationBox" : [ 10 ],
+					"boxGranul.quneo[11]::destinationBox" : [ 14 ],
+					"boxGranul.quneo[12]::destinationBox" : [ 1 ],
+					"boxGranul.quneo[13]::destinationBox" : [ 2 ],
+					"boxGranul.quneo[14]::destinationBox" : [ 3 ],
+					"boxGranul.quneo[15]::destinationBox" : [ 4 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
