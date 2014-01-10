@@ -62,7 +62,7 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-17",
-					"items" : [ "mouse", ",", "fantastick", ",", "leapMotion", ",", "kinectSkeleton", ",", "kinectBlobs" ],
+					"items" : [ "mouse", ",", "fantastick", ",", "leapMotion_hand", ",", "leapMotion_finger", ",", "kinectSkeleton", ",", "kinectBlobs" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1279,7 +1279,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "j.list2parameter.maxpat",
 				"bootpath" : "/Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../../../Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
+				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
