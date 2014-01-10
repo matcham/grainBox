@@ -1,0 +1,85 @@
+{
+	"box.1" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"simpleSynth" : 		{
+
+		}
+,
+		"oscbank~" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : "",
+					"2" : "",
+					"3" : ""
+				}
+
+			}
+
+		}
+
+	}
+,
+	"box.2" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"simpleSynth" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : ""
+				}
+
+			}
+
+		}
+
+	}
+,
+	"box.3" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"granubuf-basic1" : 		{
+
+		}
+,
+		"granubuf-basic2" : 		{
+			"1" : ""
+		}
+
+	}
+,
+	"box.4" : 	{
+		"granubuf-basic1" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : ""
+				}
+
+			}
+
+		}
+
+	}
+,
+	"box.5" : 	{
+		"granubuf-basic1" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : "",
+					"2" : "",
+					"3" : ""
+				}
+
+			}
+
+		}
+
+	}
+
+}
