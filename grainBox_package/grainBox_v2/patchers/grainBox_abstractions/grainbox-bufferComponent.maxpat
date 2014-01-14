@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 161.0, 108.0, 100.0, 20.0 ],
+					"text" : "loadmess #1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
@@ -121,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 127.0, 100.0, 20.0 ],
+					"patching_rect" : [ 93.0, 179.0, 100.0, 20.0 ],
 					"text" : "prepend replace"
 				}
 
@@ -147,11 +161,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-34",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
+					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 94.5, 258.0, 20.0 ],
-					"text" : "sprintf symout %ssoundFiles/granulBuffers/%s"
+					"patching_rect" : [ 93.0, 146.5, 258.0, 20.0 ],
+					"text" : "sprintf symout %ssoundFiles/%s/%s"
 				}
 
 			}
@@ -473,6 +487,15 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -518,7 +541,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 1 ],
+					"destination" : [ "obj-34", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 1 ]
