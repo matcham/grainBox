@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 606.0, 320.0, 1094.0, 567.0 ],
+		"rect" : [ 450.0, 195.0, 1094.0, 567.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,6 +29,34 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 463.0, 176.0, 63.0, 18.0 ],
+					"text" : "hidden $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 463.0, 150.0, 91.0, 20.0 ],
+					"text" : "j.receive shape"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -686,7 +715,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.0, 233.0, 74.0, 20.0 ],
+					"patching_rect" : [ 519.0, 227.0, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 192.5, 25.0, 32.0, 20.0 ],
 					"text" : "size"
@@ -697,13 +726,14 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
 					"id" : "obj-15",
 					"maxclass" : "flonum",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 468.0, 233.0, 50.0, 20.0 ],
+					"patching_rect" : [ 462.0, 227.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 237.0, 45.0, 50.0, 20.0 ]
 				}
@@ -719,7 +749,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 418.0, 233.0, 50.0, 20.0 ],
+					"patching_rect" : [ 412.0, 227.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 187.0, 45.0, 50.0, 20.0 ]
 				}
@@ -810,6 +840,7 @@
 					"frgb" : 0.0,
 					"id" : "obj-24",
 					"keymode" : 1,
+					"linecount" : 2,
 					"lines" : 1,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -818,7 +849,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 552.0, 51.0, 105.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 172.5, 0.0, 204.0, 19.0 ]
+					"presentation_rect" : [ 172.5, 0.0, 204.0, 19.0 ],
+					"text" : "box.1 simpleSynth"
 				}
 
 			}
@@ -887,7 +919,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 73.0, 150.0, 50.0, 18.0 ]
+					"patching_rect" : [ 73.0, 150.0, 78.0, 18.0 ],
+					"text" : "/boxes/box.1"
 				}
 
 			}
@@ -954,7 +987,7 @@
 					"outlettype" : [ "", "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 70.0 ],
-					"text" : "/noModelAddress"
+					"text" : "/boxes/box.1"
 				}
 
 			}
@@ -1037,6 +1070,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 0 ]
 				}
 
 			}
@@ -1232,6 +1274,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1274,26 +1325,6 @@
 					"source" : [ "obj-6", 1 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../../Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
