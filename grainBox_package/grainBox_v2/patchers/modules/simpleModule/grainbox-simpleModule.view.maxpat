@@ -10,7 +10,7 @@
 ,
 		"rect" : [ 964.0, 219.0, 640.0, 480.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -30,6 +30,22 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : 0.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.5, 53.0, 86.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -0.5, 53.0, 65.0, 20.0 ],
+					"text" : "myParam:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 14.641765,
 					"frgb" : 0.0,
 					"id" : "obj-12",
@@ -38,7 +54,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 23.5, 101.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 34.5, 68.0, 173.0, 23.0 ],
+					"presentation_rect" : [ -0.5, 21.0, 173.0, 23.0 ],
 					"text" : "simpleModule"
 				}
 
@@ -55,7 +71,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 124.5, 60.0, 50.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 44.0, 50.0, 20.0 ]
+					"presentation_rect" : [ 77.0, 53.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -124,7 +140,7 @@
 					"patching_rect" : [ -0.5, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.5, -0.5, 300.0, 105.0 ],
-					"text" : "/noModelAddress"
+					"text" : "/boxes/box.1/simpleModule.1"
 				}
 
 			}
@@ -164,19 +180,6 @@
 					"source" : [ "obj-5", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
