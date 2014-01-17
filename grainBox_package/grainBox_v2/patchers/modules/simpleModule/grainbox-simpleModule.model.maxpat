@@ -608,8 +608,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 498.0, 36.0, 219.0, 20.0 ],
-					"text" : "j.parameter myParam @value/default 3"
+					"patching_rect" : [ 498.0, 37.0, 288.0, 20.0 ],
+					"text" : "j.parameter myParam @value/default 3 @tag visible"
 				}
 
 			}
@@ -754,13 +754,11 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 101.0, 249.0, 31.0 ],
-					"text" : "98 remove 0.22581 0.987017 0.006048 leapMotion_finger"
+					"patching_rect" : [ 46.0, 101.0, 249.0, 18.0 ]
 				}
 
 			}
