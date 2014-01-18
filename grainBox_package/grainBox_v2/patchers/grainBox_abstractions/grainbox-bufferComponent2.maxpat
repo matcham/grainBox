@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 791.0, 124.0, 1012.0, 758.0 ],
+		"rect" : [ 964.0, 77.0, 1012.0, 758.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -507,8 +507,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 9,
 					"outlettype" : [ "float", "list", "float", "float", "float", "float", "float", "", "int" ],
-					"patching_rect" : [ 223.0, 485.0, 100.0, 20.0 ],
-					"text" : "info~"
+					"patching_rect" : [ 212.5, 486.0, 100.0, 20.0 ],
+					"text" : "info~ #0-tempBuf"
 				}
 
 			}
@@ -537,6 +537,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 6 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 1 ]
 				}
 
 			}
