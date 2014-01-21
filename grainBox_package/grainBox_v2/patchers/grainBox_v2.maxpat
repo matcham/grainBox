@@ -66,13 +66,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-24",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 332.75, 171.5, 46.0, 31.0 ],
-					"text" : "1-testA"
+					"text" : "granubuf_tester"
 				}
 
 			}
@@ -81,7 +81,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : [ "1-testA", ",", "2-testB", ",", "boxes_&_models", ",", "toto en slip" ],
+					"items" : [ "granubuf_tester", ",", "modules_tester", ",", "projet_1" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -10280,7 +10280,7 @@
 																	"fontsize" : 12.0,
 																	"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 																	"id" : "obj-3",
-																	"items" : [ "boxes", ",", "boxes/box.1", ",", "boxes/box.1/simpleSynth.1", ",", "boxes/box.1/simpleSynth.1/mapper.1", ",", "boxes/box.1/simpleSynth.1/mapper.2", ",", "boxes/box.2", ",", "boxes/box.2/simpleModule.1", ",", "machin/toto.6", ",", "toto" ],
+																	"items" : [ "boxes", ",", "boxes/box.3", ",", "boxes/box.3/granubuf-basic2.1", ",", "boxes/box.3/granubuf-basic2.1/mapper.1", ",", "boxes/box.3/granubuf-basic2.1/mapper.2", ",", "boxes/box.4", ",", "boxes/box.4/granubuf-multiT.1", ",", "boxes/box.4/granubuf-multiT.1/mapper.1", ",", "boxes/box.4/granubuf-multiT.1/mapper.2", ",", "boxes/box.4/granubuf-multiT.1/mapper.3", ",", "boxes/box.4/granubuf-multiT.1/mapper.4", ",", "machin/toto.6", ",", "toto" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -13046,13 +13046,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-84",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 626.0, 466.0, 192.0, 45.0 ],
-													"text" : "remove box.1::simpleSynth::1::mapper::2"
+													"text" : "remove box.4::granubuf-multiT::1::mapper::2"
 												}
 
 											}
@@ -13133,7 +13133,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 322.666656, 557.0, 86.333344, 18.0 ],
-													"text" : "add mapper.2"
+													"text" : "add mapper.4"
 												}
 
 											}
@@ -13210,7 +13210,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ -85.0, 529.0, 153.0, 45.0 ],
-													"text" : "replace box.5::mixer3D-auto-groove::1::mapper::2"
+													"text" : "replace box.4::granubuf-multiT::1::mapper::4"
 												}
 
 											}
@@ -13281,7 +13281,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 529.166626, 806.0, 243.833374, 45.0 ],
-													"text" : "address /boxes/box.5/mixer3D-auto-groove.1/controllersManager"
+													"text" : "address /boxes/box.4/granubuf-multiT.1/controllersManager"
 												}
 
 											}
@@ -13359,7 +13359,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 241.333344, 405.0, 50.0, 18.0 ],
-													"text" : "\"2\""
+													"text" : "\"4\""
 												}
 
 											}
@@ -13599,7 +13599,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 189.333344, 743.0, 128.0, 18.0 ],
-													"text" : "add mapper.2"
+													"text" : "add mapper.4"
 												}
 
 											}
@@ -14571,7 +14571,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 369.833313, 517.0, 82.333344, 45.0 ],
-													"text" : "add mixer3D-auto-groove.1"
+													"text" : "add simpleSynth.2"
 												}
 
 											}
@@ -14641,13 +14641,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-61",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 123.0, 494.0, 153.0, 31.0 ],
-													"text" : "replace box.5::mixer3D-auto-groove::1"
+													"text" : "replace box.1::simpleSynth::2"
 												}
 
 											}
@@ -14717,7 +14717,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 529.166626, 806.0, 228.0, 18.0 ],
-													"text" : "address /boxes/box.5/modulesManager"
+													"text" : "address /boxes/box.1/modulesManager"
 												}
 
 											}
@@ -14795,7 +14795,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 241.333344, 351.0, 50.0, 18.0 ],
-													"text" : "\"1\""
+													"text" : "\"2\""
 												}
 
 											}
@@ -16307,7 +16307,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 484.0, 270.0, 218.083313, 31.0 ],
-													"text" : "script sendbox controllerView name grainbox.empty.view"
+													"text" : "script sendbox controllerView name grainbox-mapper.view"
 												}
 
 											}
@@ -16321,7 +16321,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 118.0, 439.0, 382.0, 18.0 ],
-													"text" : "/boxes/box.1/simpleSynth.1/mapper.1"
+													"text" : "/boxes/box.4/granubuf-multiT.1/mapper.4"
 												}
 
 											}
@@ -17070,13 +17070,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-7",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 482.0, 200.0, 130.0, 31.0 ],
-													"text" : "box.2::simpleModule::1 "
+													"text" : "box.4::granubuf-multiT::1 dictionary u289000774"
 												}
 
 											}
@@ -17162,13 +17162,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-58",
-													"linecount" : 8,
+													"linecount" : 14,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 279.0, 506.0, 30.0, 72.0 ],
-													"text" : "tabs mapper.1 mapper.2"
+													"text" : "tabs mapper.1 mapper.2 mapper.3 mapper.4"
 												}
 
 											}
@@ -17294,7 +17294,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 816.75, 180.0, 142.0, 31.0 ],
-													"text" : "get box.2::simpleModule::1"
+													"text" : "get box.4::granubuf-multiT::1"
 												}
 
 											}
@@ -18124,7 +18124,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 278.0, 421.0, 50.0, 45.0 ],
-													"text" : "symbol simpleModule.1"
+													"text" : "symbol granubuf-multiT.1"
 												}
 
 											}
@@ -19392,7 +19392,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-18",
-									"items" : [ "simpleSynth", ",", "oscbank~", ",", "simpleModule" ],
+									"items" : [ "simpleSynth", ",", "oscbank~", ",", "simpleModule", ",", "3Dmixer", ",", "granubuf-basic1", ",", "granubuf-basic2", ",", "granubuf-multiT", ",", "mixer3D-auto-groove", ",", "synchronicity" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -19474,7 +19474,7 @@
 									"border" : 1,
 									"id" : "obj-17",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox.empty.view.maxpat",
+									"name" : "grainbox-mapper.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 650.0, 79.0, 488.0, 638.0 ],
@@ -19591,6 +19591,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+									"tabs" : [ "mapper.1", "mapper.2", "mapper.3", "mapper.4" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -19602,13 +19603,13 @@
 									"border" : 1,
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox-simpleModule.view.maxpat",
+									"name" : "grainbox-granubuf-multiT.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 170.5, 300.0, 105.0 ],
+									"patching_rect" : [ 86.0, 170.5, 450.0, 420.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 79.0, 120.0, 300.0, 105.0 ],
+									"presentation_rect" : [ 79.0, 120.0, 450.0, 420.0 ],
 									"varname" : "moduleView"
 								}
 
@@ -19639,7 +19640,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"tabs" : [ "simpleModule.1" ],
+									"tabs" : [ "granubuf-multiT.1" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -19659,7 +19660,7 @@
 									"patching_rect" : [ 0.0, 142.75, 75.0, 370.5 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 47.75, 75.0, 672.25 ],
-									"tabs" : [ "box.1", "box.2" ]
+									"tabs" : [ "box.3", "box.4" ]
 								}
 
 							}
@@ -21469,7 +21470,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 6,
+													"cols" : 3,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-2",
@@ -21617,7 +21618,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 177.0, 83.0, 50.0, 18.0 ],
-													"text" : "112"
+													"text" : "207"
 												}
 
 											}
@@ -22410,7 +22411,7 @@
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"border" : 0,
 													"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"celldef" : [ [ 0, 0, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 1, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 2, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 3, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 4, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 5, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 6, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 7, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 8, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ] ],
+													"celldef" : [ [ 0, 0, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 1, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 2, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 3, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 4, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 5, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 6, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 7, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 8, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 9, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 10, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 11, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 12, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ] ],
 													"cols" : 1,
 													"colwidth" : 200,
 													"fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -22430,7 +22431,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 18.0, 102.0, 184.0, 211.0 ],
 													"rowheight" : 20,
-													"rows" : 9,
+													"rows" : 13,
 													"sccolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"selmode" : 3,
 													"sgcolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
@@ -24183,7 +24184,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -27331,7 +27331,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 90.0, 110.0, 83.0, 72.0 ],
-																	"text" : "574 0.539757 0.658213 0. 0.000036 -0.006551"
+																	"text" : "186 0.446357 0.930648 0. 0.000023 0.000001"
 																}
 
 															}
@@ -27749,7 +27749,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 205.0, 361.0, 31.0, 18.0 ],
-																	"text" : "574"
+																	"text" : "186"
 																}
 
 															}
@@ -29309,7 +29309,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 979.0, 568.0, 52.0, 18.0 ],
-													"presentation_rect" : [ 996.5, 568.0, 0.0, 0.0 ],
 													"text" : "active 0"
 												}
 
@@ -29325,7 +29324,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
 													"patching_rect" : [ 979.0, 543.0, 32.5, 20.0 ],
-													"presentation_rect" : [ 996.5, 543.0, 0.0, 0.0 ],
 													"text" : "t b l"
 												}
 
@@ -29341,7 +29339,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1073.5, 450.0, 52.0, 18.0 ],
-													"presentation_rect" : [ 1070.0, 440.0, 0.0, 0.0 ],
 													"text" : "active 0"
 												}
 
@@ -29357,7 +29354,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
 													"patching_rect" : [ 1073.5, 425.0, 32.5, 20.0 ],
-													"presentation_rect" : [ 1070.0, 415.0, 0.0, 0.0 ],
 													"text" : "t b l"
 												}
 
@@ -29373,7 +29369,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 663.0, 532.0, 52.0, 18.0 ],
-													"presentation_rect" : [ 658.5, 535.0, 0.0, 0.0 ],
 													"text" : "active 0"
 												}
 
@@ -29389,7 +29384,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "" ],
 													"patching_rect" : [ 663.0, 507.0, 32.5, 20.0 ],
-													"presentation_rect" : [ 658.5, 510.0, 0.0, 0.0 ],
 													"text" : "t b l"
 												}
 
@@ -30003,7 +29997,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 73.5, 677.0, 50.0, 18.0 ],
-													"text" : "box.2"
+													"text" : "box.4"
 												}
 
 											}
@@ -30675,7 +30669,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 18.5, 40.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 416.787201 540.972473 0.5 mouse"
+													"text" : "removeCursor 0 636.805969 342.826904 0.5 mouse"
 												}
 
 											}
@@ -33086,7 +33080,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 695.0, 443.0, 75.0, 31.0 ],
-													"text" : "remove box.1::0"
+													"text" : "remove box.4::73"
 												}
 
 											}
@@ -33162,12 +33156,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-62",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 24.5, 843.5, 124.0, 31.0 ],
-													"text" : "box.1 0 mouse"
+													"text" : "box.4 92 leapMotion_finger"
 												}
 
 											}
@@ -33346,7 +33341,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 109.0, 499.0, 151.0, 18.0 ],
-													"text" : "set box.5::82[0] update"
+													"text" : "set box.4::73[0] update"
 												}
 
 											}
@@ -33547,7 +33542,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1034.0, 736.0, 50.0, 18.0 ],
-													"text" : "box.1"
+													"text" : "box.4"
 												}
 
 											}
@@ -36217,7 +36212,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 428.0, 591.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 416.787201 540.972473 0.5 mouse"
+													"text" : "removeCursor 0 636.805969 342.826904 0.5 mouse"
 												}
 
 											}
@@ -36273,7 +36268,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 7.0, 322.0, 15.0 ],
-													"text" : "416.787201 540.972473 0 0 0 0 1 0"
+													"text" : "636.805969 342.826904 0 0 0 0 0 1"
 												}
 
 											}
@@ -37619,7 +37614,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1209.0, 1161.0, 50.0, 18.0 ],
-													"text" : "box.1"
+													"text" : "box.4"
 												}
 
 											}
@@ -40855,13 +40850,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-57",
-																	"linecount" : 2,
+																	"linecount" : 3,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 572.0, 119.0, 135.0, 31.0 ],
-																	"text" : "0 509.426666 147.254669 0.5 mouse"
+																	"text" : "73 800.830688 295.654724 0.240971 leapMotion_finger"
 																}
 
 															}
@@ -54217,13 +54212,15 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-32",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 519.552124, 138.125, 138.666687, 22.0 ],
+					"patching_rect" : [ 519.552124, 138.125, 138.666687, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 214.5, 59.375, 204.0625, 22.0 ],
-					"text" : "project_template",
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 214.5, 59.375, 204.0625, 38.0 ],
+					"text" : "_Apertures_grainBox_project",
 					"textcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"textjustification" : 1
 				}
@@ -79844,12 +79841,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-81",
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.5, 575.0, 50.0, 18.0 ],
-									"text" : "1-testA"
+									"text" : "granubuf_tester"
 								}
 
 							}
@@ -81060,13 +81058,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-45",
-													"linecount" : 5,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 136.0, 155.0, 72.0 ],
-													"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/modules"
+													"text" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules"
 												}
 
 											}
@@ -81370,13 +81368,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -25.5, 210.0, 100.0, 112.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/"
+									"text" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/"
 								}
 
 							}
@@ -89456,7 +89454,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 36.0, 563.0, 48.0, 29.0 ],
-													"text" : "400 300"
+													"text" : "1285 300"
 												}
 
 											}
@@ -94778,13 +94776,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-9",
-													"linecount" : 5,
+													"linecount" : 6,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 264.0, 218.0, 193.0, 72.0 ],
-													"text" : "box.1 Sbox.1 poly 255.856033 226.301605 4 165.76 48.952606 453.516785 203.936005 345.95224 403.650604 58.195267 248.667206"
+													"text" : "box.3 Sbox.3 poly 1378.99231 334.183289 4 1183.472778 77.341553 1635.833984 138.663757 1574.511841 591.025024 1122.150635 529.70282"
 												}
 
 											}
@@ -101386,13 +101384,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 9.0,
 													"id" : "obj-22",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 342.0, 288.0, 86.0, 37.0 ],
-													"text" : "255.856033 226.301605 28.306519"
+													"text" : "197.287872 143.4021 1."
 												}
 
 											}
@@ -105294,16 +105292,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
-			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
 			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
-			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
-			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ],
-			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
 			"obj-31::obj-57" : [ "tab[1]", "tab", 0 ],
+			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
+			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ],
 			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
-			"obj-45::obj-33" : [ "toggle", "toggle", 0 ]
+			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
+			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
+			"obj-45::obj-33" : [ "toggle", "toggle", 0 ],
+			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
+			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -105391,16 +105389,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleModule.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
-				"patcherrelativepath" : "./modules/simpleModule",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainbox-simpleSynth.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
-				"patcherrelativepath" : "./modules/simpleSynth",
+				"name" : "grainbox-granubuf-multiT.model.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -105426,9 +105417,37 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleSynth.poly~.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
-				"patcherrelativepath" : "./modules/simpleSynth",
+				"name" : "grainbox-bufferComponent2.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
+				"patcherrelativepath" : "./grainBox_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cubox.lemurClient.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/mc_patches-max5/_box2d patches/cubox/_abstractions_",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Max_/mc_patches-max5/_box2d patches/cubox/_abstractions_",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-granubuf-basic2.model.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-granubuf-basic2.poly~.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -105440,16 +105459,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleModule.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
-				"patcherrelativepath" : "./modules/simpleModule",
+				"name" : "grainbox-granubuf-multiT.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox.empty.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules",
-				"patcherrelativepath" : "./modules",
+				"name" : "grainbox-bufferComponent2.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
+				"patcherrelativepath" : "./grainBox_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-mapper.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
+				"patcherrelativepath" : "./controllers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -105519,6 +105545,14 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.message.mxo",
 				"type" : "iLaX"
 			}
@@ -105527,15 +105561,19 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "bufGranul~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rand_dist_list~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.dataspace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.return.mxo",
+				"name" : "granubuf~.mxo",
 				"type" : "iLaX"
 			}
 , 			{

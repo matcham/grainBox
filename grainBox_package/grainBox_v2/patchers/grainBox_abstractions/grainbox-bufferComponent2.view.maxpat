@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 300.0, 250.0, 1441.0, 634.0 ],
+		"rect" : [ 383.0, 346.0, 1441.0, 634.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -32,12 +32,54 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-27",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 719.5, 204.0, 100.0, 20.0 ],
+					"text" : "t b l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 719.5, 238.0, 53.0, 20.0 ],
+					"text" : "zl reg"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 719.5, 264.0, 122.5, 20.0 ],
+					"text" : "sprintf symout %s%s"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-31",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 785.0, 597.0, 80.0, 20.0 ],
+					"patching_rect" : [ 832.0, 597.0, 80.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 42.0, 143.0, 80.0, 20.0 ],
 					"text" : "bufferName :"
@@ -53,9 +95,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 865.5, 597.0, 150.0, 20.0 ],
+					"patching_rect" : [ 912.5, 597.0, 176.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 122.5, 143.0, 193.0, 20.0 ]
+					"presentation_rect" : [ 122.5, 143.0, 193.0, 20.0 ],
+					"text" : "envBuffers-mc.envrac21.aif"
 				}
 
 			}
@@ -97,8 +140,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 967.0, 319.5, 143.0, 20.0 ],
-					"presentation_rect" : [ 1099.5, 395.0, 0.0, 0.0 ],
+					"patching_rect" : [ 967.0, 288.5, 143.0, 20.0 ],
 					"text" : "substitute set setsymbol"
 				}
 
@@ -112,7 +154,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 967.0, 296.0, 124.0, 20.0 ],
+					"patching_rect" : [ 967.0, 265.0, 124.0, 20.0 ],
 					"text" : "j.remote soundFolder"
 				}
 
@@ -126,8 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 967.0, 268.0, 57.0, 20.0 ],
-					"presentation_rect" : [ 1102.0, 326.0, 0.0, 0.0 ],
+					"patching_rect" : [ 967.0, 237.0, 57.0, 20.0 ],
 					"text" : "strippath"
 				}
 
@@ -141,7 +182,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 919.5, 188.0, 210.0, 20.0 ],
+					"patching_rect" : [ 919.5, 157.0, 210.0, 20.0 ],
 					"text" : "sprintf symout %ssoundFiles/"
 				}
 
@@ -153,7 +194,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 919.5, 135.0, 20.0, 20.0 ]
+					"patching_rect" : [ 919.5, 107.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -163,13 +204,13 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
-					"items" : [ "envBuffers", ",", "granulBuffers", ",", "pvocBuffers", ",", "samplerBuffers" ],
+					"items" : [ "envBuffers", ",", "granulBuffers", ",", "pvocBuffers", ",", "samplerBuffers", ",", "wavetables", ",", "z_noise_Kit" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 919.5, 244.0, 114.0, 18.0 ],
+					"patching_rect" : [ 919.5, 213.0, 114.0, 18.0 ],
 					"prefix" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/soundFiles/",
 					"presentation" : 1,
 					"presentation_rect" : [ 57.5, 2.0, 131.0, 18.0 ],
@@ -186,8 +227,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 919.5, 214.0, 100.0, 20.0 ],
-					"presentation_rect" : [ 1040.5, 246.0, 0.0, 0.0 ],
+					"patching_rect" : [ 919.5, 183.0, 100.0, 20.0 ],
 					"text" : "prepend prefix"
 				}
 
@@ -201,8 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 919.5, 162.0, 139.0, 20.0 ],
-					"presentation_rect" : [ 1040.5, 180.0, 0.0, 0.0 ],
+					"patching_rect" : [ 919.5, 131.0, 139.0, 20.0 ],
 					"text" : "v grainbox.projectPath"
 				}
 
@@ -230,7 +269,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.5, 572.0, 86.0, 20.0 ],
+					"patching_rect" : [ 912.5, 572.0, 86.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -286,7 +325,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 953.5, 456.0, 82.0, 18.0 ],
+					"patching_rect" : [ 1016.5, 459.0, 82.0, 18.0 ],
 					"text" : "granulBuffers"
 				}
 
@@ -301,7 +340,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 865.5, 548.0, 126.0, 20.0 ],
+					"patching_rect" : [ 912.5, 548.0, 126.0, 20.0 ],
 					"text" : "sprintf symout %s-%s"
 				}
 
@@ -315,7 +354,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 933.5, 76.0, 82.0, 18.0 ],
+					"patching_rect" : [ 933.5, 54.0, 82.0, 18.0 ],
 					"text" : "granulBuffers"
 				}
 
@@ -338,7 +377,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 648.5, 86.0, 45.0, 15.0 ],
+					"patching_rect" : [ 648.5, 64.0, 45.0, 15.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 3.0, 45.0, 15.0 ],
 					"prototypename" : "M4L.toggle",
@@ -372,7 +411,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 736.5, 527.5, 116.0, 20.0 ],
+					"patching_rect" : [ 767.0, 520.5, 116.0, 20.0 ],
 					"text" : "prepend setsymbol"
 				}
 
@@ -386,7 +425,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "bang" ],
-					"patching_rect" : [ 648.5, 106.0, 210.0, 20.0 ],
+					"patching_rect" : [ 648.5, 84.0, 290.0, 20.0 ],
 					"text" : "t b b b"
 				}
 
@@ -400,7 +439,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 840.5, 32.0, 75.0, 20.0 ],
+					"patching_rect" : [ 840.5, 10.0, 75.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -414,7 +453,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.5, 32.0, 179.0, 20.0 ],
+					"patching_rect" : [ 648.5, 10.0, 179.0, 20.0 ],
 					"text" : "r grainbox.soundFileList.refresh"
 				}
 
@@ -453,14 +492,14 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-53",
-					"items" : [ "blabla_test1.aif", ",", "perc_FM_monotone.2.wav", ",", "smoris.wav", ",", "stitch.wav", ",", "Tabla Ke Vel_8.wav", ",", "Wind4 DNZ.wav", ",", "z_guitoune.21.wav" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 719.5, 333.0, 150.0, 18.0 ],
-					"prefix" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/soundFiles/granulBuffers/",
+					"prefix" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/soundFiles/pvocBuffers/",
 					"presentation" : 1,
 					"presentation_rect" : [ 199.0, 2.0, 193.0, 18.0 ],
 					"types" : [ "WAVE", "AIFF" ]
@@ -474,7 +513,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 648.5, 60.0, 20.0, 20.0 ]
+					"patching_rect" : [ 648.5, 38.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -627,7 +666,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 531.0, 414.0, 78.0, 20.0 ],
+					"patching_rect" : [ 531.0, 369.5, 78.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -655,7 +694,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 450.0, 414.0, 78.0, 20.0 ],
+					"patching_rect" : [ 450.0, 369.5, 78.0, 20.0 ],
 					"text" : "prepend set"
 				}
 
@@ -669,7 +708,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 373.0, 414.0, 62.0, 20.0 ],
+					"patching_rect" : [ 373.0, 426.5, 62.0, 20.0 ],
 					"text" : "deferlow"
 				}
 
@@ -784,7 +823,7 @@
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-11", 1 ]
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -818,6 +857,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
@@ -862,6 +910,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-27", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -883,7 +940,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 976.5, 350.0, 908.0, 350.0, 908.0, 240.0, 929.0, 240.0 ],
+					"midpoints" : [ 976.5, 319.0, 908.0, 319.0, 908.0, 209.0, 929.0, 209.0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -918,10 +975,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
@@ -1035,7 +1119,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 2 ],
+					"destination" : [ "obj-26", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
@@ -1101,7 +1185,7 @@
 					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 746.0, 576.0, 706.0, 576.0, 706.0, 325.0, 729.0, 325.0 ],
+					"midpoints" : [ 776.5, 549.0, 706.0, 549.0, 706.0, 325.0, 729.0, 325.0 ],
 					"source" : [ "obj-41", 0 ]
 				}
 
@@ -1295,11 +1379,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
