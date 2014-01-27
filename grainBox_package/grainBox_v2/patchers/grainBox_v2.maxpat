@@ -7428,7 +7428,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 702.0, 67.0, 1091.0, 725.0 ],
+						"rect" : [ 457.0, 48.0, 1091.0, 725.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -7449,6 +7449,22 @@
 						"tags" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 26.471729,
+									"frgb" : 0.0,
+									"id" : "obj-57",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 800.0, 28.0, 341.0, 36.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 747.0, 24.5, 269.0, 36.0 ],
+									"text" : "NAVIGATION ICI"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
