@@ -37,7 +37,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 379.0, 269.0, 194.0, 18.0 ],
-					"text" : "/boxes/#3/#2/none"
+					"text" : "/grainBox/boxes/#3/#2/none"
 				}
 
 			}
@@ -78,8 +78,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 361.0, 236.0, 153.0, 20.0 ],
-					"text" : "sprintf /boxes/%s/%s/%s"
+					"patching_rect" : [ 361.0, 237.0, 193.0, 20.0 ],
+					"text" : "sprintf /grainBox/boxes/%s/%s/%s"
 				}
 
 			}
@@ -766,7 +766,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 52.0, 138.0, 18.0 ],
+					"patching_rect" : [ 19.5, 76.0, 138.0, 18.0 ],
 					"text" : "/#3/#2"
 				}
 
@@ -780,7 +780,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 28.0, 100.0, 20.0 ],
+					"patching_rect" : [ 19.5, 52.0, 100.0, 20.0 ],
 					"text" : "sprintf /%s/%s"
 				}
 
@@ -794,7 +794,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 93.0, 6.0, 156.0, 20.0 ],
+					"patching_rect" : [ 19.5, 30.0, 156.0, 20.0 ],
 					"text" : "loadmess #3 #2"
 				}
 
@@ -822,8 +822,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 16.0, 12.0, 58.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 19.5, 6.0, 146.0, 20.0 ],
+					"text" : "j.model @amenities none"
 				}
 
 			}
@@ -1083,7 +1083,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "grainbox-getSourceValue.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_v2/patchers/controllers",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1098,6 +1098,14 @@
 			}
 , 			{
 				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.dataspace.mxo",
 				"type" : "iLaX"
 			}
 , 			{

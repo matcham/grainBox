@@ -16306,7 +16306,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 484.0, 270.0, 218.083313, 31.0 ],
-													"text" : "script sendbox controllerView name grainbox.empty.view"
+													"text" : "script sendbox controllerView name grainbox-mapper.view"
 												}
 
 											}
@@ -16320,7 +16320,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 118.0, 439.0, 382.0, 18.0 ],
-													"text" : "/grainBox/boxes/box.1/simpleSynth.1/mapper.1"
+													"text" : "/grainBox/boxes/box.1/simpleSynth.1/mapper.2"
 												}
 
 											}
@@ -17075,7 +17075,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 482.0, 200.0, 130.0, 31.0 ],
-													"text" : "box.2::simpleModule::1 "
+													"text" : "box.1::simpleSynth::1 dictionary u921004708"
 												}
 
 											}
@@ -17293,7 +17293,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 816.75, 180.0, 142.0, 31.0 ],
-													"text" : "get box.2::simpleModule::1"
+													"text" : "get box.1::simpleSynth::1"
 												}
 
 											}
@@ -18117,13 +18117,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 4,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 278.0, 421.0, 50.0, 45.0 ],
-													"text" : "symbol simpleModule.1"
+													"text" : "symbol simpleSynth.1"
 												}
 
 											}
@@ -19473,7 +19473,7 @@
 									"border" : 1,
 									"id" : "obj-17",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox.empty.view.maxpat",
+									"name" : "grainbox-mapper.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 650.0, 79.0, 488.0, 638.0 ],
@@ -19590,6 +19590,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+									"tabs" : [ "mapper.1", "mapper.2" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -19601,7 +19602,7 @@
 									"border" : 1,
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox-simpleModule.view.maxpat",
+									"name" : "grainbox-simpleSynth.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -19638,7 +19639,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"tabs" : [ "simpleModule.1" ],
+									"tabs" : [ "simpleSynth.1" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -21602,7 +21603,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 177.0, 83.0, 50.0, 18.0 ],
-													"text" : "283"
+													"text" : "90"
 												}
 
 											}
@@ -21669,7 +21670,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 320.0, 532.0, 147.0, 18.0 ],
-													"text" : "select pos"
+													"text" : "select 0"
 												}
 
 											}
@@ -21697,7 +21698,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 102.0, 547.0, 147.0, 18.0 ],
-													"text" : "grainBox/boxes/box.1"
+													"text" : "0"
 												}
 
 											}
@@ -24177,7 +24178,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -29270,13 +29270,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-76",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 671.0, 638.0, 50.0, 31.0 ],
-													"text" : "-5.947951"
+													"text" : "0."
 												}
 
 											}
@@ -29290,7 +29289,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 944.25, 103.5, 198.0, 18.0 ],
-													"presentation_rect" : [ 946.0, 100.0, 0.0, 0.0 ],
 													"text" : "address /grainBox/boxes/box.1/pos"
 												}
 
@@ -29306,7 +29304,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 989.0, 143.0, 102.0, 31.0 ],
-													"presentation_rect" : [ 986.5, 136.0, 0.0, 0.0 ],
 													"text" : "address boxes/box.1/pos"
 												}
 
@@ -29322,7 +29319,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1025.25, 271.0, 50.0, 58.0 ],
-													"presentation_rect" : [ 1029.0, 271.0, 0.0, 0.0 ],
 													"text" : "0.456672 -0.111647"
 												}
 
@@ -29337,7 +29333,6 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 959.0, 220.5, 116.5, 20.0 ],
-													"presentation_rect" : [ 962.75, 220.5, 0.0, 0.0 ],
 													"text" : "j.receive @active 0"
 												}
 
@@ -29395,7 +29390,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.5, 583.0, 102.0, 45.0 ],
-													"text" : "address /grainBox/boxes/box.2/pos"
+													"text" : "address /grainBox/boxes/box.1/pos"
 												}
 
 											}
@@ -29410,7 +29405,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 387.0, 602.0, 50.0, 58.0 ],
-													"text" : "-0.606707 -0.160035"
+													"text" : "-0.510203 -0.218336"
 												}
 
 											}
@@ -29425,7 +29420,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 263.0, 684.0, 50.0, 58.0 ],
-													"text" : "-0.606707 -0.160035"
+													"text" : "-0.55688 -0.238341"
 												}
 
 											}
@@ -29440,7 +29435,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 5.0, 517.5, 100.0, 47.0 ],
-													"presentation_rect" : [ -11.0, 527.5, 0.0, 0.0 ],
 													"text" : "sprintf address grainBox/boxes/%s/pos"
 												}
 
@@ -30146,7 +30140,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 73.5, 677.0, 50.0, 18.0 ],
-													"text" : "box.2"
+													"text" : "box.1"
 												}
 
 											}
@@ -30819,7 +30813,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 18.5, 40.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 -0.453431 -0.113358 0.5 mouse"
+													"text" : "removeCursor 0 -0.480104 -0.180039 0.5 mouse"
 												}
 
 											}
@@ -31789,7 +31783,23 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-5",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "float" ],
+													"patching_rect" : [ 107.666687, 296.0, 42.0, 20.0 ],
+													"presentation_rect" : [ 106.5, 296.0, 0.0, 0.0 ],
+													"text" : "* 100."
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -31896,7 +31906,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 228.5, 223.0, 31.0, 18.0 ],
+													"patching_rect" : [ 220.0, 221.0, 31.0, 18.0 ],
 													"text" : "$4"
 												}
 
@@ -31966,7 +31976,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
-													"patching_rect" : [ 86.0, 197.0, 304.0, 20.0 ],
+													"patching_rect" : [ 77.5, 195.0, 304.0, 20.0 ],
 													"text" : "t l l l"
 												}
 
@@ -31994,8 +32004,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
-													"patching_rect" : [ 97.5, 326.0, 42.0, 20.0 ],
-													"text" : "* 100."
+													"patching_rect" : [ 77.5, 326.0, 42.0, 20.0 ],
+													"text" : "* 0.1"
 												}
 
 											}
@@ -32008,7 +32018,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 77.5, 287.5, 31.0, 18.0 ],
+													"patching_rect" : [ 77.5, 264.5, 31.0, 18.0 ],
 													"text" : "$3"
 												}
 
@@ -32134,7 +32144,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "", "" ],
-													"patching_rect" : [ 86.0, 166.0, 128.0, 20.0 ],
+													"patching_rect" : [ 77.5, 164.0, 128.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"embed" : 0
 													}
@@ -32633,7 +32643,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-92", 0 ],
+													"destination" : [ "obj-90", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-89", 0 ]
@@ -33403,7 +33413,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 695.0, 443.0, 75.0, 31.0 ],
-													"text" : "remove box.2::0"
+													"text" : "remove box.1::0"
 												}
 
 											}
@@ -33484,7 +33494,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 24.5, 843.5, 124.0, 31.0 ],
-													"text" : "box.2 0 mouse"
+													"text" : "box.1 0 mouse"
 												}
 
 											}
@@ -33864,7 +33874,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1034.0, 736.0, 50.0, 18.0 ],
-													"text" : "box.2"
+													"text" : "box.1"
 												}
 
 											}
@@ -36481,7 +36491,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 583.0, 198.0, 50.0, 15.0 ],
-													"text" : "1"
+													"text" : "0"
 												}
 
 											}
@@ -36534,7 +36544,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 428.0, 591.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 -0.453431 -0.113358 0.5 mouse"
+													"text" : "removeCursor 0 -0.480104 -0.180039 0.5 mouse"
 												}
 
 											}
@@ -36590,7 +36600,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 7.0, 322.0, 15.0 ],
-													"text" : "-0.453431 -0.113358 0 0 0 0 1 0"
+													"text" : "-0.52678 0.260056 0 0 0 0 0 0"
 												}
 
 											}
@@ -37936,7 +37946,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1209.0, 1161.0, 50.0, 18.0 ],
-													"text" : "box.2"
+													"text" : "box.1"
 												}
 
 											}
@@ -41178,7 +41188,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 572.0, 119.0, 135.0, 31.0 ],
-																	"text" : "0 -0.826845 -0.546785 0.5 mouse"
+																	"text" : "0 -0.52678 0.260056 0.5 mouse"
 																}
 
 															}
@@ -94152,13 +94162,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-9",
-													"linecount" : 2,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 264.0, 218.0, 193.0, 45.0 ],
-													"text" : "box.1 Sbox.1 circle 0.456672 -0.111647 0.5"
+													"text" : "box.1 Sbox.1 poly -0.55688 -0.238341 4 -1.05688 -0.73834 -0.05688 -0.73834 -0.05688 0.261659 -1.05688 0.261659"
 												}
 
 											}
@@ -100766,7 +100776,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 342.0, 288.0, 86.0, 37.0 ],
-													"text" : "0.456672 -0.111647 0."
+													"text" : "-0.55688 -0.238341 0."
 												}
 
 											}
@@ -104659,16 +104669,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
 			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
+			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
+			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
 			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ],
 			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
-			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
-			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
+			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
 			"obj-31::obj-57" : [ "tab[1]", "tab", 0 ],
-			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
-			"obj-45::obj-33" : [ "toggle", "toggle", 0 ]
+			"obj-45::obj-33" : [ "toggle", "toggle", 0 ],
+			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
+			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -104777,16 +104787,16 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleModule.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
-				"patcherrelativepath" : "./modules/simpleModule",
+				"name" : "grainbox-simpleSynth.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
+				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox.empty.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules",
-				"patcherrelativepath" : "./modules",
+				"name" : "grainbox-mapper.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
+				"patcherrelativepath" : "./controllers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
