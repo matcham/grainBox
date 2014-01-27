@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="init">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="grainBox">
+   <script address="navigation">
+    <command address="zoom">1.000000</command>
+    <command address="lookat">0 0</command>
+   </script>
+   <!---->
+   <script address="boxes">
+    <!---->
+    <script address="box.2">
+     <command address="angle">0.000000</command>
+     <command address="shape">0</command>
+     <command address="pos">0.560212 0.033341</command>
+     <command address="size">1.000000 1.000000</command>
+     <command address="cursorType">mouse</command>
+     <!---->
+     <script address="simpleModule.1">
+      <command address="myParam">3</command>
+     </script>
+     <command address="color">1.000000 1.000000 1.000000 0.500000</command>
+     <command address="name">box.2</command>
+    </script>
+    <!---->
+    <script address="box.1">
+     <command address="angle">0.000000</command>
+     <command address="shape">0</command>
+     <command address="pos">-0.556880 -0.238341</command>
+     <command address="size">1.000000 1.000000</command>
+     <command address="cursorType">mouse</command>
+     <!---->
+     <script address="simpleSynth.1">
+      <!---->
+      <script address="mapper.2">
+       <command address="destination">none</command>
+       <command address="sourceMenu1">position_box</command>
+       <command address="sourceMenu2">x</command>
+       <command address="listOp">pass_all</command>
+       <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      </script>
+      <!---->
+      <script address="mapper.1">
+       <command address="destination">none</command>
+       <command address="sourceMenu1">position_box</command>
+       <command address="sourceMenu2">x</command>
+       <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+       <command address="listOp">pass_all</command>
+      </script>
+      <command address="freq">2383.775391</command>
+      <command address="pan">0.000000</command>
+      <command address="amp">0.538297</command>
+     </script>
+     <command address="color">1.000000 1.000000 1.000000 0.500000</command>
+     <command address="name">box.1</command>
+    </script>
+    <!---->
+    <script address="box.3">
+     <command address="angle">0.000000</command>
+     <command address="shape">0</command>
+     <command address="pos">-0.450000 0.400000</command>
+     <command address="size">1.000000 1.000000</command>
+     <command address="color">1.000000 1.000000 1.000000 0.500000</command>
+     <command address="name">box.3</command>
+     <command address="cursorType">leapMotion_finger</command>
+     <!---->
+     <script address="oscbank~.1">
+      <!---->
+      <script address="mapper.2">
+       <command address="destination">amp</command>
+       <command address="sourceMenu1">position_box</command>
+       <command address="sourceMenu2">y</command>
+       <command address="listOp">pass_all</command>
+       <script address="output">
+        <command address="min">0.000000</command>
+        <command address="max">1.000000</command>
+       </script>
+       <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      </script>
+      <!---->
+      <script address="mapper.1">
+       <command address="destination">pitch</command>
+       <command address="sourceMenu1">position_box</command>
+       <command address="sourceMenu2">x</command>
+       <script address="output">
+        <command address="min">0.000000</command>
+        <command address="max">150.000000</command>
+       </script>
+       <command address="listOp">pass_all</command>
+       <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+      </script>
+      <command address="amp">0.003612</command>
+      <command address="pitch">61.005449</command>
+      <command address="pan">0.000000</command>
+     </script>
+    </script>
+   </script>
+  </script>
+ </cue>
+</jamoma>
