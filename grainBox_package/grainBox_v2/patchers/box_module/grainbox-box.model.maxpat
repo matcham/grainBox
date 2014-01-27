@@ -2496,7 +2496,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1300.666748, 472.0, 248.0, 20.0 ],
-									"text" : "j.parameter color @value/default 1. 1. 1. 1."
+									"text" : "j.parameter color @value/default 1. 1. 1. 0.5"
 								}
 
 							}
@@ -3551,7 +3551,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 334.75, 444.0, 294.0, 20.0 ],
-									"text" : "j.parameter size @value/default 100. 100. @priority 3"
+									"text" : "j.parameter size @value/default 1. 1. @priority 3"
 								}
 
 							}

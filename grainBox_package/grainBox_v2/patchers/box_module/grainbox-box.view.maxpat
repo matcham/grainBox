@@ -875,8 +875,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 593.0, 43.0, 105.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.5, 0.0, 204.0, 19.0 ],
-					"text" : "mixer"
+					"presentation_rect" : [ 175.5, 0.0, 204.0, 19.0 ],
+					"text" : "box.1"
 				}
 
 			}
@@ -941,12 +941,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-13",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 73.0, 150.0, 78.0, 18.0 ],
-					"text" : "/boxes/box.5"
+					"text" : "/grainBox/boxes/box.1"
 				}
 
 			}
@@ -1006,6 +1007,7 @@
 			}
 , 			{
 				"box" : 				{
+					"highlightcolor" : [ 0.62, 0.0, 0.36, 1.0 ],
 					"id" : "obj-4",
 					"maxclass" : "j.ui",
 					"numinlets" : 1,
@@ -1013,7 +1015,7 @@
 					"outlettype" : [ "", "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 600.0, 70.0 ],
-					"text" : "/boxes/box.5"
+					"text" : "/grainBox/boxes/box.1"
 				}
 
 			}
