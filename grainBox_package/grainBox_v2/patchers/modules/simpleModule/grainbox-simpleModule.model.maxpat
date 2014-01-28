@@ -72,7 +72,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 65.0, 228.0, 217.5, 18.0 ]
+									"patching_rect" : [ 65.0, 228.0, 217.5, 18.0 ],
+									"text" : "0 remove 0.519913 0.079909 0.5"
 								}
 
 							}
@@ -758,7 +759,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 46.0, 101.0, 249.0, 18.0 ]
+					"patching_rect" : [ 46.0, 101.0, 249.0, 18.0 ],
+					"text" : "0 remove 0.519913 0.079909 0.5 mouse"
 				}
 
 			}
@@ -826,15 +828,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-23", 0 ]
 				}
 
 			}

@@ -137,5 +137,71 @@
 		}
 
 	}
+,
+	"box.8" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"simpleSynth" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : "",
+					"2" : ""
+				}
+
+			}
+
+		}
+,
+		"oscbank~" : 		{
+
+		}
+
+	}
+,
+	"box.9" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"simpleSynth" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : "",
+					"2" : ""
+				}
+
+			}
+
+		}
+,
+		"oscbank~" : 		{
+
+		}
+
+	}
+,
+	"box.10" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"simpleSynth" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : "",
+					"2" : ""
+				}
+
+			}
+
+		}
+,
+		"oscbank~" : 		{
+
+		}
+
+	}
 
 }

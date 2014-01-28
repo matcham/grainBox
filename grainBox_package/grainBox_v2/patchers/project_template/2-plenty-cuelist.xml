@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="init">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="box.2">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">0.560212 0.033341</command>
+   <command address="size">1.000000 1.000000</command>
+   <command address="name">box.2 poum paf</command>
+   <command address="color">1.000000 1.000000 1.000000 0.500000</command>
+   <command address="cursorType">mouse</command>
+   <!---->
+   <script address="simpleModule.1">
+    <command address="myParam">3</command>
+   </script>
+  </script>
+  <!---->
+  <script address="box.1">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">-0.663570 0.295107</command>
+   <command address="size">1.000000 1.000000</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="enable">1</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <command address="listOp">pass_all</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+    </script>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <command address="listOp">pass_all</command>
+    </script>
+    <command address="pan">0.000000</command>
+    <command address="amp">0.009122</command>
+    <command address="freq">3784.075027</command>
+   </script>
+   <command address="name">box.1 bonjour</command>
+   <command address="cursorType">mouse</command>
+  </script>
+  <!---->
+  <script address="box.3">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">0.196616 0.468478</command>
+   <command address="size">1.000000 1.000000</command>
+   <command address="name">box.3 bonjour</command>
+   <command address="cursorType">mouse</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="amp">0.055429</command>
+    <command address="freq">49.935973</command>
+    <command address="pan">0.000000</command>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+     <command address="listOp">pass_all</command>
+     <command address="enable">1</command>
+    </script>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <command address="listOp">pass_all</command>
+    </script>
+   </script>
+  </script>
+  <!---->
+  <script address="box.8">
+   <command address="angle">32.673721</command>
+   <command address="shape">0</command>
+   <command address="pos">-0.323496 -0.585083</command>
+   <command address="size">0.783835 0.783835</command>
+   <command address="cursorType">mouse</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <command address="name">box.8 bonjour</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="freq">4906.399567</command>
+    <command address="amp">0.391883</command>
+    <command address="pan">0.000000</command>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="listOp">pass_all</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+    </script>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="listOp">pass_all</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+     <command address="enable">1</command>
+    </script>
+   </script>
+  </script>
+  <!---->
+  <script address="box.6">
+   <command address="angle">14.669829</command>
+   <command address="shape">0</command>
+   <command address="pos">0.023245 -0.225005</command>
+   <command address="size">0.669345 0.669345</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <command address="name">box.6 bonjour</command>
+   <command address="cursorType">mouse</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="amp">0.067294</command>
+    <command address="freq">4957.365998</command>
+    <command address="pan">0.000000</command>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="listOp">pass_all</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="enable">1</command>
+    </script>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="listOp">pass_all</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+    </script>
+   </script>
+  </script>
+  <!---->
+  <script address="box.4">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">0.736733 0.355120</command>
+   <command address="size">0.957210 0.957210</command>
+   <command address="cursorType">mouse</command>
+   <command address="name">box.4 bonjour</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="pan">0.000000</command>
+    <command address="amp">0.202703</command>
+    <command address="freq">567.367777</command>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="enable">1</command>
+     <command address="listOp">pass_all</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+    </script>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <command address="listOp">pass_all</command>
+    </script>
+   </script>
+  </script>
+  <!---->
+  <script address="box.5">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">-0.856945 -0.551742</command>
+   <command address="size">0.785744 0.785744</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="pan">0.000000</command>
+    <command address="amp">0.164439</command>
+    <command address="freq">4558.534412</command>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <command address="listOp">pass_all</command>
+    </script>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <command address="listOp">pass_all</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+    </script>
+   </script>
+   <command address="cursorType">mouse</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <command address="name">box.5 bonjour</command>
+  </script>
+  <!---->
+  <script address="box.7">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">0.009909 -0.645095</command>
+   <command address="size">0.654853 0.654853</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="freq">4715.428707</command>
+    <command address="pan">0.000000</command>
+    <command address="amp">0.942630</command>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="enable">1</command>
+     <command address="listOp">pass_all</command>
+    </script>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <command address="listOp">pass_all</command>
+    </script>
+   </script>
+   <command address="cursorType">mouse</command>
+   <command address="name">box.7 bonjour</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+  </script>
+  <!---->
+  <script address="box.9">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">-0.556880 -0.238341</command>
+   <command address="size">1.000000 1.000000</command>
+   <command address="cursorType">mouse</command>
+   <command address="name">box.9 bonjour</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <command address="pan">0.000000</command>
+    <command address="amp">0.214489</command>
+    <command address="freq">4950.994859</command>
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="listOp">pass_all</command>
+     <command address="enable">1</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+    </script>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+     <command address="listOp">pass_all</command>
+     <command address="enable">1</command>
+    </script>
+   </script>
+  </script>
+  <!---->
+  <script address="box.10">
+   <command address="angle">0.000000</command>
+   <command address="shape">0</command>
+   <command address="pos">0.710060 -0.451720</command>
+   <command address="size">1.000000 1.000000</command>
+   <command address="name">box.10 bonjour</command>
+   <command address="cursorType">mouse</command>
+   <command address="color">0.164880 0.790675 0.316772 1.000000</command>
+   <!---->
+   <script address="simpleSynth.1">
+    <!---->
+    <script address="mapper.2">
+     <command address="destination">amp</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">y</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 8.763270</command>
+     <command address="enable">1</command>
+     <command address="listOp">pass_all</command>
+     <script address="output">
+      <command address="min">0.000000</command>
+      <command address="max">1.000000</command>
+     </script>
+    </script>
+    <!---->
+    <script address="mapper.1">
+     <command address="destination">freq</command>
+     <command address="cursorType">mouse</command>
+     <command address="sourceMenu1">position_box</command>
+     <command address="sourceMenu2">x</command>
+     <script address="output">
+      <command address="min">0.001000</command>
+      <command address="max">5000.000000</command>
+     </script>
+     <command address="enable">1</command>
+     <command address="listOp">pass_all</command>
+     <command address="function">0.000000 0.000000 exponential base 1.000000 1.000000 1.000000 exponential base 1.000000</command>
+    </script>
+    <command address="freq">1917.005649</command>
+    <command address="pan">0.000000</command>
+    <command address="amp">0.303949</command>
+   </script>
+  </script>
+ </cue>
+</jamoma>

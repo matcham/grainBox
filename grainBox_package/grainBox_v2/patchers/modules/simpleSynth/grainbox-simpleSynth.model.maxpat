@@ -117,8 +117,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 29.0, 8.0, 49.0, 20.0 ],
-					"text" : "j.model"
+					"patching_rect" : [ 29.0, 8.0, 146.0, 20.0 ],
+					"text" : "j.model @amenities none"
 				}
 
 			}
