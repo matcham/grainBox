@@ -2546,7 +2546,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 26.0, 458.0, 48.0, 29.0 ],
-													"text" : "400 300"
+													"text" : "1285 300"
 												}
 
 											}
@@ -4588,7 +4588,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : [ "1-testA", ",", "2-plenty" ],
+					"items" : [ "granubuf_tester", ",", "modules_tester", ",", "projet_1", ",", "simpleModule test" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -11934,7 +11934,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 834.0, 54.0, 1091.0, 725.0 ],
+						"rect" : [ 829.0, 54.0, 1048.0, 726.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -14975,7 +14975,7 @@
 																	"fontsize" : 12.0,
 																	"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 																	"id" : "obj-3",
-																	"items" : [ "grainBox", ",", "grainBox/boxes", ",", "grainBox/boxes/box.1", ",", "grainBox/boxes/box.1/simpleSynth.1", ",", "grainBox/boxes/box.1/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.1/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.10", ",", "grainBox/boxes/box.10/simpleSynth.1", ",", "grainBox/boxes/box.10/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.10/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.2", ",", "grainBox/boxes/box.2/simpleModule.1", ",", "grainBox/boxes/box.3", ",", "grainBox/boxes/box.3/simpleSynth.1", ",", "grainBox/boxes/box.3/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.3/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.4", ",", "grainBox/boxes/box.4/simpleSynth.1", ",", "grainBox/boxes/box.4/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.4/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.5", ",", "grainBox/boxes/box.5/simpleSynth.1", ",", "grainBox/boxes/box.5/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.5/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.6", ",", "grainBox/boxes/box.6/simpleSynth.1", ",", "grainBox/boxes/box.6/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.6/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.7", ",", "grainBox/boxes/box.7/simpleSynth.1", ",", "grainBox/boxes/box.7/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.7/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.8", ",", "grainBox/boxes/box.8/simpleSynth.1", ",", "grainBox/boxes/box.8/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.8/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.9", ",", "grainBox/boxes/box.9/simpleSynth.1", ",", "grainBox/boxes/box.9/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.9/simpleSynth.1/mapper.2" ],
+																	"items" : [ "grainBox", ",", "grainBox/boxes", ",", "grainBox/boxes/box.3", ",", "grainBox/boxes/box.3/granubuf-basic2.1", ",", "grainBox/boxes/box.3/granubuf-basic2.1/mapper.1", ",", "grainBox/boxes/box.3/granubuf-basic2.1/mapper.2", ",", "grainBox/boxes/box.4", ",", "grainBox/boxes/box.4/granubuf-multiT.1", ",", "grainBox/boxes/box.4/granubuf-multiT.1/mapper.1", ",", "grainBox/boxes/box.4/granubuf-multiT.1/mapper.2", ",", "grainBox/boxes/box.4/granubuf-multiT.1/mapper.3" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -17838,7 +17838,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 322.666656, 557.0, 86.333344, 18.0 ],
-													"text" : "add mapper.2"
+													"text" : "add mapper.3"
 												}
 
 											}
@@ -17915,7 +17915,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ -85.0, 529.0, 153.0, 45.0 ],
-													"text" : "replace box.3::oscbank~::1::mapper::2"
+													"text" : "replace box.4::granubuf-multiT::1::mapper::3"
 												}
 
 											}
@@ -18064,7 +18064,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 241.333344, 405.0, 50.0, 18.0 ],
-													"text" : "\"2\""
+													"text" : "\"3\""
 												}
 
 											}
@@ -18304,7 +18304,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 189.333344, 743.0, 128.0, 18.0 ],
-													"text" : "remove mapper.3"
+													"text" : "add mapper.3"
 												}
 
 											}
@@ -21044,7 +21044,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 118.0, 439.0, 382.0, 18.0 ],
-													"text" : "/grainBox/boxes/box.8/simpleSynth.1/mapper.1"
+													"text" : "/grainBox/boxes/box.4/granubuf-multiT.1/mapper.3"
 												}
 
 											}
@@ -21793,13 +21793,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-7",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 482.0, 200.0, 130.0, 31.0 ],
-													"text" : "box.8::simpleSynth::1 dictionary u720006408"
+													"patching_rect" : [ 482.0, 200.0, 130.0, 45.0 ],
+													"text" : "box.4::granubuf-multiT::1 dictionary u026003939"
 												}
 
 											}
@@ -21885,13 +21885,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-58",
-													"linecount" : 8,
+													"linecount" : 11,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 279.0, 506.0, 30.0, 112.0 ],
-													"text" : "tabs mapper.1 mapper.2"
+													"patching_rect" : [ 279.0, 506.0, 30.0, 152.0 ],
+													"text" : "tabs mapper.1 mapper.2 mapper.3"
 												}
 
 											}
@@ -22017,7 +22017,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 816.75, 180.0, 142.0, 31.0 ],
-													"text" : "get box.8::simpleSynth::1"
+													"text" : "get box.4::granubuf-multiT::1"
 												}
 
 											}
@@ -22841,13 +22841,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 3,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 278.0, 421.0, 50.0, 45.0 ],
-													"text" : "symbol simpleSynth.1"
+													"text" : "symbol granubuf-multiT.1"
 												}
 
 											}
@@ -24115,7 +24115,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-18",
-									"items" : [ "simpleSynth", ",", "oscbank~", ",", "simpleModule" ],
+									"items" : [ "simpleSynth", ",", "oscbank~", ",", "simpleModule", ",", "3Dmixer", ",", "Espacializator", ",", "granubuf-basic1", ",", "granubuf-basic2", ",", "granubuf-multiT", ",", "mixer3D-auto-groove", ",", "synchronicity" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -24314,7 +24314,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"tabs" : [ "mapper.1", "mapper.2" ],
+									"tabs" : [ "mapper.1", "mapper.2", "mapper.3" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -24326,13 +24326,13 @@
 									"border" : 1,
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox-simpleSynth.view.maxpat",
+									"name" : "grainbox-granubuf-multiT.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 86.0, 170.5, 300.0, 105.0 ],
+									"patching_rect" : [ 86.0, 170.5, 450.0, 420.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 79.0, 120.0, 300.0, 105.0 ],
+									"presentation_rect" : [ 79.0, 120.0, 450.0, 420.0 ],
 									"varname" : "moduleView"
 								}
 
@@ -24363,7 +24363,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"tabs" : [ "simpleSynth.1" ],
+									"tabs" : [ "granubuf-multiT.1" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -24383,7 +24383,7 @@
 									"patching_rect" : [ 0.0, 142.75, 75.0, 370.5 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 47.75, 75.0, 672.25 ],
-									"tabs" : [ "box.1", "box.2", "box.3", "box.4", "box.5", "box.6", "box.7", "box.8", "box.9", "box.10" ]
+									"tabs" : [ "box.3", "box.4" ]
 								}
 
 							}
@@ -25011,7 +25011,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -25812,13 +25811,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"linecount" : 6,
+													"linecount" : 5,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 486.0, 152.0, 162.0, 85.0 ],
-													"text" : "read FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/2-plenty-cuelist.xml"
+													"patching_rect" : [ 486.0, 152.0, 162.0, 72.0 ],
+													"text" : "read FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/granubuf_tester-cuelist.xml"
 												}
 
 											}
@@ -26190,7 +26189,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 120.0, 58.5, 52.0, 18.0 ],
-													"text" : "box.10"
+													"text" : "box.4"
 												}
 
 											}
@@ -26657,7 +26656,7 @@
 											}
 , 											{
 												"box" : 												{
-													"cols" : 4,
+													"cols" : 2,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-2",
@@ -26665,7 +26664,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "list", "", "", "" ],
-													"patching_rect" : [ 104.0, 176.0, 200.0, 200.0 ]
+													"patching_rect" : [ 104.0, 176.0, 200.0, 200.0 ],
+													"rows" : 2
 												}
 
 											}
@@ -26818,7 +26818,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 177.0, 83.0, 50.0, 18.0 ],
-													"text" : "457"
+													"text" : "165"
 												}
 
 											}
@@ -27611,7 +27611,7 @@
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"border" : 0,
 													"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"celldef" : [ [ 0, 0, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 1, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 2, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 3, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 4, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 5, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 6, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 7, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 8, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 9, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 10, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 11, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 12, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 13, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 14, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 15, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 16, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 17, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 18, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 19, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 20, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 21, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 22, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 23, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 24, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 25, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 26, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 27, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 28, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 29, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 30, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 31, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 32, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 33, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 34, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 35, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 36, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 37, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 38, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 39, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ] ],
+													"celldef" : [ [ 0, 0, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 1, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 2, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 3, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 4, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 5, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 6, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 7, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 8, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 9, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 10, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ] ],
 													"cols" : 1,
 													"colwidth" : 200,
 													"fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -27631,7 +27631,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 18.0, 102.0, 184.0, 211.0 ],
 													"rowheight" : 20,
-													"rows" : 40,
+													"rows" : 11,
 													"sccolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"selmode" : 3,
 													"sgcolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
@@ -29407,6 +29407,21 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-9",
+													"linecount" : 67,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 332.0, 296.0, 427.0, 905.0 ],
+													"text" : "{\n\t\"mouse\" : \t{\n\t\t\"position_box\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"position_screen\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"velocity\" : [ \"speed\", \"x\", \"y\", \"z\" ],\n\t\t\"cursors\" : [ \"count\", \"state (add:1 update:0.5 remove:0)\" ],\n\t\t\"random\" : [ \"once (generate a random value between 0. and 1. on cursor add)\", \"onUpdate (generate a random value between 0. and 1. on each cursor update)\" ]\n\t}\n,\n\t\"fantastick\" : \t{\n\t\t\"position_box\" : [ \"x\", \"y\", \"area\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"position_screen\" : [ \"x\", \"y\", \"area\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"velocity\" : [ \"speed\", \"x\", \"y\" ],\n\t\t\"cursors\" : [ \"count\", \"state (add:1 update:0.5 remove:0)\" ],\n\t\t\"random\" : [ \"once (generate a random value between 0. and 1. on cursor add)\", \"onUpdate (generate a random value between 0. and 1. on each cursor update)\" ]\n\t}\n,\n\t\"leapMotion_hand\" : \t{\n\t\t\"position_box\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"position_screen\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"velocity\" : [ \"speed\", \"x\", \"y\", \"z\" ],\n\t\t\"orientation\" : [ \"yaw\", \"pitch\", \"roll\" ],\n\t\t\"fingers_position\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"fingers_velocity\" : [ \"speed\", \"x\", \"y\", \"z\" ],\n\t\t\"fingers_direction\" : [ \"x\", \"y\", \"z\" ],\n\t\t\"fingers_length\" : [ \"length\" ],\n\t\t\"cursors\" : [ \"count\", \"state (add:1 update:0.5 remove:0)\" ],\n\t\t\"random\" : [ \"once (generate a random value between 0. and 1. on cursor add)\", \"onUpdate (generate a random value between 0. and 1. on each cursor update)\" ]\n\t}\n,\n\t\"leapMotion_finger\" : \t{\n\t\t\"position_box\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"position_screen\" : [ \"x\", \"y\", \"z\", \"angle (clockwise | starting @ noon)\", \"bound_distance (distance to closest border)\", \"cursorsCentroid_distance (distance to average position of all cursors)\" ],\n\t\t\"velocity\" : [ \"speed\", \"x\", \"y\", \"z\" ],\n\t\t\"orientation\" : [ \"yaw\", \"pitch\", \"roll\" ],\n\t\t\"length\" : [ \"length\" ],\n\t\t\"cursors\" : [ \"count\", \"state (add:1 update:0.5 remove:0)\" ],\n\t\t\"random\" : [ \"once (generate a random value between 0. and 1. on cursor add)\", \"onUpdate (generate a random value between 0. and 1. on each cursor update)\" ]\n\t}\n\n}\n"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
 													"id" : "obj-12",
 													"maxclass" : "message",
 													"numinlets" : 2,
@@ -29455,16 +29470,43 @@
 , 											{
 												"box" : 												{
 													"data" : 													{
-														"box" : 														{
-															"maxclass" : "newobj",
-															"text" : "j.receive /interface/rate:address",
-															"fontsize" : 12.0,
-															"numinlets" : 1,
-															"numoutlets" : 3,
-															"outlettype" : [ "", "", "" ],
-															"patching_rect" : [ 298.0, 807.0, 182.0, 20.0 ],
-															"id" : "obj-36",
-															"fontname" : "Arial"
+														"mouse" : 														{
+															"position_box" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"position_screen" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"velocity" : [ "speed", "x", "y", "z" ],
+															"cursors" : [ "count", "state (add:1 update:0.5 remove:0)" ],
+															"random" : [ "once (generate a random value between 0. and 1. on cursor add)", "onUpdate (generate a random value between 0. and 1. on each cursor update)" ]
+														}
+,
+														"fantastick" : 														{
+															"position_box" : [ "x", "y", "area", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"position_screen" : [ "x", "y", "area", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"velocity" : [ "speed", "x", "y" ],
+															"cursors" : [ "count", "state (add:1 update:0.5 remove:0)" ],
+															"random" : [ "once (generate a random value between 0. and 1. on cursor add)", "onUpdate (generate a random value between 0. and 1. on each cursor update)" ]
+														}
+,
+														"leapMotion_hand" : 														{
+															"position_box" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"position_screen" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"velocity" : [ "speed", "x", "y", "z" ],
+															"orientation" : [ "yaw", "pitch", "roll" ],
+															"fingers_position" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"fingers_velocity" : [ "speed", "x", "y", "z" ],
+															"fingers_direction" : [ "x", "y", "z" ],
+															"fingers_length" : [ "length" ],
+															"cursors" : [ "count", "state (add:1 update:0.5 remove:0)" ],
+															"random" : [ "once (generate a random value between 0. and 1. on cursor add)", "onUpdate (generate a random value between 0. and 1. on each cursor update)" ]
+														}
+,
+														"leapMotion_finger" : 														{
+															"position_box" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"position_screen" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"velocity" : [ "speed", "x", "y", "z" ],
+															"orientation" : [ "yaw", "pitch", "roll" ],
+															"length" : [ "length" ],
+															"cursors" : [ "count", "state (add:1 update:0.5 remove:0)" ],
+															"random" : [ "once (generate a random value between 0. and 1. on cursor add)", "onUpdate (generate a random value between 0. and 1. on each cursor update)" ]
 														}
 
 													}
@@ -34579,7 +34621,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.5, 583.0, 102.0, 45.0 ],
-													"text" : "address /grainBox/boxes/box.10/pos"
+													"text" : "address /grainBox/boxes/box.4/pos"
 												}
 
 											}
@@ -34593,7 +34635,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 387.0, 602.0, 116.0, 18.0 ],
-													"text" : "0.71006 -0.45172"
+													"text" : "0.306733 -0.013336"
 												}
 
 											}
@@ -34608,7 +34650,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 263.0, 684.0, 50.0, 58.0 ],
-													"text" : "-0.323496 -0.585083"
+													"text" : "0.040009 -0.113358"
 												}
 
 											}
@@ -35327,7 +35369,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 73.5, 677.0, 50.0, 18.0 ],
-													"text" : "box.10"
+													"text" : "box.4"
 												}
 
 											}
@@ -36000,7 +36042,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 18.5, 40.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 0.713487 -0.680147 0.5 mouse"
+													"text" : "removeCursor 0 -0.65014 0.366746 0.5 mouse"
 												}
 
 											}
@@ -38599,7 +38641,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 695.0, 443.0, 75.0, 31.0 ],
-													"text" : "remove box.10::0"
+													"text" : "remove box.4::38"
 												}
 
 											}
@@ -38675,12 +38717,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-62",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 24.5, 843.5, 124.0, 31.0 ],
-													"text" : "box.10 0 mouse"
+													"text" : "box.4 38 leapMotion_hand"
 												}
 
 											}
@@ -38859,7 +38902,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 109.0, 499.0, 151.0, 18.0 ],
-													"text" : "set box.2::0[0] update"
+													"text" : "set box.4::74[0] update"
 												}
 
 											}
@@ -39060,7 +39103,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1034.0, 736.0, 50.0, 18.0 ],
-													"text" : "box.10"
+													"text" : "box.4"
 												}
 
 											}
@@ -41677,7 +41720,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 583.0, 198.0, 50.0, 15.0 ],
-													"text" : "0"
+													"text" : "1"
 												}
 
 											}
@@ -41730,7 +41773,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 428.0, 591.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 0.713487 -0.680147 0.5 mouse"
+													"text" : "removeCursor 0 -0.65014 0.366746 0.5 mouse"
 												}
 
 											}
@@ -41786,7 +41829,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 465.0, 7.0, 322.0, 15.0 ],
-													"text" : "1.066897 -0.800173 0 0 0 0 0 0"
+													"text" : "-0.65014 0.366746 0 0 0 0 0 1"
 												}
 
 											}
@@ -43132,7 +43175,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1209.0, 1161.0, 50.0, 18.0 ],
-													"text" : "box.10"
+													"text" : "box.4"
 												}
 
 											}
@@ -46368,13 +46411,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-57",
-																	"linecount" : 2,
+																	"linecount" : 3,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 572.0, 119.0, 135.0, 31.0 ],
-																	"text" : "0 1.066897 -0.800173 0.5 mouse"
+																	"text" : "38 0.000618 -0.849883 0.000168 leapMotion_hand"
 																}
 
 															}
@@ -59691,15 +59734,14 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-32",
-					"linecount" : 4,
+					"linecount" : 6,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.791656, 138.125, 46.666687, 69.0 ],
+					"patching_rect" : [ 466.791656, 138.125, 46.666687, 100.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 214.5, 59.375, 46.0625, 69.0 ],
-					"text" : "project_template",
+					"presentation_rect" : [ 214.5, 59.375, 207.0, 22.0 ],
+					"text" : "_Apertures_grainBox_project",
 					"textcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"textjustification" : 1
 				}
@@ -85320,13 +85362,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-81",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 144.5, 575.0, 50.0, 18.0 ],
-									"text" : "2-plenty"
+									"text" : "granubuf_tester"
 								}
 
 							}
@@ -86537,13 +86579,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-45",
-													"linecount" : 5,
+													"linecount" : 4,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 136.0, 155.0, 72.0 ],
-													"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/modules"
+													"text" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules"
 												}
 
 											}
@@ -86847,13 +86889,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 8,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -25.5, 210.0, 100.0, 112.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/"
+									"text" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/"
 								}
 
 							}
@@ -93424,7 +93466,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 264.0, 218.0, 193.0, 58.0 ],
-													"text" : "box.1 Sbox.1 poly -0.66357 0.295107 4 -1.16357 -0.204893 -0.16357 -0.204893 -0.16357 0.795107 -1.16357 0.795107"
+													"text" : "box.3 Sbox.3 poly -0.913531 0.573457 4 -1.296059 0.190929 -0.531002 0.190929 -0.531002 0.955986 -1.296059 0.955986"
 												}
 
 											}
@@ -100081,7 +100123,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 342.0, 288.0, 86.0, 37.0 ],
-													"text" : "-0.66357 0.295107 0."
+													"text" : "-0.753496 0.433427 0."
 												}
 
 											}
@@ -103969,9 +104011,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleSynth.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
-				"patcherrelativepath" : "./modules/simpleSynth",
+				"name" : "grainbox-granubuf-multiT.model.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -103997,23 +104039,58 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleSynth.poly~.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
-				"patcherrelativepath" : "./modules/simpleSynth",
+				"name" : "grainbox-bufferComponent2.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
+				"patcherrelativepath" : "./grainBox_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleModule.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
-				"patcherrelativepath" : "./modules/simpleModule",
+				"name" : "cubox.lemurClient.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/mc_patches-max5/_box2d patches/cubox/_abstractions_",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Max_/mc_patches-max5/_box2d patches/cubox/_abstractions_",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleSynth.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
-				"patcherrelativepath" : "./modules/simpleSynth",
+				"name" : "Mu.lemurClient.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions/Tools",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions/Tools",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "transratio.maxpat",
+				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-granubuf-basic2.model.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-granubuf-basic2.poly~.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-basic2",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-granubuf-multiT.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
+				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/granubuf-multiT",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-bufferComponent2.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
+				"patcherrelativepath" : "./grainBox_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -104043,13 +104120,6 @@
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Mu.lemurClient.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions/Tools",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions/Tools",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
@@ -104113,11 +104183,23 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.panorama~.mxo",
+				"name" : "bufGranul~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "rand_dist_list~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
 				"name" : "j.init.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "granubuf~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.panorama~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
