@@ -31,6 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 218.75, 335.0, 104.0, 18.0 ],
+					"text" : "0.533656"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-16",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -65,8 +79,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 379.0, 269.0, 250.0, 18.0 ],
-					"text" : "/grainBox/boxes/box.4/granubuf-multiT.1/amp"
+					"patching_rect" : [ 379.0, 269.0, 270.0, 18.0 ],
+					"text" : "/grainBox/boxes/box.2/simpleModule.1/myParam"
 				}
 
 			}
@@ -179,7 +193,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 44.0, 246.0, 109.0, 18.0 ],
-					"text" : "position_box y"
+					"text" : "velocity x"
 				}
 
 			}
@@ -221,7 +235,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 630.5, 52.0, 106.0, 18.0 ],
-					"text" : "mouse"
+					"text" : "leapMotion_hand"
 				}
 
 			}
@@ -249,7 +263,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 88.5, 211.0, 92.0, 18.0 ],
-					"text" : "y"
+					"text" : "x"
 				}
 
 			}
@@ -278,7 +292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 36.0, 143.0, 92.0, 18.0 ],
-					"text" : "position_box"
+					"text" : "velocity"
 				}
 
 			}
@@ -649,6 +663,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.927504, 0.496095, 0.215242, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-60",
@@ -756,7 +771,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 379.0, 161.0, 149.0, 18.0 ],
-					"text" : "amp"
+					"text" : "myParam"
 				}
 
 			}
@@ -784,7 +799,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.5, 76.0, 138.0, 18.0 ],
-					"text" : "/box.4/granubuf-multiT.1"
+					"text" : "/box.2/simpleModule.1"
 				}
 
 			}
@@ -1082,6 +1097,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-60", 0 ]
