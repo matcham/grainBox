@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 468.0, 70.0, 1195.0, 740.0 ],
+		"rect" : [ 249.0, 140.0, 1195.0, 740.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,7 +38,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 721.5, 521.5, 195.0, 33.0 ],
-					"presentation_rect" : [ 725.5, 521.5, 0.0, 0.0 ],
 					"text" : "We should build grainBox address dynamically"
 				}
 
@@ -137,8 +136,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 361.0, 101.0, 278.0, 20.0 ],
-					"text" : "j.parameter mode @value/default local @priority 1"
+					"patching_rect" : [ 361.0, 101.0, 349.0, 20.0 ],
+					"text" : "j.parameter mode @type string @value/default local @priority 1"
 				}
 
 			}
@@ -151,7 +150,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.75, 335.0, 104.0, 18.0 ]
+					"patching_rect" : [ 218.75, 335.0, 104.0, 18.0 ],
+					"text" : "0.185883"
 				}
 
 			}
@@ -292,7 +292,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 44.0, 246.0, 109.0, 18.0 ]
+					"patching_rect" : [ 44.0, 246.0, 109.0, 18.0 ],
+					"text" : "position_box x"
 				}
 
 			}
@@ -333,7 +334,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 689.0, 52.0, 106.0, 18.0 ]
+					"patching_rect" : [ 689.0, 52.0, 106.0, 18.0 ],
+					"text" : "mouse"
 				}
 
 			}
@@ -360,7 +362,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 88.5, 211.0, 92.0, 18.0 ]
+					"patching_rect" : [ 88.5, 211.0, 92.0, 18.0 ],
+					"text" : "x"
 				}
 
 			}
@@ -388,7 +391,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.0, 144.0, 92.0, 18.0 ]
+					"patching_rect" : [ 36.0, 144.0, 92.0, 18.0 ],
+					"text" : "position_box"
 				}
 
 			}
@@ -866,7 +870,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 432.0, 246.0, 149.0, 18.0 ]
+					"patching_rect" : [ 432.0, 246.0, 149.0, 18.0 ],
+					"text" : "none"
 				}
 
 			}
@@ -893,7 +898,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.5, 76.0, 138.0, 18.0 ]
+					"patching_rect" : [ 19.5, 76.0, 138.0, 18.0 ],
+					"text" : "/#3/#2"
 				}
 
 			}
@@ -1279,6 +1285,38 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "grainbox-getSourceValue.maxpat",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/controllers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
