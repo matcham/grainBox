@@ -29,36 +29,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-7",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 173.0, 288.0, 150.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 82.0, 105.0, 206.0, 20.0 ],
-					"text" : "please first select a box..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"arrow_orientation" : 1,
-					"id" : "obj-5",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 62.0, 173.0, 128.0, 128.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 98.0, 200.0, 82.0 ],
-					"shape" : 3
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"arrow_orientation" : 3,
 					"id" : "obj-4",
 					"maxclass" : "panel",
@@ -66,7 +36,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 84.0, 133.0, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.0, 23.0, 200.0, 126.0 ],
+					"presentation_rect" : [ 71.0, 17.0, 200.0, 126.0 ],
 					"shape" : 3
 				}
 
@@ -82,8 +52,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 26.0, 83.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 243.0, 149.0, 206.0, 20.0 ],
-					"text" : "...then a module"
+					"presentation_rect" : [ 111.0, 149.0, 206.0, 20.0 ],
+					"text" : "...then a controller"
 				}
 
 			}
