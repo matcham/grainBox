@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 156.0, 173.0, 793.0, 718.0 ],
+		"rect" : [ 156.0, 173.0, 1026.0, 718.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -203,7 +203,7 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-11",
-					"items" : [ "envBuffers", ",", "granulBuffers", ",", "pvocBuffers", ",", "samplerBuffers", ",", "wavetables", ",", "z_noise_Kit" ],
+					"items" : [ "bowedPiano", ",", "envBuffers", ",", "granulBuffers", ",", "Nature_matières(loops)", ",", "Nature_syntheticLife(loops)", ",", "percs_guitoun", ",", "percs_test1", ",", "PVOC(16384|4)", ",", "PVOC(2048|4)", ",", "samplerBuffers", ",", "VI_sus_mp", ",", "Violin_Sustains", ",", "wavetables", ",", "z_noise_Kit" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -406,7 +406,7 @@
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
 					"id" : "obj-53",
-					"items" : [ "blabla_test1.aif", ",", "LI-clingViolin-12.aif", ",", "perc_FM_monotone.2.wav", ",", "PIANO String ball rolls contact mic TP FREE.wav", ",", "sax_mat__chirp01.wav", ",", "smoris.wav", ",", "stitch.wav", ",", "Tabla Ke Vel_8.wav", ",", "Wind4 DNZ.wav", ",", "yowam_&_tac.wav", ",", "z_guitoune.21.wav" ],
+					"items" : [ "22-electro_play_01_(stereo).aif", ",", "blabla_test1.aif", ",", "LI-clingViolin-12.aif", ",", "perc_FM_monotone.2.wav", ",", "PIANO String ball rolls contact mic TP FREE.wav", ",", "sax_mat__chirp01.wav", ",", "smoris.wav", ",", "stitch.wav", ",", "Tabla Ke Vel_8.wav", ",", "Wind4 DNZ.wav", ",", "yowam_&_tac.wav", ",", "z_guitoune.21.wav" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,

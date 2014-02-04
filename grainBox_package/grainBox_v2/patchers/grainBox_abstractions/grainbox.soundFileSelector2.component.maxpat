@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 50.0, 94.0, 640.0, 480.0 ],
+		"rect" : [ 50.0, 94.0, 649.0, 355.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,8 +36,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 371.0, 219.0, 197.0, 20.0 ],
-					"presentation_rect" : [ 368.0, 216.0, 0.0, 0.0 ],
+					"patching_rect" : [ 372.0, 283.0, 197.0, 20.0 ],
 					"text" : "soundFolderName-soundFileName"
 				}
 
@@ -49,8 +48,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 337.0, 217.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 334.0, 214.0, 0.0, 0.0 ]
+					"patching_rect" : [ 338.0, 281.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -63,7 +61,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 337.0, 125.0, 100.0, 20.0 ],
+					"patching_rect" : [ 338.0, 189.0, 100.0, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -77,7 +75,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 337.0, 159.0, 58.0, 20.0 ],
+					"patching_rect" : [ 338.0, 223.0, 58.0, 20.0 ],
 					"text" : "zl reg"
 				}
 
@@ -92,7 +90,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 337.0, 185.0, 142.0, 20.0 ],
+					"patching_rect" : [ 338.0, 249.0, 142.0, 20.0 ],
 					"text" : "sprintf symout %s-%s"
 				}
 
@@ -106,7 +104,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 217.0, 205.0, 20.0 ],
+					"patching_rect" : [ 60.0, 281.0, 205.0, 20.0 ],
 					"text" : "output full path to selected sound file"
 				}
 
@@ -118,7 +116,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 215.0, 25.0, 25.0 ]
+					"patching_rect" : [ 26.0, 279.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -131,7 +129,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 159.5, 160.5, 85.5, 18.0 ],
+					"patching_rect" : [ 160.5, 224.5, 85.5, 18.0 ],
 					"text" : "granulBuffers"
 				}
 
@@ -146,7 +144,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 144.5, 104.0, 92.0, 47.0 ],
+					"patching_rect" : [ 145.5, 168.0, 92.0, 47.0 ],
 					"text" : "j.parameter soundFolder @priority 1"
 				}
 
@@ -160,7 +158,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 25.0, 74.0, 258.0, 20.0 ],
+					"patching_rect" : [ 26.0, 138.0, 258.0, 20.0 ],
 					"text" : "t b l"
 				}
 
@@ -175,7 +173,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 185.0, 258.0, 20.0 ],
+					"patching_rect" : [ 26.0, 249.0, 258.0, 20.0 ],
 					"text" : "sprintf symout %ssoundFiles/%s/%s"
 				}
 
@@ -190,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.0, 104.0, 119.5, 33.0 ],
+					"patching_rect" : [ 26.0, 168.0, 119.5, 33.0 ],
 					"text" : "v grainbox.projectPath"
 				}
 
@@ -204,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 25.0, 48.0, 188.0, 20.0 ],
+					"patching_rect" : [ 26.0, 112.0, 188.0, 20.0 ],
 					"text" : "j.parameter soundFile @priority 2"
 				}
 
