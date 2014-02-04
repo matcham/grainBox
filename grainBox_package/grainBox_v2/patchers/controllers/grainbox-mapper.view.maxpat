@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 44.0, 1680.0, 960.0 ],
+		"rect" : [ 200.0, 68.0, 1280.0, 934.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,19 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 508.0, 6.0, 97.0, 20.0 ],
-					"text" : "print VIEW_INIT"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -329,13 +316,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-11",
-													"linecount" : 3,
+													"linecount" : 8,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 58.0, 471.0, 50.0, 45.0 ],
-													"text" : "amp pan pitch"
+													"patching_rect" : [ 58.0, 471.0, 50.0, 112.0 ],
+													"text" : "microphone/position.x microphone/position.y"
 												}
 
 											}
@@ -415,8 +402,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 173.75, 338.0, 192.0, 31.0 ],
-													"text" : "/grainBox/boxes/box.1/oscbank~.1"
+													"patching_rect" : [ 173.75, 338.0, 202.0, 18.0 ],
+													"text" : "/grainBox/boxes/box.4/dbapPlayer.1"
 												}
 
 											}
@@ -473,7 +460,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 64.0, 236.0, 192.0, 31.0 ],
-													"text" : "/grainBox/boxes/box.1/oscbank~.1/"
+													"text" : "/grainBox/boxes/box.4/dbapPlayer.1/"
 												}
 
 											}
@@ -555,7 +542,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 151.0, 98.0, 231.0, 31.0 ],
-													"text" : "/grainBox/boxes/box.1/oscbank~.1/mapper.1"
+													"text" : "/grainBox/boxes/box.4/dbapPlayer.1/mapper.1"
 												}
 
 											}
@@ -1342,7 +1329,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -2160,8 +2147,9 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-131",
-					"items" : "<empty>",
+					"items" : [ "/dbam", ",", "/grainBox", ",", "/grainBox/boxes", ",", "/grainBox/boxes/box.1", ",", "/grainBox/boxes/box.2", ",", "/grainBox/boxes/box.3", ",", "/grainBox/boxes/box.4", ",", "/grainBox/boxes/box.4/dbapPlayer.1", ",", "/grainBox/boxes/box.4/dbapPlayer.1/mapper.1", ",", "/grainBox/boxes/box.4/dbapPlayer.1/mapper.2", ",", "/sf.1", ",", "/sf.2", ",", "/sf.3", ",", "/sf.4", ",", "/sf.5", ",", "/sf.6" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2178,6 +2166,7 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
+					"hidden" : 1,
 					"id" : "obj-129",
 					"items" : "<empty>",
 					"maxclass" : "umenu",
@@ -2513,7 +2502,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 44.0, 261.666687, 18.0 ],
-					"text" : "/grainBox/boxes/box.4/dbapPlayer.1/mapper.4"
+					"text" : "/grainBox/boxes/box.4/dbapPlayer.1/mapper.1"
 				}
 
 			}
@@ -3159,9 +3148,8 @@
 				"box" : 				{
 					"fontname" : "Arial Bold",
 					"fontsize" : 10.0,
-					"hidden" : 1,
 					"id" : "obj-100",
-					"items" : [ "amp", ",", "pan", ",", "pitch" ],
+					"items" : [ "microphone/position.x", ",", "microphone/position.y" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5866,7 +5854,6 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints_with_curve" : [ 0.0, 0.0, 0, 0.0, 1.0, 1.0, 0, 0.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"domain" : 1.0,
@@ -6758,7 +6745,7 @@
 					"patching_rect" : [ 1394.0, 268.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.25, 0.0, 450.0, 595.0 ],
-					"text" : "/grainBox/boxes/box.4/dbapPlayer.1/mapper.4"
+					"text" : "/noModelAddress"
 				}
 
 			}
@@ -7205,15 +7192,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-127", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-75", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
@@ -8091,6 +8069,31 @@
 					"source" : [ "obj-97", 1 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.ui.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.view.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.remote.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.oscinstance.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.namespace.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
