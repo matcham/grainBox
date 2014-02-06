@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 2.0, 44.0, 446.0, 224.0 ],
+		"rect" : [ 4.0, 44.0, 446.0, 224.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2619,7 +2619,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 26.0, 458.0, 48.0, 29.0 ],
-													"text" : "1285 300"
+													"text" : "400 300"
 												}
 
 											}
@@ -2955,7 +2955,6 @@
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-32",
-																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
@@ -2984,7 +2983,7 @@
 																	"fontname" : "Verdana",
 																	"fontsize" : 10.0,
 																	"id" : "obj-30",
-																	"linecount" : 4,
+																	"linecount" : 3,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
@@ -4731,7 +4730,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.25, 254.5, 220.0, 45.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/"
+									"text" : "\"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/\""
 								}
 
 							}
@@ -4881,7 +4880,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 64.75, 55.0, 573.0, 18.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/"
+									"text" : "\"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/\""
 								}
 
 							}
@@ -6738,7 +6737,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-106",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -7131,7 +7129,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -7673,7 +7670,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-121",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -8104,7 +8100,6 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-120",
-									"linecount" : 3,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
@@ -9752,7 +9747,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-106",
-													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -9767,7 +9761,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-77",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -10250,7 +10243,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-77",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
@@ -12006,7 +11999,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 453.0, 44.0, 1048.0, 726.0 ],
+						"rect" : [ 454.0, 44.0, 1048.0, 726.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -15082,7 +15075,7 @@
 																	"outlettype" : [ "int", "", "" ],
 																	"parameter_enable" : 0,
 																	"patching_rect" : [ 65.0, 123.0, 168.0, 20.0 ],
-																	"prefix" : "FD1To:/",
+																	"prefix" : "Mac HD:/",
 																	"presentation" : 1,
 																	"presentation_rect" : [ 60.0, 255.0, 168.0, 20.0 ]
 																}
@@ -20538,8 +20531,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 681.0, 106.5, 25.0, 25.0 ],
-													"presentation_rect" : [ 687.0, 95.0, 0.0, 0.0 ]
+													"patching_rect" : [ 681.0, 106.5, 25.0, 25.0 ]
 												}
 
 											}
@@ -21127,8 +21119,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 706.0, 159.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 708.0, 156.0, 0.0, 0.0 ]
+													"patching_rect" : [ 706.0, 159.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -21924,7 +21915,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-17",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -24018,7 +24008,6 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-17",
-													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 0,
 													"numoutlets" : 1,
@@ -24512,7 +24501,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-13",
-									"items" : [ "mapper", ",", "random", ",", "stepSeq", ",", "enveloppe" ],
+									"items" : [ "mapper", ",", "random", ",", "stepSeq", ",", "enveloppe", ",", "mapper2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -26229,13 +26218,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"linecount" : 6,
+													"linecount" : 5,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 656.0, 193.5, 182.0, 72.0 ],
-													"text" : "read FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/project-files/1-testA-cuelist.xml"
+													"text" : "read \"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/project_template/project-files/1-testA-cuelist.xml\""
 												}
 
 											}
@@ -27299,7 +27288,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 177.0, 83.0, 50.0, 18.0 ],
-													"text" : "81"
+													"text" : "79"
 												}
 
 											}
@@ -33432,7 +33421,6 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-49",
-																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 4,
@@ -33451,7 +33439,6 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-48",
-																	"linecount" : 2,
 																	"maxclass" : "newobj",
 																	"numinlets" : 1,
 																	"numoutlets" : 4,
@@ -61361,8 +61348,8 @@
 									"id" : "obj-9",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 5,
-									"outlettype" : [ "", "", "", "", "" ],
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 32.0, 123.0, 479.0, 20.0 ],
 									"text" : "OSC-route /project /granul /navigation /QUNEO"
 								}
@@ -87121,7 +87108,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 102.0, 198.0, 241.0, 58.0 ],
-													"text" : "path FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/"
+													"text" : "path \"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/project_template/\""
 												}
 
 											}
@@ -88178,13 +88165,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-45",
-													"linecount" : 8,
+													"linecount" : 7,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 104.0, 111.0, 112.0 ],
-													"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/modules"
+													"text" : "\"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/project_template/modules\""
 												}
 
 											}
@@ -88556,13 +88543,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 7,
+									"linecount" : 6,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.75, 228.0, 117.5, 98.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/"
+									"text" : "\"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/project_template/\""
 								}
 
 							}
@@ -104295,13 +104282,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-7",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 186.0, 269.0, 465.0, 18.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/"
+									"text" : "\"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/\""
 								}
 
 							}
@@ -104407,13 +104393,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-33",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 122.0, 129.0, 514.0, 18.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/"
+									"text" : "\"Mac HD:/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/\""
 								}
 
 							}
@@ -105700,165 +105685,157 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
-			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
-			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
-			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
 			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
-			"obj-31::obj-57" : [ "tab[1]", "tab", 0 ],
+			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
+			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ],
 			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
+			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
+			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
 			"obj-45::obj-33" : [ "toggle", "toggle", 0 ],
-			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ]
+			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
+			"obj-31::obj-57" : [ "tab[1]", "tab", 0 ],
+			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "Mu.LemurHost.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/Lemur_abstractions",
+				"patcherrelativepath" : "./Lemur_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.api.SaveString.maxpat",
 				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/patches/m4l-patches/LiveAPI resources/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "box2D-shape.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/box2d/Max_patches/_max5_patches/b2d.abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/box2d/Max_patches/_max5_patches/b2d.abstractions",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/b2d_abstractions",
+				"patcherrelativepath" : "./b2d_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "box2D-body.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/box2d/Max_patches/_max5_patches/b2d.abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/box2d/Max_patches/_max5_patches/b2d.abstractions",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/b2d_abstractions",
+				"patcherrelativepath" : "./b2d_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "box2D-world.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/box2d/Max_patches/_max5_patches/b2d.abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/box2d/Max_patches/_max5_patches/b2d.abstractions",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/b2d_abstractions",
+				"patcherrelativepath" : "./b2d_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "globalvar.js",
 				"bootpath" : "/Applications/Max 6.1/examples/javascript/patcher-scripting",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/javascript/patcher-scripting",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/javascript/patcher-scripting",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-boxes-pool.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/box_module",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/box_module",
 				"patcherrelativepath" : "./box_module",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-box.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/box_module",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/box_module",
 				"patcherrelativepath" : "./box_module",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-simpleModule.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
 				"patcherrelativepath" : "./modules/simpleModule",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-controllers.abs.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
 				"patcherrelativepath" : "./grainBox_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-simpleSynth.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
 				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-mapper.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/controllers",
 				"patcherrelativepath" : "./controllers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-getSourceValue.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/controllers",
 				"patcherrelativepath" : "./controllers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-simpleSynth.poly~.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
 				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox.empty.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox.emptyController.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox-box.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/box_module",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/box_module",
 				"patcherrelativepath" : "./box_module",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "j.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/packages/Jamoma/patchers/components/list2parameter",
+				"bootpath" : "/Users/jln/@Jamoma/Implementations/Max/Jamoma/patchers/components/list2parameter",
+				"patcherrelativepath" : "../../../../../@Jamoma/Implementations/Max/Jamoma/patchers/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "grainbox.polyWaveform.js",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/code",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Mu.lemurClient.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions/Tools",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Stantum/M4L/Lemur-M4L/Mu 1.2/Resources/Abstractions/Tools",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/Lemur_abstractions",
+				"patcherrelativepath" : "./Lemur_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "LemurLoader.mxo",
-				"type" : "iLaX"
 			}
 , 			{
 				"name" : "box2d.mxo",
@@ -105874,10 +105851,6 @@
 			}
 , 			{
 				"name" : "j.return.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "aka.leapmotion.mxo",
 				"type" : "iLaX"
 			}
 , 			{
