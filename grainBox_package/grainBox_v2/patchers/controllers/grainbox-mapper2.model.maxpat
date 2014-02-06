@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 166.0, 172.0, 1226.0, 740.0 ],
+		"rect" : [ 1714.0, 84.0, 1226.0, 740.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 396.0, 273.5, 136.0, 20.0 ],
+					"text" : "combine /model /param"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -136,7 +150,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 870.0, 219.0, 152.0, 100.0 ],
+					"patching_rect" : [ 870.0, 219.0, 154.0, 100.0 ],
 					"text" : "j.parameter ramp/time @type integer @value/default 0. @description \"Set ramping function time\" @priority 3 @range/bounds 0 1000 @range/clipmode low"
 				}
 
@@ -955,7 +969,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.5, 76.0, 138.0, 18.0 ],
-					"text" : "/box.4/dbapPlayer.1"
+					"text" : "/#3/#2"
 				}
 
 			}
@@ -1022,6 +1036,16 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 405.5, 431.5, 370.5, 431.5 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -1118,20 +1142,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
+					"source" : [ "obj-21", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
+					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 405.5, 431.5, 370.5, 431.5 ],
-					"source" : [ "obj-21", 1 ]
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1397,6 +1420,42 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "grainbox-getSourceValue.maxpat",
+				"bootpath" : "/Users/jln/@dev/@watchlist/grainBox_package/grainBox_v2/patchers/controllers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.send.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
