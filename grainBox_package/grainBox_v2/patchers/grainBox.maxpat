@@ -32,7 +32,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"items" : [ "-1-granubuf-basic_test", ",", "-2-SFplayer-test", ",", "-3-sampleScrubber-test", ",", "-4-mixer3D-groove_test", ",", "-5-grainCloud3D_test", ",", "-5-granuBuf-multiT_stereo_test", ",", "-6-mooovator_test", ",", "-Bestiaire", ",", "-Espacializator_test", ",", "-Niopa2", ",", "-NiopaOld", ",", "-PVOC(16384)test", ",", "-Rock1", ",", "-test_PVOC?", ",", "60_Etages", ",", "De_l'air", ",", "Eaux_vive", ",", "Niopa", ",", "On_Sonne", ",", "oZoooo", ",", "Petite_boite", ",", "Spectrons", ",", "Synchronicity", ",", "Voix_la" ],
+					"items" : [ "1-testA", ",", "2-plenty" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -12075,7 +12075,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -53.0, 464.0, 50.0, 18.0 ],
-									"text" : "box.2"
+									"text" : "box.1"
 								}
 
 							}
@@ -12110,7 +12110,7 @@
 									"patching_rect" : [ -65.0, 170.5, 74.0, 249.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.75, 25.0, 149.25, 695.0 ],
-									"rows" : 3,
+									"rows" : 2,
 									"selmode" : 3
 								}
 
@@ -15136,7 +15136,7 @@
 																	"fontsize" : 12.0,
 																	"framecolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
 																	"id" : "obj-3",
-																	"items" : [ "LIGHTs", ",", "LIGHTs/cadre1", ",", "LIGHTs/cadre2", ",", "LIGHTs/cadre3", ",", "grainBox", ",", "grainBox/boxes", ",", "grainBox/boxes/box.2", ",", "grainBox/boxes/box.2/mixer3D-auto-groove(mono+moogFilter).1", ",", "grainBox/boxes/box.2/mixer3D-auto-groove(mono+moogFilter).1/mapper.1", ",", "grainBox/boxes/box.2/mixer3D-auto-groove(mono+moogFilter).1/mapper.2", ",", "grainBox/boxes/box.4", ",", "grainBox/boxes/box.4/grainCould3D.1", ",", "grainBox/boxes/box.4/grainCould3D.1/mapper.1", ",", "grainBox/boxes/box.4/grainCould3D.1/mapper.2", ",", "grainBox/boxes/box.4/grainCould3D.1/mapper.3", ",", "grainBox/boxes/box.4/grainCould3D.1/mapper.4", ",", "grainBox/boxes/box.4/grainCould3D.1/mapper.5", ",", "grainBox/boxes/box.4/grainCould3D.1/mapper.6", ",", "grainBox/boxes/box.5", ",", "grainBox/boxes/box.5/bufgranul-multiT_stereo.1", ",", "grainBox/boxes/box.5/bufgranul-multiT_stereo.1/mapper.1", ",", "grainBox/boxes/box.5/bufgranul-multiT_stereo.1/mapper.2" ],
+																	"items" : [ "LIGHTs", ",", "LIGHTs/cadre1", ",", "LIGHTs/cadre2", ",", "LIGHTs/cadre3", ",", "grainBox", ",", "grainBox/boxes", ",", "grainBox/boxes/box.1", ",", "grainBox/boxes/box.1/simpleSynth.1", ",", "grainBox/boxes/box.1/simpleSynth.1/mapper.1", ",", "grainBox/boxes/box.1/simpleSynth.1/mapper.2", ",", "grainBox/boxes/box.2", ",", "grainBox/boxes/box.2/simpleModule.1" ],
 																	"maxclass" : "umenu",
 																	"numinlets" : 1,
 																	"numoutlets" : 3,
@@ -21239,13 +21239,12 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 118.0, 439.0, 382.0, 18.0 ],
-													"text" : "/grainBox/boxes/box.2/mixer3D-auto-groove(mono+moogFilter).1/mapper.1"
+													"text" : "/grainBox/boxes/box.1/simpleSynth.1/mapper.1"
 												}
 
 											}
@@ -22042,13 +22041,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-7",
-													"linecount" : 4,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 482.0, 200.0, 130.0, 31.0 ],
-													"text" : "box.2::mixer3D-auto-groove(mono+moogFilter)::1 dictionary u072002367"
+													"text" : "box.1::simpleSynth::1 dictionary u537007571"
 												}
 
 											}
@@ -22260,13 +22259,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-37",
-													"linecount" : 4,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 816.75, 180.0, 134.0, 45.0 ],
-													"text" : "get box.2::mixer3D-auto-groove(mono+moogFilter)::1"
+													"text" : "get box.1::simpleSynth::1"
 												}
 
 											}
@@ -23122,13 +23121,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-21",
-													"linecount" : 6,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 278.0, 421.0, 56.0, 85.0 ],
-													"text" : "symbol mixer3D-auto-groove(mono+moogFilter).1"
+													"patching_rect" : [ 278.0, 421.0, 56.0, 45.0 ],
+													"text" : "symbol simpleSynth.1"
 												}
 
 											}
@@ -24378,7 +24377,7 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-35",
-													"items" : [ "box.4", ",", "box.2", ",", "box.5" ],
+													"items" : [ "box.1", ",", "box.2" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -24941,7 +24940,7 @@
 									"fontname" : "Arial Bold",
 									"fontsize" : 10.0,
 									"id" : "obj-18",
-									"items" : [ "simpleSynth", ",", "oscbank~", ",", "simpleModule", ",", "3Dmixer", ",", "bufgranul-multiT", ",", "bufgranul-multiT_stereo", ",", "Espacializator", ",", "Espacializator_folder", ",", "grainCould3D", ",", "granubuf-basic", ",", "Lights", ",", "loopPlayer(pan6)", ",", "loopPlayer(st)", ",", "mixer3D-auto-groove", ",", "mixer3D-auto-groove(mono+moogFilter)", ",", "mixer3D-wave", ",", "mixer3D-wave(moogFilter)", ",", "mooovator", ",", "PVOCplayer(16384|4)", ",", "PVOCplayer(2048|4)", ",", "sampleScrubber", ",", "SFplayer", ",", "SFplayer(pan6)", ",", "synchronicity" ],
+									"items" : [ "simpleSynth", ",", "oscbank~", ",", "simpleModule" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -25140,7 +25139,6 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"tabs" : [ "mapper.1", "mapper.2" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -25155,9 +25153,9 @@
 									"name" : "grainbox.empty.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 86.0, 170.5, 450.0, 420.0 ],
+									"patching_rect" : [ 86.0, 170.5, 300.0, 105.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 155.0, 120.0, 450.0, 420.0 ],
+									"presentation_rect" : [ 155.0, 120.0, 300.0, 105.0 ],
 									"varname" : "moduleView"
 								}
 
@@ -25188,7 +25186,6 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"tabs" : [ "mixer3D-auto-groove(mono+moogFilter).1" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -25206,7 +25203,7 @@
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 16.5, 178.75, 42.0, 237.5 ],
-									"tabs" : [ "box.4", "box.2", "box.5" ]
+									"tabs" : [ "box.1", "box.2" ]
 								}
 
 							}
@@ -26782,13 +26779,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-14",
-													"linecount" : 5,
+													"linecount" : 6,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 656.0, 193.5, 182.0, 72.0 ],
-													"text" : "read FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/project-files/-Bestiaire-cuelist.xml"
+													"text" : "read FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/project-files/1-testA-cuelist.xml"
 												}
 
 											}
@@ -27161,7 +27158,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 120.0, 58.5, 52.0, 18.0 ],
-													"text" : "box.5"
+													"text" : "box.2"
 												}
 
 											}
@@ -27678,13 +27675,13 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"id" : "obj-3",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"id" : "obj-4",
+													"maxclass" : "message",
+													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 104.0, 113.0, 253.0, 20.0 ],
-													"text" : "loadmess refer grainbox.boxes-names"
+													"patching_rect" : [ 226.0, 68.0, 160.0, 18.0 ],
+													"text" : "refer grainbox.boxes-names"
 												}
 
 											}
@@ -27698,8 +27695,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "list", "", "", "" ],
-													"patching_rect" : [ 104.0, 176.0, 200.0, 200.0 ],
-													"rows" : 3
+													"patching_rect" : [ 226.0, 104.0, 200.0, 200.0 ],
+													"rows" : 2
 												}
 
 											}
@@ -27727,7 +27724,7 @@
 													"destination" : [ "obj-2", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-3", 0 ]
+													"source" : [ "obj-4", 0 ]
 												}
 
 											}
@@ -27852,7 +27849,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 177.0, 83.0, 50.0, 18.0 ],
-													"text" : "356"
+													"text" : "150"
 												}
 
 											}
@@ -28645,7 +28642,7 @@
 													"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"border" : 0,
 													"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"celldef" : [ [ 0, 0, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 1, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 2, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 3, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 4, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 5, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 6, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 7, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 8, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 9, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 10, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 11, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 12, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 13, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 14, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 15, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 16, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 17, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 18, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 19, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 20, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 21, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ] ],
+													"celldef" : [ [ 0, 0, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 1, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 2, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 3, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 4, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 5, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 6, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 7, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 8, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 9, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 10, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ], [ 0, 11, 0, 1, 0.0, 0.0, 0.0, 1.0, 0, 0.619608, 0.0, 0.360784, 1.0, -1, -1, -1 ] ],
 													"cols" : 1,
 													"colwidth" : 200,
 													"fgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
@@ -28665,7 +28662,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 18.0, 102.0, 184.0, 211.0 ],
 													"rowheight" : 20,
-													"rows" : 22,
+													"rows" : 12,
 													"sccolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"selmode" : 3,
 													"sgcolor" : [ 0.619608, 0.0, 0.360784, 0.701961 ],
@@ -30714,6 +30711,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -30750,6 +30748,7 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -30820,6 +30819,7 @@
 														"mouse" : 														{
 															"position_box" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
 															"position_screen" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
+															"position_world" : [ "x", "y", "z" ],
 															"velocity" : [ "speed", "x", "y", "z" ],
 															"cursors" : [ "count", "state (add:1 update:0.5 remove:0)" ],
 															"random" : [ "once (generate a random value between 0. and 1. on cursor add)", "onUpdate (generate a random value between 0. and 1. on each cursor update)" ]
@@ -40088,7 +40088,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 695.0, 443.0, 75.0, 31.0 ],
-													"text" : "remove box.4::0"
+													"text" : "remove box.1::0"
 												}
 
 											}
@@ -40170,7 +40170,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 24.5, 843.5, 86.0, 31.0 ],
-													"text" : "box.4 0 mouse"
+													"text" : "box.1 0 mouse"
 												}
 
 											}
@@ -40550,7 +40550,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1034.0, 736.0, 50.0, 18.0 ],
-													"text" : "box.4"
+													"text" : "box.1"
 												}
 
 											}
@@ -43143,7 +43143,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 598.0, 106.0, 37.0 ],
-													"text" : "removeCursor 0 -4.157564 0.700151 0.5 mouse"
+													"text" : "removeCursor 0 -0.036675 -0.28006 0.5 mouse"
 												}
 
 											}
@@ -43166,13 +43166,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 9.0,
 													"id" : "obj-12",
-													"linecount" : 4,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 939.0, 520.0, 50.0, 48.0 ],
-													"text" : "0.040467 0.123333"
+													"patching_rect" : [ 939.0, 520.0, 50.0, 26.0 ],
+													"text" : "0.49572 0.64"
 												}
 
 											}
@@ -43211,7 +43211,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 583.0, 198.0, 50.0, 15.0 ],
-													"text" : "1"
+													"text" : "0"
 												}
 
 											}
@@ -43320,7 +43320,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 428.0, 40.0, 322.0, 15.0 ],
-													"text" : "-3.937516 0.753496 0 1 0 0 0 0"
+													"text" : "-0.036675 -0.28006 0 0 0 0 0 0"
 												}
 
 											}
@@ -48174,7 +48174,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 572.0, 119.0, 147.0, 45.0 ],
-																	"text" : "0 -4.157564 0.700151 0.5 mouse"
+																	"text" : "0 -0.036675 -0.28006 0.5 mouse"
 																}
 
 															}
@@ -62048,14 +62048,14 @@
 					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-32",
-					"linecount" : 6,
+					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 466.791656, 138.125, 46.666687, 100.0 ],
+					"patching_rect" : [ 466.791656, 138.125, 46.666687, 69.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 214.5, 52.25, 207.0, 22.0 ],
-					"text" : "_Apertures_grainBox_project",
+					"text" : "project_template",
 					"textcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 					"textjustification" : 1
 				}
@@ -87556,7 +87556,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 52.0, 735.0, 130.0, 18.0 ],
-									"text" : "-Bestiaire"
+									"text" : "1-testA"
 								}
 
 							}
@@ -87869,7 +87869,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 167.0, 603.0, 217.0, 18.0 ],
-									"text" : "-Bestiaire"
+									"text" : "1-testA"
 								}
 
 							}
@@ -89165,13 +89165,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-45",
-													"linecount" : 6,
+													"linecount" : 8,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 104.0, 111.0, 112.0 ],
-													"text" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules"
+													"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/modules"
 												}
 
 											}
@@ -89543,13 +89543,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-27",
-									"linecount" : 9,
+									"linecount" : 12,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 8.75, 228.0, 65.5, 165.0 ],
-									"text" : "FD1To:/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/"
+									"text" : "FD1To:/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/project_template/"
 								}
 
 							}
@@ -96247,7 +96247,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 264.0, 218.0, 193.0, 58.0 ],
-													"text" : "box.4 Sbox.4 poly 2.767264 -0.006668 4 1.437264 -1.006668 4.097264 -1.006668 4.097264 0.993332 1.437264 0.993332"
+													"text" : "box.1 Sbox.1 poly -0.55688 -0.238341 4 -1.05688 -0.738341 -0.05688 -0.738341 -0.05688 0.261659 -1.05688 0.261659"
 												}
 
 											}
@@ -102911,12 +102911,13 @@
 													"fontname" : "Verdana",
 													"fontsize" : 9.0,
 													"id" : "obj-22",
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 342.0, 288.0, 86.0, 15.0 ],
-													"text" : "-2.63 0. 0."
+													"text" : "-0.55688 -0.238341 0."
 												}
 
 											}
@@ -106795,9 +106796,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-bufgranul-multiT_stereo.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/bufgranul-multiT_stereo",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/bufgranul-multiT_stereo",
+				"name" : "grainbox-simpleModule.model.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleModule",
+				"patcherrelativepath" : "./modules/simpleModule",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -106805,6 +106806,13 @@
 				"name" : "grainbox-controllers.abs.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
 				"patcherrelativepath" : "./grainBox_abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "grainbox-simpleSynth.model.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
+				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -106823,79 +106831,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "apertures.pan1+2(st).component.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pan2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/spatialization/panning/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/spatialization/panning/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainbox-bufferComponent2.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
-				"patcherrelativepath" : "./grainBox_abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cubox.lemurClient.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Max_/mc_patches-max5/_box2d patches/cubox/_abstractions_",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Max_/mc_patches-max5/_box2d patches/cubox/_abstractions_",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "transratio.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/notes-and-pitch/pitch-to-freq-ratio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "apertures.ADSR+volume.component.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainbox-mixer3D-auto-groove(mono+moogFilter).model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/mixer3D-auto-groove(mono+moogFilter)",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/mixer3D-auto-groove(mono+moogFilter)",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainbox-mixer3D-auto-groove(mono+moogLadder).poly~.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/mixer3D-auto-groove(mono+moogFilter)",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/mixer3D-auto-groove(mono+moogFilter)",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "poly.moogladderx2.maxpat",
-				"bootpath" : "/Applications/Max 6.1/examples/gen",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/gen",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "apertures.pan1+2.component.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/abstractions",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "grainbox-grainCould3D.model.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Dropbox/_Apertures_/_Apertures_grainBox_project/modules/grainCould3D",
-				"patcherrelativepath" : "../../../../../../Dropbox/_Apertures_/_Apertures_grainBox_project/modules/grainCould3D",
+				"name" : "grainbox-simpleSynth.poly~.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
+				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -106990,10 +106928,6 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.dataspace.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.oscinstance.mxo",
 				"type" : "iLaX"
 			}
@@ -107002,23 +106936,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.panorama~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bufGranul~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "rand_dist_list~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.dbap.mxo",
+				"name" : "j.dataspace.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.panorama~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
