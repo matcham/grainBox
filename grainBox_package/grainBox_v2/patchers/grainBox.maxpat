@@ -21230,7 +21230,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 484.0, 270.0, 218.083313, 31.0 ],
-													"text" : "script sendbox controllerView name grainbox.emptyController.view"
+													"text" : "script sendbox controllerView name grainbox-mapper.view"
 												}
 
 											}
@@ -22047,7 +22047,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 482.0, 200.0, 130.0, 31.0 ],
-													"text" : "box.1::simpleSynth::1 dictionary u537007571"
+													"text" : "box.1::simpleSynth::1 dictionary u373015702"
 												}
 
 											}
@@ -25022,7 +25022,7 @@
 									"border" : 1,
 									"id" : "obj-17",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox.emptyController.view.maxpat",
+									"name" : "grainbox-mapper.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 678.0, 322.0, 450.0, 595.0 ],
@@ -25139,6 +25139,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+									"tabs" : [ "mapper.1", "mapper.2" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -25150,9 +25151,10 @@
 									"border" : 1,
 									"id" : "obj-6",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox.empty.view.maxpat",
+									"name" : "grainbox-simpleSynth.view.maxpat",
 									"numinlets" : 1,
-									"numoutlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 86.0, 170.5, 300.0, 105.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 155.0, 120.0, 300.0, 105.0 ],
@@ -25186,6 +25188,7 @@
 									"prototypename" : "M4L.1",
 									"rounded" : 0.0,
 									"tabcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+									"tabs" : [ "simpleSynth.1" ],
 									"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ]
 								}
 
@@ -27849,7 +27852,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 177.0, 83.0, 50.0, 18.0 ],
-													"text" : "150"
+													"text" : "175"
 												}
 
 											}
@@ -30711,7 +30714,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -30748,7 +30750,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Arial",
@@ -30838,6 +30839,7 @@
 															"position_screen" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
 															"velocity" : [ "speed", "x", "y", "z" ],
 															"orientation" : [ "yaw", "pitch", "roll" ],
+															"ball" : [ "radius" ],
 															"fingers_position" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
 															"fingers_relativePosition" : [ "x", "y", "z", "angle (clockwise | starting @ noon)", "bound_distance (distance to closest border)", "cursorsCentroid_distance (distance to average position of all cursors)" ],
 															"fingers_velocity" : [ "speed", "x", "y", "z" ],
@@ -36068,7 +36070,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.5, 583.0, 102.0, 45.0 ],
-													"text" : "address /grainBox/boxes/box.5/pos"
+													"text" : "address /grainBox/boxes/box.6/pos"
 												}
 
 											}
@@ -36082,7 +36084,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 387.0, 602.0, 116.0, 18.0 ],
-													"text" : "-2.673362 0.480104"
+													"text" : "2.640569 0.000001"
 												}
 
 											}
@@ -36097,7 +36099,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 263.0, 684.0, 50.0, 58.0 ],
-													"text" : "2.666694 -0.073349"
+													"text" : "0.046676 -0.020004"
 												}
 
 											}
@@ -36816,7 +36818,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 73.5, 677.0, 50.0, 18.0 ],
-													"text" : "box.5"
+													"text" : "box.6"
 												}
 
 											}
@@ -37489,7 +37491,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 18.5, 40.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 -3.937516 0.753496 0.5 mouse"
+													"text" : "removeCursor 0 3.063995 -0.520112 0.5 mouse"
 												}
 
 											}
@@ -40088,7 +40090,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 695.0, 443.0, 75.0, 31.0 ],
-													"text" : "remove box.1::0"
+													"text" : "remove box.2::1040"
 												}
 
 											}
@@ -40164,13 +40166,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-62",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 24.5, 843.5, 86.0, 31.0 ],
-													"text" : "box.1 0 mouse"
+													"text" : "box.1 1076 leapMotion_finger"
 												}
 
 											}
@@ -40349,7 +40351,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 109.0, 499.0, 151.0, 18.0 ],
-													"text" : "set box.2::0[0] update"
+													"text" : "set box.2::1090[0] update"
 												}
 
 											}
@@ -43143,7 +43145,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 101.0, 598.0, 106.0, 37.0 ],
-													"text" : "removeCursor 0 -0.036675 -0.28006 0.5 mouse"
+													"text" : "removeCursor 0 1.14358 -0.780168 0.5 mouse"
 												}
 
 											}
@@ -43172,7 +43174,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 939.0, 520.0, 50.0, 26.0 ],
-													"text" : "0.49572 0.64"
+													"text" : "0.857588 0.76"
 												}
 
 											}
@@ -43211,7 +43213,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 583.0, 198.0, 50.0, 15.0 ],
-													"text" : "0"
+													"text" : "1"
 												}
 
 											}
@@ -43264,7 +43266,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 428.0, 591.0, 262.0, 15.0 ],
-													"text" : "removeCursor 0 -3.937516 0.753496 0.5 mouse"
+													"text" : "removeCursor 0 3.063995 -0.520112 0.5 mouse"
 												}
 
 											}
@@ -43320,7 +43322,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 428.0, 40.0, 322.0, 15.0 ],
-													"text" : "-0.036675 -0.28006 0 0 0 0 0 0"
+													"text" : "3.063995 -0.520112 0 1 0 0 0 0"
 												}
 
 											}
@@ -44906,7 +44908,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 1209.0, 1161.0, 50.0, 18.0 ],
-													"text" : "noBody"
+													"text" : "box.2"
 												}
 
 											}
@@ -48168,13 +48170,13 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
 																	"id" : "obj-57",
-																	"linecount" : 2,
+																	"linecount" : 3,
 																	"maxclass" : "message",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 572.0, 119.0, 147.0, 45.0 ],
-																	"text" : "0 -0.036675 -0.28006 0.5 mouse"
+																	"text" : "1040 0.41587 -0.159744 0.025675 leapMotion_hand"
 																}
 
 															}
@@ -60037,7 +60039,7 @@
 , 											{
 												"box" : 												{
 													"bordercolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-													"cols" : 1,
+													"cols" : 3,
 													"colwidth" : 60,
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -106728,15 +106730,15 @@
  ],
 		"parameters" : 		{
 			"obj-11::obj-1::obj-8" : [ "auto-manual", "auto-manual", 0 ],
-			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ],
-			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
-			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
 			"obj-11::obj-1::obj-13" : [ "lemur_port[1]", "lemur_port", 2 ],
 			"obj-11::obj-1::obj-25" : [ "live.drop[1]", "live.drop", 1 ],
-			"obj-45::obj-33" : [ "toggle", "toggle", 0 ],
+			"obj-31::obj-40" : [ "textbutton", "textbutton", 0 ],
+			"obj-11::obj-1::obj-43" : [ "manual-IP", "manual-IP", 2 ],
 			"obj-11::obj-1::obj-51" : [ "autoSendJZML", "autoSendJZML", 0 ],
+			"obj-45::obj-33" : [ "toggle", "toggle", 0 ],
 			"obj-11::obj-1::obj-19::obj-7" : [ "saved-string", "saved-string", 0 ],
-			"obj-31::obj-57" : [ "tab[1]", "tab", 0 ]
+			"obj-31::obj-57" : [ "tab[1]", "tab", 0 ],
+			"obj-31::obj-3" : [ "textbutton[1]", "textbutton[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -106838,16 +106840,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox.empty.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules",
-				"patcherrelativepath" : "./modules",
+				"name" : "grainbox-simpleSynth.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
+				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox.emptyController.view.maxpat",
-				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules",
-				"patcherrelativepath" : "./modules",
+				"name" : "grainbox-mapper.view.maxpat",
+				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
+				"patcherrelativepath" : "./controllers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -106956,11 +106965,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.view.mxo",
+				"name" : "j.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "j.view.mxo",
 				"type" : "iLaX"
 			}
  ]

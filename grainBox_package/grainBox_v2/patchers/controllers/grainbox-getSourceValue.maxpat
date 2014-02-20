@@ -31,13 +31,27 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 473.0, 365.0, 51.0, 18.0 ],
+					"presentation_rect" : [ 456.5, 365.0, 0.0, 0.0 ],
+					"text" : "radius"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-8",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 451.5, 338.0, 83.0, 18.0 ],
-					"presentation_rect" : [ 606.166687, 387.0, 0.0, 0.0 ],
 					"text" : "positionWorld"
 				}
 
@@ -3202,10 +3216,10 @@
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 13,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"numoutlets" : 14,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 202.0, 484.0, 167.0, 20.0 ],
-					"text" : "gate 13"
+					"text" : "gate 14"
 				}
 
 			}
@@ -3258,11 +3272,11 @@
 					"id" : "obj-109",
 					"linecount" : 2,
 					"maxclass" : "newobj",
-					"numinlets" : 5,
-					"numoutlets" : 5,
-					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+					"numinlets" : 6,
+					"numoutlets" : 6,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "bang", "" ],
 					"patching_rect" : [ 336.5, 268.0, 172.333374, 33.0 ],
-					"text" : "sel position_screen velocity orientation position_world"
+					"text" : "sel position_screen velocity orientation position_world ball"
 				}
 
 			}
@@ -3351,10 +3365,10 @@
 					"id" : "obj-83",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 13,
-					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 32.0, 222.0, 826.272705, 20.0 ],
-					"text" : "gate 13"
+					"numoutlets" : 14,
+					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
+					"patching_rect" : [ 32.0, 222.0, 872.272705, 20.0 ],
+					"text" : "gate 14"
 				}
 
 			}
@@ -3377,7 +3391,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-79",
-					"items" : [ "position_box", ",", "position_screen", ",", "velocity", ",", "orientation", ",", "cursors", ",", "fingers_position", ",", "fingers_relativePosition", ",", "fingers_velocity", ",", "fingers_direction", ",", "fingers_length", ",", "blobs_descriptors", ",", "random", ",", "position_world" ],
+					"items" : [ "position_box", ",", "position_screen", ",", "velocity", ",", "orientation", ",", "cursors", ",", "fingers_position", ",", "fingers_relativePosition", ",", "fingers_velocity", ",", "fingers_direction", ",", "fingers_length", ",", "blobs_descriptors", ",", "random", ",", "position_world", ",", "ball" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -5480,6 +5494,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-109", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -5556,6 +5579,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-118", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-118", 13 ]
 				}
 
 			}
@@ -5675,6 +5707,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 208.0, 889.0, 90.0, 889.0 ],
 					"source" : [ "obj-19", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-78", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -6155,6 +6196,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-83", 11 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-76", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-83", 13 ]
 				}
 
 			}
