@@ -4,17 +4,17 @@
   <flag name="description">none</flag>
   <!---->
   <script address="box.1">
-   <command address="angle">0.000000</command>
-   <command address="shape">0</command>
+   <command address="rotatexyz">0.000000 0.000000 0.000000</command>
+   <command address="shape">cube</command>
    <command address="pos">-0.556880 -0.238341</command>
-   <command address="size">1.000000 1.000000</command>
+   <command address="scale">1.000000 1.000000 1.000000</command>
    <command address="color">0.164880 0.790675 0.316772 1.000000</command>
    <command address="cursorType">mouse</command>
    <command address="name">box.1 bonjour</command>
    <!---->
    <script address="simpleSynth.1">
-    <command address="amp">0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062 0.081062</command>
-    <command address="freq">1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604 1783.644604</command>
+    <command address="amp">0.323994</command>
+    <command address="freq">4625.691846</command>
     <!---->
     <script address="mapper.1">
      <command address="cursorType">mouse</command>
@@ -66,10 +66,10 @@
   </script>
   <!---->
   <script address="box.2">
-   <command address="angle">0.000000</command>
-   <command address="shape">0</command>
+   <command address="rotatexyz">0.000000 0.000000 0.000000</command>
+   <command address="shape">cube</command>
    <command address="pos">0.560212 0.033341</command>
-   <command address="size">1.000000 1.000000</command>
+   <command address="scale">1.000000 1.000000 1.000000</command>
    <command address="color">1.000000 1.000000 1.000000 0.500000</command>
    <command address="cursorType">mouse</command>
    <command address="name">box.2 poum paf</command>

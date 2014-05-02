@@ -4,18 +4,19 @@
   <flag name="description">none</flag>
   <!---->
   <script address="box.1">
-   <command address="angle">0.000000</command>
-   <command address="shape">0</command>
+   <command address="rotatexyz">0.000000 0.000000 0.000000</command>
+   <command address="shape">cube</command>
    <command address="pos">-0.556880 -0.238341</command>
-   <command address="size">1.000000 1.000000</command>
+   <command address="scale">1.000000 1.000000 1.000000</command>
    <command address="color">0.164880 0.790675 0.316772 1.000000</command>
-   <command address="cursorType">mouse</command>
+   <command address="cursorType">leapMotion_finger</command>
    <command address="name">box.1 bonjour</command>
    <!---->
    <script address="oscbank~.1">
-    <command address="amp">0.105115 0.105115 0.105115 0.105115 0.105115 0.105115</command>
+    <command address="amp">0.196129 0.196129</command>
     <!---->
     <script address="mapper.1">
+     <command address="cursorType">leapMotion_finger</command>
      <command address="mode">local</command>
      <command address="destination">pitch</command>
      <command address="sourceMenu1">position_box</command>
@@ -38,6 +39,7 @@
     </script>
     <!---->
     <script address="mapper.2">
+     <command address="cursorType">leapMotion_finger</command>
      <command address="mode">local</command>
      <command address="destination">amp</command>
      <command address="sourceMenu1">position_box</command>
@@ -59,17 +61,17 @@
      </script>
     </script>
     <command address="pan">0.000000</command>
-    <command address="pitch">96.126775 96.126775 96.126775 96.126775 96.126775 96.126775</command>
+    <command address="pitch">109.664299 109.664299</command>
    </script>
   </script>
   <!---->
   <script address="box.2">
-   <command address="angle">0.000000</command>
-   <command address="shape">0</command>
-   <command address="pos">0.560212 0.033341</command>
-   <command address="size">1.000000 1.000000</command>
+   <command address="rotatexyz">0.000000 0.000000 -17.000000</command>
+   <command address="shape">cube</command>
+   <command address="pos">1.100000 0.033341 0.000000</command>
+   <command address="scale">0.760000 1.000000 1.000000</command>
    <command address="color">1.000000 1.000000 1.000000 0.500000</command>
-   <command address="cursorType">mouse</command>
+   <command address="cursorType">leapMotion_finger</command>
    <command address="name">box.2 poum paf</command>
    <!---->
    <script address="simpleModule.1">

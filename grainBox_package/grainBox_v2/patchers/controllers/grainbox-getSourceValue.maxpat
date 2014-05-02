@@ -50,7 +50,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 451.5, 338.0, 83.0, 18.0 ],
+					"patching_rect" : [ 451.5, 338.0, 87.0, 18.0 ],
 					"text" : "positionWorld"
 				}
 
@@ -3527,7 +3527,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "float" ],
 													"patching_rect" : [ 336.75, 135.0, 47.333374, 20.0 ],
-													"presentation_rect" : [ 302.75, 136.0, 0.0, 0.0 ],
 													"text" : "!- 1."
 												}
 
@@ -4037,7 +4036,6 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "bang", "" ],
 													"patching_rect" : [ 198.0, 316.0, 100.0, 20.0 ],
-													"presentation_rect" : [ 308.0, 270.0, 0.0, 0.0 ],
 													"text" : "sel cube sphere"
 												}
 

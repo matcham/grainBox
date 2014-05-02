@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 99.0, 362.0, 640.0, 480.0 ],
+		"rect" : [ 99.0, 362.0, 820.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -87,23 +87,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 454.0, 264.0, 57.0, 18.0 ],
-					"text" : "enable 0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-32",
-					"linecount" : 4,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 562.0, 246.0, 50.0, 58.0 ],
-					"text" : "-0.814621 -0.26445 0.5"
+					"patching_rect" : [ 454.0, 264.0, 151.0, 18.0 ],
+					"text" : "enable 0, name #0_name\n"
 				}
 
 			}
@@ -270,7 +255,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 104.0, 207.0, 134.0, 20.0 ],
+					"patching_rect" : [ 104.0, 80.0, 134.0, 20.0 ],
 					"text" : "zl slice 1"
 				}
 
@@ -367,8 +352,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 104.0, 365.0, 486.0, 33.0 ],
-					"text" : "jit.phys.body @filterclass mouse @filters zone @name #0 @kinematic 1 @shape sphere @scale 0.001 0.001 0.001 @worldname grainBoxWorld @enable 0"
+					"patching_rect" : [ 104.0, 365.0, 547.0, 33.0 ],
+					"text" : "jit.phys.body @filterclass mouse @filters zone @name #0_name\n @kinematic 1 @shape sphere @scale 0.001 0.001 0.001 @worldname grainBoxWorld @enable 0"
 				}
 
 			}
@@ -382,10 +367,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 81.0, 3.0, 42.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "in 1"
 				}
 
@@ -620,15 +601,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-30", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -709,7 +681,8 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ]
 	}
 
 }
