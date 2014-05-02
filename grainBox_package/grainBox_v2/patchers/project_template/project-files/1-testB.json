@@ -1,0 +1,31 @@
+{
+	"box.1" : 	{
+		"bufgranul" : 		{
+
+		}
+,
+		"simpleSynth" : 		{
+
+		}
+,
+		"oscbank~" : 		{
+			"1" : 			{
+				"mapper" : 				{
+					"1" : "",
+					"2" : ""
+				}
+
+			}
+
+		}
+
+	}
+,
+	"box.2" : 	{
+		"simpleModule" : 		{
+			"1" : ""
+		}
+
+	}
+
+}
