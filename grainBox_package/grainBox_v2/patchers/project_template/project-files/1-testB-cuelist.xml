@@ -13,7 +13,7 @@
    <command address="name">box.1 bonjour</command>
    <!---->
    <script address="oscbank~.1">
-    <command address="amp">0.196129 0.196129</command>
+    <command address="amp">0.014411 0.012450 0.021906 0.007971 0.003223</command>
     <!---->
     <script address="mapper.1">
      <command address="cursorType">leapMotion_finger</command>
@@ -61,7 +61,7 @@
      </script>
     </script>
     <command address="pan">0.000000</command>
-    <command address="pitch">109.664299 109.664299</command>
+    <command address="pitch">101.581856 98.872905 104.412087 109.329153 94.633214</command>
    </script>
   </script>
   <!---->
@@ -80,17 +80,17 @@
   </script>
   <!---->
   <script address="box.3">
-   <command address="rotatexyz">0.000000 0.000000 0.000000</command>
-   <command address="shape">cube</command>
+   <command address="rotatexyz">-89.927582 7.029368 -1.145221</command>
+   <command address="shape">cone</command>
    <command address="pos">-0.428966 1.329374 0.013150</command>
-   <command address="scale">0.740000 0.490000 1.000000</command>
+   <command address="scale">0.920000 1.020000 1.020000</command>
    <command address="color">0.819434 0.358344 0.667229 1.000000</command>
    <command address="cursorType">mouse</command>
    <command address="name">box.3</command>
   </script>
   <!---->
   <script address="box.4">
-   <command address="rotatexyz">0.000000 0.000000 0.000000</command>
+   <command address="rotatexyz">6.481254 -4.162425 -1.466571</command>
    <command address="shape">cube</command>
    <command address="pos">-0.567370 -0.637077 0.000308</command>
    <command address="scale">1.000000 0.280000 1.000000</command>
@@ -99,7 +99,7 @@
    <command address="name">box.4 cycles</command>
    <!---->
    <script address="oscbank~.1">
-    <command address="amp">0.196129 0.196129</command>
+    <command address="amp">0.202167</command>
     <!---->
     <script address="mapper.1">
      <command address="cursorType">leapMotion_finger</command>
@@ -147,13 +147,13 @@
      </script>
     </script>
     <command address="pan">0.000000</command>
-    <command address="pitch">109.664299 109.664299</command>
+    <command address="pitch">114.780233</command>
    </script>
   </script>
   <!---->
   <script address="box.5">
    <command address="rotatexyz">0.000000 0.000000 0.000000</command>
-   <command address="shape">cube</command>
+   <command address="shape">sphere</command>
    <command address="pos">1.087883 0.033341 0.472561</command>
    <command address="scale">0.460000 0.460000 0.500000</command>
    <command address="color">1.000000 1.000000 1.000000 0.500000</command>
