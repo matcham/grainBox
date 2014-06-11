@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<jamoma version="0.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jamoma.org/ file:jamoma.xsd">
+ <cue name="init">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">128</command>
+   <command address="hue">0</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="hue">0</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">151</command>
+   <command address="saturation">87</command>
+   <command address="hue">66</command>
+  </script>
+ </cue>
+ <cue name="1-granubuf-basic_test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">126</command>
+   <command address="hue">168</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">140</command>
+   <command address="saturation">255</command>
+   <command address="hue">90</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">133</command>
+   <command address="saturation">201</command>
+   <command address="hue">8</command>
+  </script>
+ </cue>
+ <cue name="2-SFplayer-test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">132</command>
+   <command address="hue">207</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">121</command>
+   <command address="saturation">121</command>
+   <command address="hue">157</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">157</command>
+   <command address="saturation">201</command>
+   <command address="hue">49</command>
+  </script>
+ </cue>
+ <cue name="6-mooovator_test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">140</command>
+   <command address="saturation">255</command>
+   <command address="hue">90</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">126</command>
+   <command address="hue">168</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="hue">45</command>
+   <command address="saturation">201</command>
+   <command address="lightness">146</command>
+  </script>
+ </cue>
+ <cue name="4-mixer3D-groove_test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">126</command>
+   <command address="saturation">255</command>
+   <command address="hue">168</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">140</command>
+   <command address="hue">90</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">146</command>
+   <command address="saturation">201</command>
+   <command address="hue">45</command>
+  </script>
+ </cue>
+ <cue name="PVOC(16384)test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">126</command>
+   <command address="hue">168</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">140</command>
+   <command address="saturation">255</command>
+   <command address="hue">90</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">133</command>
+   <command address="saturation">201</command>
+   <command address="hue">8</command>
+  </script>
+ </cue>
+ <cue name="Espacializator_test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">121</command>
+   <command address="saturation">121</command>
+   <command address="hue">157</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">132</command>
+   <command address="hue">207</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="hue">49</command>
+   <command address="saturation">201</command>
+   <command address="lightness">157</command>
+  </script>
+ </cue>
+ <cue name="oZooooBOF">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">140</command>
+   <command address="saturation">255</command>
+   <command address="hue">90</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">126</command>
+   <command address="hue">168</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="hue">45</command>
+   <command address="saturation">201</command>
+   <command address="lightness">146</command>
+  </script>
+ </cue>
+ <cue name="Rock1">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">126</command>
+   <command address="saturation">255</command>
+   <command address="hue">168</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">140</command>
+   <command address="saturation">255</command>
+   <command address="hue">90</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">133</command>
+   <command address="saturation">201</command>
+   <command address="hue">8</command>
+  </script>
+ </cue>
+ <cue name="On_Sonne">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">22 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+   <command address="lightness">133</command>
+   <command address="saturation">253</command>
+   <command address="hue">36</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="saturation">158</command>
+   <command address="hue">149</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="white">0</command>
+   <command address="audio2gain-range">31 254</command>
+   <command address="lightness">13</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">27</command>
+   <command address="saturation">255</command>
+   <command address="hue">60</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="white">0</command>
+  </script>
+ </cue>
+ <cue name="Rock2">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">31 254</command>
+   <command address="lightness">128</command>
+   <command address="saturation">201</command>
+   <command address="hue">8</command>
+   <command address="audio2gain-enable">1</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">128</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">41 254</command>
+   <command address="hue">83</command>
+   <command address="saturation">255</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="hue">164</command>
+   <command address="audio2gain-range">29 254</command>
+  </script>
+ </cue>
+ <cue name="De_l'air">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">0</command>
+   <command address="audio2gain-range">51 254</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">73</command>
+   <command address="saturation">154</command>
+   <command address="hue">145</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="saturation">112</command>
+   <command address="hue">81</command>
+   <command address="white">0</command>
+   <command address="lightness">118</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">24 254</command>
+   <command address="white">0</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">59</command>
+   <command address="saturation">255</command>
+   <command address="hue">43</command>
+  </script>
+ </cue>
+ <cue name="3-sampleScrubber-test">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="hue">207</command>
+   <command address="saturation">255</command>
+   <command address="lightness">132</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="hue">157</command>
+   <command address="saturation">121</command>
+   <command address="lightness">121</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">157</command>
+   <command address="saturation">201</command>
+   <command address="hue">49</command>
+  </script>
+ </cue>
+ <cue name="Eaux_vive">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">0</command>
+   <command address="audio2gain-range">31 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">78</command>
+   <command address="saturation">204</command>
+   <command address="hue">119</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="saturation">255</command>
+   <command address="hue">147</command>
+   <command address="white">0</command>
+   <command address="lightness">75</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">24 254</command>
+   <command address="white">0</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">70</command>
+   <command address="saturation">167</command>
+   <command address="hue">176</command>
+  </script>
+ </cue>
+ <cue name="Niopa">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">24</command>
+   <command address="saturation">189</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="audio2gain-range">0 349</command>
+   <command address="hue">67</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="hue">43</command>
+   <command address="lightness">30</command>
+   <command address="saturation">152</command>
+   <command address="white">0</command>
+   <command address="audio2gain-range">0 255</command>
+   <command address="audio2gain-enable">0</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">179</command>
+   <command address="saturation">201</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">255</command>
+   <command address="audio2gain-range">48 705</command>
+   <command address="hue">44</command>
+  </script>
+ </cue>
+ <cue name="Petite_boite">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">108</command>
+   <command address="saturation">128</command>
+   <command address="hue">18</command>
+   <command address="audio2gain-range">22 452</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="hue">147</command>
+   <command address="lightness">123</command>
+   <command address="saturation">182</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">27 595</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="hue">50</command>
+   <command address="saturation">174</command>
+   <command address="audio2gain-range">21 472</command>
+   <command address="lightness">82</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">28</command>
+  </script>
+ </cue>
+ <cue name="Niopa2">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">80</command>
+   <command address="audio2gain-range">0 255</command>
+   <command address="saturation">116</command>
+   <command address="hue">41</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">128</command>
+   <command address="saturation">125</command>
+   <command address="hue">153</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">46 254</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">0 255</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">60</command>
+   <command address="saturation">138</command>
+   <command address="hue">48</command>
+  </script>
+ </cue>
+ <cue name="oZooooREBOF">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-range">29 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">143</command>
+   <command address="saturation">255</command>
+   <command address="hue">81</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">51 254</command>
+   <command address="hue">145</command>
+   <command address="saturation">201</command>
+   <command address="lightness">164</command>
+   <command address="audio2gain-enable">0</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="saturation">255</command>
+   <command address="lightness">167</command>
+   <command address="hue">43</command>
+   <command address="audio2gain-range">24 254</command>
+   <command address="audio2gain-enable">1</command>
+  </script>
+ </cue>
+ <cue name="test_PVOC?">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="lightness">143</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="hue">81</command>
+   <command address="saturation">255</command>
+   <command address="audio2gain-enable">1</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">164</command>
+   <command address="audio2gain-range">51 254</command>
+   <command address="saturation">201</command>
+   <command address="hue">145</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="hue">43</command>
+   <command address="saturation">255</command>
+   <command address="audio2gain-range">24 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">167</command>
+  </script>
+ </cue>
+ <cue name="Voix_la">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">47</command>
+   <command address="audio2gain-range">0 255</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">46</command>
+   <command address="saturation">186</command>
+   <command address="hue">48</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">0</command>
+   <command address="audio2gain-range">0 255</command>
+   <command address="saturation">187</command>
+   <command address="hue">41</command>
+   <command address="white">43</command>
+   <command address="lightness">34</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">46 254</command>
+   <command address="white">48</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">31</command>
+   <command address="saturation">187</command>
+   <command address="hue">50</command>
+  </script>
+ </cue>
+ <cue name="Spectrons">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="lightness">128</command>
+   <command address="saturation">256</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="hue">0</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="hue">0</command>
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="white">0</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="audio2gain-enable">1</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="hue">0</command>
+  </script>
+ </cue>
+ <cue name="Niopa3">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">80</command>
+   <command address="audio2gain-range">0 255</command>
+   <command address="saturation">116</command>
+   <command address="hue">41</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">128</command>
+   <command address="saturation">125</command>
+   <command address="hue">153</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">46 254</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">0 255</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">60</command>
+   <command address="saturation">138</command>
+   <command address="hue">48</command>
+  </script>
+ </cue>
+ <cue name="BOFFFBFBFF">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">24 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">121</command>
+   <command address="saturation">121</command>
+   <command address="hue">157</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-range">29 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="hue">137</command>
+   <command address="saturation">255</command>
+   <command address="lightness">127</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">31 254</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">153</command>
+   <command address="saturation">201</command>
+   <command address="hue">130</command>
+  </script>
+ </cue>
+ <cue name="60_Etages">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">31 561</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">90</command>
+   <command address="saturation">236</command>
+   <command address="hue">86</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-range">44 527</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="hue">168</command>
+   <command address="saturation">233</command>
+   <command address="lightness">96</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">31 527</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">99</command>
+   <command address="saturation">225</command>
+   <command address="hue">18</command>
+  </script>
+ </cue>
+ <cue name="oZoooo">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">0</command>
+   <command address="audio2gain-range">31 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">151</command>
+   <command address="saturation">201</command>
+   <command address="hue">76</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="saturation">196</command>
+   <command address="hue">182</command>
+   <command address="white">0</command>
+   <command address="lightness">128</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">24 254</command>
+   <command address="white">0</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">141</command>
+   <command address="saturation">176</command>
+   <command address="hue">48</command>
+  </script>
+ </cue>
+ <cue name="Bestiaire2">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-range">29 254</command>
+   <command address="lightness">127</command>
+   <command address="saturation">255</command>
+   <command address="hue">137</command>
+   <command address="audio2gain-enable">1</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">31 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">153</command>
+   <command address="saturation">201</command>
+   <command address="hue">130</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="lightness">121</command>
+   <command address="saturation">121</command>
+   <command address="hue">157</command>
+   <command address="audio2gain-range">24 254</command>
+   <command address="audio2gain-enable">1</command>
+  </script>
+ </cue>
+ <cue name="synchronicity">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">153</command>
+   <command address="audio2gain-range">10 254</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">162</command>
+   <command address="saturation">79</command>
+   <command address="hue">251</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">22 254</command>
+   <command address="saturation">152</command>
+   <command address="hue">164</command>
+   <command address="white">150</command>
+   <command address="lightness">124</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">27 254</command>
+   <command address="white">156</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">147</command>
+   <command address="saturation">127</command>
+   <command address="hue">45</command>
+  </script>
+ </cue>
+ <cue name="De_l'air">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">0</command>
+   <command address="audio2gain-range">51 254</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">73</command>
+   <command address="saturation">154</command>
+   <command address="hue">145</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="saturation">112</command>
+   <command address="hue">81</command>
+   <command address="white">0</command>
+   <command address="lightness">118</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">24 254</command>
+   <command address="white">0</command>
+   <command address="audio2gain-enable">0</command>
+   <command address="lightness">59</command>
+   <command address="saturation">255</command>
+   <command address="hue">43</command>
+  </script>
+ </cue>
+ <cue name="Synchronicity">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">66.000000 896.000000</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">104</command>
+   <command address="saturation">255</command>
+   <command address="hue">41</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="saturation">255</command>
+   <command address="hue">41</command>
+   <command address="lightness">104</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">66.000000 896.000000</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-range">69.000000 910.000000</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">104</command>
+   <command address="saturation">255</command>
+   <command address="hue">41</command>
+  </script>
+ </cue>
+ <cue name="Niopa_boite">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="white">28</command>
+   <command address="audio2gain-range">21 472</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">82</command>
+   <command address="saturation">174</command>
+   <command address="hue">50</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">22 452</command>
+   <command address="saturation">128</command>
+   <command address="hue">18</command>
+   <command address="white">0</command>
+   <command address="lightness">108</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">27 595</command>
+   <command address="white">0</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">123</command>
+   <command address="saturation">182</command>
+   <command address="hue">147</command>
+  </script>
+ </cue>
+ <cue name="Spectrons2">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="hue">0</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="saturation">256</command>
+   <command address="hue">0</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="lightness">128</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="hue">0</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="white">0</command>
+  </script>
+ </cue>
+ <cue name="Spectron3">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="hue">0</command>
+  </script>
+  <!---->
+  <script address="cadre1">
+   <command address="saturation">256</command>
+   <command address="hue">0</command>
+   <command address="audio2gain-enable">1</command>
+   <command address="white">0</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="lightness">128</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="lightness">128</command>
+   <command address="saturation">255</command>
+   <command address="hue">0</command>
+   <command address="audio2gain-range">10.000000 999.000000</command>
+   <command address="white">0</command>
+  </script>
+ </cue>
+ <cue name="1-testB">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">31 254</command>
+   <command address="hue">119</command>
+   <command address="lightness">78</command>
+   <command address="saturation">204</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">24 254</command>
+   <command address="hue">176</command>
+   <command address="lightness">70</command>
+   <command address="saturation">167</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="hue">147</command>
+   <command address="lightness">75</command>
+   <command address="saturation">255</command>
+   <command address="white">0</command>
+  </script>
+ </cue>
+ <cue name="1-testC(fingers)">
+  <flag name="description">none</flag>
+  <!---->
+  <script address="cadre1">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">31 254</command>
+   <command address="hue">119</command>
+   <command address="lightness">78</command>
+   <command address="saturation">204</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre2">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">24 254</command>
+   <command address="hue">176</command>
+   <command address="lightness">70</command>
+   <command address="saturation">167</command>
+   <command address="white">0</command>
+  </script>
+  <!---->
+  <script address="cadre3">
+   <command address="audio2gain-enable">1</command>
+   <command address="audio2gain-range">29 254</command>
+   <command address="hue">147</command>
+   <command address="lightness">75</command>
+   <command address="saturation">255</command>
+   <command address="white">0</command>
+  </script>
+ </cue>
+</jamoma>

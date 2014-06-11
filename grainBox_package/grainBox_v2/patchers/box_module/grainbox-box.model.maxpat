@@ -68,6 +68,22 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 4,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 1067.0, 463.0, 241.0, 33.0 ],
+									"presentation_rect" : [ 1067.0, 463.75, 0.0, 0.0 ],
+									"text" : "combine mouse :: 0 ::positionWorld @triggers 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-124",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1002,34 +1018,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-62",
-									"maxclass" : "newobj",
-									"numinlets" : 7,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 385.5, 842.0, 203.0, 20.0 ],
-									"text" : "pack #1 0 add 0. 0. 0. mouse"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-60",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 434.5, 913.0, 70.5, 20.0 ],
-									"text" : "zl slice 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-46",
 									"maxclass" : "comment",
@@ -1613,7 +1601,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 906.833374, 342.25, 119.333313, 18.0 ],
+									"patching_rect" : [ 909.833374, 389.25, 119.333313, 18.0 ],
 									"text" : "mouse"
 								}
 
@@ -1623,13 +1611,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-70",
-									"linecount" : 2,
 									"maxclass" : "newobj",
-									"numinlets" : 4,
+									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 886.0, 414.75, 241.0, 33.0 ],
-									"text" : "combine mouse :: 0 ::positionWorld @triggers 2"
+									"patching_rect" : [ 886.0, 414.75, 187.0, 20.0 ],
+									"text" : "combine mouse :: 0 @triggers 2"
 								}
 
 							}
@@ -1657,7 +1644,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1048.125, 518.0, 213.5, 31.0 ],
+									"patching_rect" : [ 1056.125, 518.0, 213.5, 31.0 ],
 									"text" : "leapMotion_finger::1067::positionWorld 0.287512 -0.915404 0.276066"
 								}
 
@@ -1822,19 +1809,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"id" : "obj-59",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 405.0, 933.0, 111.0, 20.0 ],
-									"text" : "s physCursors-test"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
 									"id" : "obj-55",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -1870,35 +1844,6 @@
 									"outlettype" : [ "bang", "bang", "" ],
 									"patching_rect" : [ 788.166626, 798.0, 94.666748, 20.0 ],
 									"text" : "t b b l"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-41",
-									"maxclass" : "newobj",
-									"numinlets" : 7,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 405.0, 885.0, 203.0, 20.0 ],
-									"text" : "pack #1 0 add 0. 0. 0. mouse"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-125",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 239.5, 865.0, 314.0, 20.0 ],
-									"text" : "shapeName touchId add/remove/update x y z type"
 								}
 
 							}
@@ -3223,24 +3168,6 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-41", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-41", 0 ]
 								}
 
 							}
