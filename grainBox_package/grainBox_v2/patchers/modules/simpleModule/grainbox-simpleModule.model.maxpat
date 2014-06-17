@@ -651,7 +651,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 523.0, 145.0, 288.0, 20.0 ],
-					"text" : "j.parameter myParam @value/default 3 @tag visible"
+					"text" : "j.parameter myParam @default 3 @tag visible"
 				}
 
 			}

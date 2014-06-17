@@ -65,7 +65,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 182.0, 76.0, 204.0, 20.0 ],
-					"text" : "j.parameter test @value/default 123."
+					"text" : "j.parameter test @default 123."
 				}
 
 			}

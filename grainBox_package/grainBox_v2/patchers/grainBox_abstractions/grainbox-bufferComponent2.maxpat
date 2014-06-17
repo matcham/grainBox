@@ -466,7 +466,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 387.0, 452.0, 382.0, 20.0 ],
-					"text" : "j.parameter bufferSelectionRange @value/default -1. -1. @priority 3"
+					"text" : "j.parameter bufferSelectionRange @default -1. -1. @priority 3"
 				}
 
 			}

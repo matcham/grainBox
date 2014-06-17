@@ -1195,7 +1195,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ -90.0, 605.0, 157.0, 33.0 ],
-									"text" : "j.parameter color @value/default 1. 1. 1. 0.5"
+									"text" : "j.parameter color @default 1. 1. 1. 0.5"
 								}
 
 							}
@@ -1281,7 +1281,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 1007.0, 87.0, 295.0, 33.0 ],
-									"text" : "j.parameter shape @type string @value/default cube @priority 1"
+									"text" : "j.parameter shape @type string @default cube @priority 1"
 								}
 
 							}
@@ -1295,7 +1295,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 404.0, 2.0, 294.0, 20.0 ],
-									"text" : "j.parameter scale @value/default 1. 1. 1. @priority 3"
+									"text" : "j.parameter scale @default 1. 1. 1. @priority 3"
 								}
 
 							}
@@ -1310,7 +1310,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 716.0, 9.0, 262.0, 33.0 ],
-									"text" : "j.parameter rotatexyz @value/default 0. 0. 0. @priority 1"
+									"text" : "j.parameter rotatexyz @default 0. 0. 0. @priority 1"
 								}
 
 							}
@@ -1325,7 +1325,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 104.0, 9.0, 227.0, 33.0 ],
-									"text" : "j.parameter pos @value/default 0. 0. 0. @priority 2"
+									"text" : "j.parameter pos @default 0. 0. 0. @priority 2"
 								}
 
 							}
@@ -4390,7 +4390,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 526.0, 31.0, 257.0, 20.0 ],
-									"text" : "j.parameter cursorType @value/default mouse"
+									"text" : "j.parameter cursorType @default mouse"
 								}
 
 							}
@@ -5423,7 +5423,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 262.0, 96.0, 115.0, 18.0 ],
-									"text" : "value/default $1, $1"
+									"text" : "default $1, $1"
 								}
 
 							}

@@ -1015,7 +1015,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 307.0, 199.0, 161.0, 28.0 ],
-													"text" : "j.parameter navigation/zoom @type decimal @value/default 1."
+													"text" : "j.parameter navigation/zoom @type decimal @default 1."
 												}
 
 											}
@@ -1030,7 +1030,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 25.0, 228.0, 190.0, 28.0 ],
-													"text" : "j.parameter navigation/lookat @type array @value/default 0. 0."
+													"text" : "j.parameter navigation/lookat @type array @default 0. 0."
 												}
 
 											}

@@ -273,7 +273,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 55.0, 131.0, 213.0, 47.0 ],
-					"text" : "j.parameter pan @value/default 0. @range/bounds -1. 1. @range/clipmode both @tag visible"
+					"text" : "j.parameter pan @default 0. @range -1. 1. @clipmode both @tag visible"
 				}
 
 			}
@@ -288,7 +288,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 94.0, 46.0, 212.0, 33.0 ],
-					"text" : "j.parameter amp @value/default 0.1 @range/bounds 0. 1. @tag visible"
+					"text" : "j.parameter amp @default 0.1 @range 0. 1. @tag visible"
 				}
 
 			}
@@ -302,7 +302,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 16.0, 17.0, 430.0, 20.0 ],
-					"text" : "j.parameter freq @value/default 440. @range/bounds 0.001 5000. @tag visible"
+					"text" : "j.parameter freq @default 440. @range 0.001 5000. @tag visible"
 				}
 
 			}

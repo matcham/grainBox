@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 964.0, 239.5, 195.0, 33.0 ],
-					"text" : "j.parameter input/max @priority 3 @type decimal @value/default 1."
+					"text" : "j.parameter input/max @priority 3 @type decimal @default 1."
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 870.0, 195.0, 200.0, 33.0 ],
-					"text" : "j.parameter input/min @priority 3 @type decimal @value/default 0."
+					"text" : "j.parameter input/min @priority 3 @type decimal @default 0."
 				}
 
 			}
@@ -197,7 +197,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 199.0, 441.0, 155.0, 74.0 ],
-					"text" : "j.parameter ramp/function @type string @value/default default @description \"Set ramping function \" @priority 4"
+					"text" : "j.parameter ramp/function @type string @default default @description \"Set ramping function \" @priority 4"
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 870.0, 432.0, 289.0, 60.0 ],
-					"text" : "j.parameter ramp/time @type integer @value/default 0. @description \"Set ramping function time\" @priority 3 @range/bounds 0 1000 @range/clipmode low"
+					"text" : "j.parameter ramp/time @type integer @default 0. @description \"Set ramping function time\" @priority 3 @range 0 1000 @clipmode low"
 				}
 
 			}
@@ -310,7 +310,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 361.0, 101.0, 349.0, 20.0 ],
-					"text" : "j.parameter mode @type string @value/default local @priority 1"
+					"text" : "j.parameter mode @type string @default local @priority 1"
 				}
 
 			}
@@ -325,7 +325,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 11.5, 335.0, 169.0, 33.0 ],
-					"text" : "j.parameter enable @type boolean @value/default 1"
+					"text" : "j.parameter enable @type boolean @default 1"
 				}
 
 			}
@@ -438,7 +438,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 870.0, 551.0, 274.0, 33.0 ],
-					"text" : "j.parameter function @value/default 0. 0. exponential base 1. 1. 1. exponential base 1."
+					"text" : "j.parameter function @default 0. 0. exponential base 1. 1. 1. exponential base 1."
 				}
 
 			}
@@ -466,7 +466,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.75, 273.5, 236.0, 20.0 ],
-					"text" : "j.parameter listOp @value/default pass_all"
+					"text" : "j.parameter listOp @default pass_all"
 				}
 
 			}
@@ -509,7 +509,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 66.5, 170.0, 213.0, 33.0 ],
-					"text" : "j.parameter sourceMenu2 @priority 3 @value/default x"
+					"text" : "j.parameter sourceMenu2 @priority 3 @default x"
 				}
 
 			}
@@ -524,7 +524,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 19.5, 101.0, 213.0, 33.0 ],
-					"text" : "j.parameter sourceMenu1 @priority 2 @value/default position_box"
+					"text" : "j.parameter sourceMenu1 @priority 2 @default position_box"
 				}
 
 			}
@@ -652,7 +652,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 396.0, 208.0, 308.0, 20.0 ],
-					"text" : "j.parameter destination @value/default none @priority 2"
+					"text" : "j.parameter destination @default none @priority 2"
 				}
 
 			}

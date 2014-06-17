@@ -25533,7 +25533,7 @@
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "" ],
 																	"patching_rect" : [ 50.0, 100.0, 510.0, 20.0 ],
-																	"text" : "j.parameter palmPosition @range/bounds -200. 200. @description \"palm position in raw units\""
+																	"text" : "j.parameter palmPosition @range -200. 200. @description \"palm position in raw units\""
 																}
 
 															}

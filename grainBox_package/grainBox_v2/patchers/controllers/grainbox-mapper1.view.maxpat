@@ -3109,7 +3109,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.083221, 637.0, 106.0, 33.0 ],
-					"text" : "sprintf address %s:range/bounds"
+					"text" : "sprintf address %s:range"
 				}
 
 			}
@@ -5131,7 +5131,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 50.0, 74.0, 186.0, 20.0 ],
-									"text" : "sprintf address %s:range/bounds"
+									"text" : "sprintf address %s:range"
 								}
 
 							}
@@ -5217,7 +5217,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "p get_range/bounds"
+					"text" : "p get_range"
 				}
 
 			}

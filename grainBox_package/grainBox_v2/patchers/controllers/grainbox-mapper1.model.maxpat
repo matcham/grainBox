@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 11.5, 335.0, 169.0, 33.0 ],
-					"text" : "j.parameter enable @type boolean @value/default 1"
+					"text" : "j.parameter enable @type boolean @default 1"
 				}
 
 			}
@@ -151,7 +151,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 612.5, 355.0, 274.0, 33.0 ],
-					"text" : "j.parameter function @value/default 0. 0. exponential base 1. 1. 1. exponential base 1."
+					"text" : "j.parameter function @default 0. 0. exponential base 1. 1. 1. exponential base 1."
 				}
 
 			}
@@ -179,7 +179,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 125.75, 273.5, 236.0, 20.0 ],
-					"text" : "j.parameter listOp @value/default pass_all"
+					"text" : "j.parameter listOp @default pass_all"
 				}
 
 			}
@@ -208,7 +208,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 66.5, 170.0, 213.0, 33.0 ],
-					"text" : "j.parameter sourceMenu2 @priority 3 @value/default x"
+					"text" : "j.parameter sourceMenu2 @priority 3 @default x"
 				}
 
 			}
@@ -223,7 +223,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 19.5, 101.0, 213.0, 33.0 ],
-					"text" : "j.parameter sourceMenu1 @priority 2 @value/default position_box"
+					"text" : "j.parameter sourceMenu1 @priority 2 @default position_box"
 				}
 
 			}
@@ -365,7 +365,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 361.0, 122.0, 321.0, 20.0 ],
-					"text" : "j.parameter destination @value/default none @priority 1"
+					"text" : "j.parameter destination @default none @priority 1"
 				}
 
 			}
