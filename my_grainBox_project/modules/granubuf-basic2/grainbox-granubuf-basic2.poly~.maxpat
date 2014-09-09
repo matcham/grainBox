@@ -484,7 +484,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 51.5, 486.0, 199.0, 33.0 ],
-					"text" : "j.parameter pan @value/default 0. @range/bounds -1. 1. @tag visible"
+					"text" : "j.parameter pan @value/default 0. @range/bounds -1. 1. @tags visible"
 				}
 
 			}
@@ -512,7 +512,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 23.5, 40.0, 423.0, 20.0 ],
-					"text" : "j.parameter freq @value/default 25. @range/bounds 0.001 1000. @tag visible"
+					"text" : "j.parameter freq @value/default 25. @range/bounds 0.001 1000. @tags visible"
 				}
 
 			}
@@ -526,7 +526,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 295.0, 241.0, 379.0, 20.0 ],
-					"text" : "j.parameter amp @value/default 1. @range/bounds 0. 1. @tag visible"
+					"text" : "j.parameter amp @value/default 1. @range/bounds 0. 1. @tags visible"
 				}
 
 			}
@@ -610,7 +610,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 206.5, 193.0, 426.0, 20.0 ],
-					"text" : "j.parameter transpose @value/default 0. @range/bounds -24. 24. @tag visible"
+					"text" : "j.parameter transpose @value/default 0. @range/bounds -24. 24. @tags visible"
 				}
 
 			}
@@ -624,7 +624,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 122.0, 162.0, 446.0, 20.0 ],
-					"text" : "j.parameter duration @value/default 50. @range/bounds 0.001 1000. @tag visible"
+					"text" : "j.parameter duration @value/default 50. @range/bounds 0.001 1000. @tags visible"
 				}
 
 			}
@@ -638,7 +638,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 830.5, 307.5, 435.0, 20.0 ],
-					"text" : "j.parameter locationVar @value/default 0. @range/bounds 0. 5000. @tag visible"
+					"text" : "j.parameter locationVar @value/default 0. @range/bounds 0. 5000. @tags visible"
 				}
 
 			}
@@ -678,7 +678,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 390.5, 280.5, 397.0, 20.0 ],
-					"text" : "j.parameter location @value/default 0. @range/bounds 0. 1. @tag visible"
+					"text" : "j.parameter location @value/default 0. @range/bounds 0. 1. @tags visible"
 				}
 
 			}

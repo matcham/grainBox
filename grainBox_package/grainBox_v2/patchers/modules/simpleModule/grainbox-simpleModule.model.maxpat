@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -81,7 +81,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -367,7 +367,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
+							"revision" : 8,
 							"architecture" : "x86"
 						}
 ,
@@ -623,7 +623,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 523.0, 118.0, 50.0, 20.0 ]
+					"patching_rect" : [ 523.0, 113.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -637,7 +637,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 523.0, 170.0, 50.0, 20.0 ]
+					"patching_rect" : [ 523.0, 165.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -650,8 +650,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 523.0, 145.0, 288.0, 20.0 ],
-					"text" : "j.parameter myParam @default 3 @tag visible"
+					"patching_rect" : [ 523.0, 140.0, 288.0, 20.0 ],
+					"text" : "j.parameter myParam @default 3 @tags visible"
 				}
 
 			}

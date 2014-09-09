@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -79,6 +79,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 448.0, 247.0, 41.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -146,6 +150,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.0, 367.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 2"
 				}
 
@@ -159,6 +167,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.0, 367.0, 44.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out~ 1"
 				}
 
@@ -216,7 +228,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 76.0, 218.0, 199.0, 33.0 ],
-					"text" : "j.parameter pan @default 0. @range -1. 1. @tag visible"
+					"text" : "j.parameter pan @default 0. @range -1. 1. @tags visible"
 				}
 
 			}
@@ -230,8 +242,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 155.0, 89.0, 315.0, 33.0 ],
-					"text" : "j.parameter amp @default 0. @range 0. 1. @tag visible"
+					"patching_rect" : [ 155.0, 89.0, 307.0, 33.0 ],
+					"text" : "j.parameter amp @default 0. @range 0. 1. @tags visible"
 				}
 
 			}
@@ -245,7 +257,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 37.0, 51.0, 408.0, 20.0 ],
-					"text" : "j.parameter pitch @default 440. @range 0. 150. @tag visible"
+					"text" : "j.parameter pitch @default 440. @range 0. 150. @tags visible"
 				}
 
 			}
