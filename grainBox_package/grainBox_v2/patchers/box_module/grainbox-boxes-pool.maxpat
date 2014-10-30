@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x86"
 		}
 ,
@@ -29,28 +29,13 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 2.0, 30.0, 100.0, 20.0 ],
-					"text" : "j.cue @relative 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2.0, 3.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 9.0, 4.0, 0.0, 0.0 ]
+					"patching_rect" : [ 2.0, 3.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -63,7 +48,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 191.0, 4.0, 63.0, 21.0 ],
+					"patching_rect" : [ 51.0, 31.0, 63.0, 21.0 ],
 					"text" : "\"boxes\""
 				}
 
@@ -77,7 +62,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 137.0, 4.0, 49.0, 20.0 ],
+					"patching_rect" : [ 2.0, 31.0, 49.0, 20.0 ],
 					"text" : "j.model"
 				}
 
@@ -91,7 +76,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 186.0, 31.0, 73.0, 20.0 ],
+					"patching_rect" : [ 159.0, 4.0, 73.0, 20.0 ],
 					"text" : "boxes pool"
 				}
 
@@ -104,7 +89,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 106.0, 4.0, 25.0, 25.0 ]
+					"patching_rect" : [ 125.0, 4.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -117,7 +102,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 106.0, 31.0, 69.0, 20.0 ],
+					"patching_rect" : [ 125.0, 31.0, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -135,7 +120,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
@@ -145,10 +130,6 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.cue.mxo",
 				"type" : "iLaX"
 			}
  ]
