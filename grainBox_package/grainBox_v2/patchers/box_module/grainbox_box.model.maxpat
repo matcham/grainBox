@@ -1043,7 +1043,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-box+cursors"
+									"text" : "dict grainbox_box+cursors"
 								}
 
 							}
@@ -1664,7 +1664,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-cursors"
+									"text" : "dict grainbox_cursors"
 								}
 
 							}
@@ -6096,7 +6096,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 125.0, 454.5, 120.833328, 33.0 ],
-									"text" : "sprintf grainbox-%s.model"
+									"text" : "sprintf grainbox_%s.model"
 								}
 
 							}

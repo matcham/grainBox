@@ -50,7 +50,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 31.0, 75.0, 262.0, 20.0 ],
-					"text" : "poly~ grainbox-oscbank~.poly~ args #1 #2"
+					"text" : "poly~ grainbox_oscbank~.poly~ args #1 #2"
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 29.0, 35.0, 170.0, 20.0 ],
-					"text" : "grainbox-controllers.abs #1 #2"
+					"text" : "grainbox_controllers.abs #1 #2"
 				}
 
 			}
@@ -152,14 +152,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "grainbox-controllers.abs.maxpat",
+				"name" : "grainbox_controllers.abs.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
 				"patcherrelativepath" : "../../grainBox_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-oscbank~.poly~.maxpat",
+				"name" : "grainbox_oscbank~.poly~.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/oscbank",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

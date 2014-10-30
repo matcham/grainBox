@@ -50,7 +50,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 6.0, 37.0, 247.0, 20.0 ],
-					"text" : "grainbox-controllers.abs #1 #2"
+					"text" : "grainbox_controllers.abs #1 #2"
 				}
 
 			}
@@ -699,7 +699,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict grainBox-box+cursors"
+					"text" : "dict grainbox_box+cursors"
 				}
 
 			}
@@ -718,7 +718,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict grainBox-cursors"
+					"text" : "dict grainbox_cursors"
 				}
 
 			}
@@ -915,7 +915,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "grainbox-controllers.abs.maxpat",
+				"name" : "grainbox_controllers.abs.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
 				"patcherrelativepath" : "../../grainBox_abstractions",
 				"type" : "JSON",

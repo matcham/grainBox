@@ -5015,7 +5015,7 @@
 										"embed" : 0
 									}
 ,
-									"text" : "coll grainbox-modules-parameters.list"
+									"text" : "coll grainbox_modules-parameters.list"
 								}
 
 							}

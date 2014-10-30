@@ -1196,7 +1196,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-box+cursors"
+									"text" : "dict grainbox_box+cursors"
 								}
 
 							}
@@ -1563,7 +1563,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-box+cursors"
+									"text" : "dict grainbox_box+cursors"
 								}
 
 							}

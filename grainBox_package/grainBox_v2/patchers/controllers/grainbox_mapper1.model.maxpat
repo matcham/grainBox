@@ -266,7 +266,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.5, 295.5, 231.5, 20.0 ],
-					"text" : "grainbox-getSourceValue #3"
+					"text" : "grainbox_getSourceValue #3"
 				}
 
 			}
@@ -589,7 +589,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "grainbox-getSourceValue.maxpat",
+				"name" : "grainbox_getSourceValue.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

@@ -18942,7 +18942,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 1034.0, 256.5, 172.0, 58.0 ],
-																	"text" : "refer grainbox-buffers.info, col 0 width 23, col 1 width 0, col 2 width 185, col 3 width 50, col 4 width 13, col 5 width 45"
+																	"text" : "refer grainbox_buffers.info, col 0 width 23, col 1 width 0, col 2 width 185, col 3 width 50, col 4 width 13, col 5 width 45"
 																}
 
 															}
@@ -25402,7 +25402,7 @@
 																		"parameter_enable" : 0
 																	}
 ,
-																	"text" : "dict grainBox-mappingTemplate"
+																	"text" : "dict grainbox_mappingTemplate"
 																}
 
 															}
@@ -45178,7 +45178,7 @@
 														"embed" : 0
 													}
 ,
-													"text" : "coll grainBox-boxesNames 1"
+													"text" : "coll grainbox_boxesNames 1"
 												}
 
 											}
@@ -46047,7 +46047,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 573.0, 476.0, 128.0, 45.0 ],
-													"text" : "refer grainBox-boxesNames"
+													"text" : "refer grainbox_boxesNames"
 												}
 
 											}

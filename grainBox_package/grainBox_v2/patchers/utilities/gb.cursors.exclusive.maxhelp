@@ -173,7 +173,7 @@
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "dict grainBox-cursors"
+					"text" : "dict grainbox_cursors"
 				}
 
 			}

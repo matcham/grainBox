@@ -1934,7 +1934,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-cursors"
+													"text" : "dict grainbox_cursors"
 												}
 
 											}
@@ -4534,7 +4534,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-cursors"
+									"text" : "dict grainbox_cursors"
 								}
 
 							}
@@ -10266,7 +10266,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 13.5, 866.5, 153.0, 20.0 ],
-									"text" : "s grainbox-editor.selectBox"
+									"text" : "s grainbox_editor.selectBox"
 								}
 
 							}
@@ -15554,7 +15554,7 @@
 													"numoutlets" : 5,
 													"outlettype" : [ "", "", "", "", "" ],
 													"patching_rect" : [ 148.0, 324.0, 195.0, 20.0 ],
-													"text" : "regexp grainbox-(.*).model.maxpat"
+													"text" : "regexp grainbox_(.*).model.maxpat"
 												}
 
 											}
@@ -16907,7 +16907,7 @@
 									"annotation" : "none",
 									"id" : "obj-7",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox-box.view.maxpat",
+									"name" : "grainbox_box.view.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 28.0, 670.0, 600.0, 70.0 ],
@@ -18152,7 +18152,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 986.0, 285.0, 153.0, 20.0 ],
-													"text" : "s grainbox-editor.selectBox"
+													"text" : "s grainbox_editor.selectBox"
 												}
 
 											}
@@ -24403,7 +24403,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 397.5, 138.0, 174.0, 20.0 ],
-													"text" : "sprintf grainbox-%s.view"
+													"text" : "sprintf grainbox_%s.view"
 												}
 
 											}
@@ -25081,7 +25081,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 376.5, 131.0, 174.0, 20.0 ],
-													"text" : "sprintf grainbox-%s.view"
+													"text" : "sprintf grainbox_%s.view"
 												}
 
 											}
@@ -28222,7 +28222,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 521.0, 220.0, 153.0, 20.0 ],
-													"text" : "r grainbox-editor.selectBox"
+													"text" : "r grainbox_editor.selectBox"
 												}
 
 											}
@@ -31622,7 +31622,7 @@
 									"enablevscroll" : 1,
 									"id" : "obj-8",
 									"maxclass" : "bpatcher",
-									"name" : "grainbox-boxes-pool.maxpat",
+									"name" : "grainbox_boxes-pool.maxpat",
 									"numinlets" : 2,
 									"numoutlets" : 0,
 									"patching_rect" : [ 8.0, 116.0, 243.0, 326.0 ]
@@ -33404,7 +33404,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 278.0, 340.5, 177.0, 20.0 ],
-													"text" : "pack grainbox-box.model arg"
+													"text" : "pack grainbox_box.model arg"
 												}
 
 											}
@@ -34809,7 +34809,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-sourcesRange @embed 1"
+													"text" : "dict grainbox_sourcesRange @embed 1"
 												}
 
 											}
@@ -35167,7 +35167,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 383.0, 225.0, 213.0, 33.0 ],
-													"text" : "position_box : get xyz value from \"dict grainBox-box+cursors\""
+													"text" : "position_box : get xyz value from \"dict grainbox_box+cursors\""
 												}
 
 											}
@@ -35229,7 +35229,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-box+cursors"
+													"text" : "dict grainbox_box+cursors"
 												}
 
 											}
@@ -35244,7 +35244,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 57.0, 270.0, 265.0, 33.0 ],
-													"text" : "dict grainBox-cursors_leapMotion_pointables\n..."
+													"text" : "dict grainbox_cursors_leapMotion_pointables\n..."
 												}
 
 											}
@@ -35258,7 +35258,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 57.0, 250.0, 265.0, 20.0 ],
-													"text" : "dict grainBox-cursors_leapMotion_hands"
+													"text" : "dict grainbox_cursors_leapMotion_hands"
 												}
 
 											}
@@ -35287,7 +35287,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 618.0, 250.0, 164.0, 18.0 ],
-													"text" : "dictionary grainBox-cursors"
+													"text" : "dictionary grainbox_cursors"
 												}
 
 											}
@@ -35320,7 +35320,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 57.0, 230.0, 166.0, 20.0 ],
-													"text" : "dict grainBox-cursors_mouse"
+													"text" : "dict grainbox_cursors_mouse"
 												}
 
 											}
@@ -35438,7 +35438,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-cursors"
+													"text" : "dict grainbox_cursors"
 												}
 
 											}
@@ -36915,7 +36915,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-cursors_mouse"
+													"text" : "dict grainbox_cursors_mouse"
 												}
 
 											}
@@ -37167,7 +37167,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-cursors"
+													"text" : "dict grainbox_cursors"
 												}
 
 											}
@@ -40904,7 +40904,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 81.5, 706.0, 153.0, 20.0 ],
-													"text" : "s grainbox-editor.selectBox"
+													"text" : "s grainbox_editor.selectBox"
 												}
 
 											}
@@ -42761,7 +42761,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-cursors"
+													"text" : "dict grainbox_cursors"
 												}
 
 											}
@@ -44754,7 +44754,7 @@
 														"parameter_enable" : 0
 													}
 ,
-													"text" : "dict grainBox-cursors"
+													"text" : "dict grainbox_cursors"
 												}
 
 											}
@@ -48203,7 +48203,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-cursors-proto @embed 1"
+									"text" : "dict grainbox_cursors-proto @embed 1"
 								}
 
 							}
@@ -48374,7 +48374,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-cursors-proto @embed 1"
+									"text" : "dict grainbox_cursors-proto @embed 1"
 								}
 
 							}
@@ -48408,7 +48408,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-box+cursors"
+									"text" : "dict grainbox_box+cursors"
 								}
 
 							}
@@ -48441,7 +48441,7 @@
 										"parameter_enable" : 0
 									}
 ,
-									"text" : "dict grainBox-cursors"
+									"text" : "dict grainbox_cursors"
 								}
 
 							}
@@ -53235,49 +53235,49 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-boxes-pool.maxpat",
+				"name" : "grainbox_boxes-pool.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/box_module",
 				"patcherrelativepath" : "./box_module",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-box.model.maxpat",
+				"name" : "grainbox_box.model.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/box_module",
 				"patcherrelativepath" : "./box_module",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleSynth.model.maxpat",
+				"name" : "grainbox_simpleSynth.model.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
 				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-controllers.abs.maxpat",
+				"name" : "grainbox_controllers.abs.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/grainBox_abstractions",
 				"patcherrelativepath" : "./grainBox_abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-mapper3.model.maxpat",
+				"name" : "grainbox_mapper3.model.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
 				"patcherrelativepath" : "./controllers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-getSourceValue.maxpat",
+				"name" : "grainbox_getSourceValue.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/controllers",
 				"patcherrelativepath" : "./controllers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-simpleSynth.poly~.maxpat",
+				"name" : "grainbox_simpleSynth.poly~.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/modules/simpleSynth",
 				"patcherrelativepath" : "./modules/simpleSynth",
 				"type" : "JSON",
@@ -53305,7 +53305,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "grainbox-box.view.maxpat",
+				"name" : "grainbox_box.view.maxpat",
 				"bootpath" : "/Users/mathieuchamagne/Documents/GITHUB/grainBox/grainBox_package/grainBox_v2/patchers/box_module",
 				"patcherrelativepath" : "./box_module",
 				"type" : "JSON",

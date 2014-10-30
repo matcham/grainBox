@@ -410,7 +410,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 126.0, 551.0, 149.0, 20.0 ],
-									"text" : "sprintf grainbox-%s.model"
+									"text" : "sprintf grainbox_%s.model"
 								}
 
 							}
